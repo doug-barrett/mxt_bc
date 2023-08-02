@@ -1,0 +1,741 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ACCOUNT-200005027:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128384
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128385
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HELDFORINVOICESENDING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HELDFORINVOICESENDING\""
+          - columnReference:
+              columnCounter: 2000128386
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECURITYZONEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"SECURITYZONEID\""
+          - columnReference:
+              columnCounter: 2000128387
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECONDTWICEPERMTHINVOICEDOM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"SECONDTWICEPERMTHINVOICEDOM\""
+          - columnReference:
+              columnCounter: 2000128388
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000128389
+              stepCounter: "200005027"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128390
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SERVICETIER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"SERVICETIER\""
+          - columnReference:
+              columnCounter: 2000128391
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIDDENTACCOUNTCONTAINERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HIDDENTACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000128392
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128393
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128394
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DBA
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"DBA\""
+          - columnReference:
+              columnCounter: 2000128395
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FEIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"FEIN\""
+          - columnReference:
+              columnCounter: 2000128396
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"DELINQUENCYSTATUS\""
+          - columnReference:
+              columnCounter: 2000128397
+              stepCounter: "200005027"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000128398
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128400
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128401
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128402
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SEGMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"SEGMENT\""
+          - columnReference:
+              columnCounter: 2000128403
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISONLINEREPORTING_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ISONLINEREPORTING_EXT\""
+          - columnReference:
+              columnCounter: 2000128404
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000128405
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"DELINQUENCYPLANID\""
+          - columnReference:
+              columnCounter: 2000128406
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ACCOUNTNAME\""
+          - columnReference:
+              columnCounter: 2000128407
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"BILLINGPLANID\""
+          - columnReference:
+              columnCounter: 2000128408
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: QUALIFIEDFORWRITEOFF_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"QUALIFIEDFORWRITEOFF_EXT\""
+          - columnReference:
+              columnCounter: 2000128410
+              stepCounter: "200005027"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128411
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FIRSTTWICEPERMTHINVOICEDOM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"FIRSTTWICEPERMTHINVOICEDOM\""
+          - columnReference:
+              columnCounter: 2000128412
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEDAYOFMONTH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"INVOICEDAYOFMONTH\""
+          - columnReference:
+              columnCounter: 2000128413
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEDAYOFWEEK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"INVOICEDAYOFWEEK\""
+          - columnReference:
+              columnCounter: 2000128414
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEDELIVERYTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"INVOICEDELIVERYTYPE\""
+          - columnReference:
+              columnCounter: 2000128415
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNAMEKANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ACCOUNTNAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000128416
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FEINDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"FEINDENORM\""
+          - columnReference:
+              columnCounter: 2000128417
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ALLOCATIONPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ALLOCATIONPLANID\""
+          - columnReference:
+              columnCounter: 2000128418
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISCONFIDENTIALADDRESS_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ISCONFIDENTIALADDRESS_EXT\""
+          - columnReference:
+              columnCounter: 2000128419
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISINCOLLECTIONPAYPLAN_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ISINCOLLECTIONPAYPLAN_EXT\""
+          - columnReference:
+              columnCounter: 2000128420
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ACCOUNTTYPE\""
+          - columnReference:
+              columnCounter: 2000128421
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CHARGEHELD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"CHARGEHELD\""
+          - columnReference:
+              columnCounter: 2000128422
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGLEVEL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"BILLINGLEVEL\""
+          - columnReference:
+              columnCounter: 2000128423
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: NEWPOLICYPAYMENTDISTRIBUTABLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"NEWPOLICYPAYMENTDISTRIBUTABLE\""
+          - columnReference:
+              columnCounter: 2000128424
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ORGANIZATIONTYPEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ORGANIZATIONTYPEDENORM\""
+          - columnReference:
+              columnCounter: 2000128425
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ORGANIZATIONTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ORGANIZATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000128426
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HASOTHERSTATEPOLICY_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HASOTHERSTATEPOLICY_EXT\""
+          - columnReference:
+              columnCounter: 2000128427
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISTRIBUTIONLIMITTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"DISTRIBUTIONLIMITTYPE\""
+          - columnReference:
+              columnCounter: 2000128428
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLDATEORDUEDATEBILLING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"BILLDATEORDUEDATEBILLING\""
+          - columnReference:
+              columnCounter: 2000128429
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBERDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ACCOUNTNUMBERDENORM\""
+          - columnReference:
+              columnCounter: 2000128430
+              stepCounter: "200005027"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNAMEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ACCOUNTNAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000128431
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COLLECTING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"COLLECTING\""
+          - columnReference:
+              columnCounter: 2000128432
+              stepCounter: "200005027"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EVERYOTHERWEEKINVOICEANCHOR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"EVERYOTHERWEEKINVOICEANCHOR\""
+          - columnReference:
+              columnCounter: 2000128433
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONAGENCYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"COLLECTIONAGENCYID\""
+          - columnReference:
+              columnCounter: 2000128434
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TMIDISBWORKER_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"TMIDISBWORKER_EXT\""
+          - columnReference:
+              columnCounter: 2000128435
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AUTOMATEDPAYROLLREPORTING_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"AUTOMATEDPAYROLLREPORTING_EXT\""
+          - columnReference:
+              columnCounter: 2000128436
+              stepCounter: "200005027"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ENROLLEDINAUTOPAY_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"ENROLLEDINAUTOPAY_EXT\""
+          - columnReference:
+              columnCounter: 2000128437
+              stepCounter: "200005027"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128438
+              stepCounter: "200005027"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128439
+              stepCounter: "200005027"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128440
+              stepCounter: "200005027"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128441
+              stepCounter: "200005027"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128442
+              stepCounter: "200005027"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128443
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128444
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128445
+              stepCounter: "200005027"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128383
+              stepCounter: "200005027"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ACCOUNT'"
+          - columnReference:
+              columnCounter: 2000128382
+              stepCounter: "200005027"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000128409
+              stepCounter: "200005027"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128399
+              stepCounter: "200005027"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYLEVELPAYMENTOPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ACCOUNT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ACCOUNT') }} "BC_ACCOUNT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ACCOUNT') }} "ODS_GW_BC_PROD_BC_ACCOUNT")
+            name: LOAD_GW_BC_PROD_BC_ACCOUNT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ACCOUNT
+      name: LOAD_GW_BC_PROD_BC_ACCOUNT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005027"

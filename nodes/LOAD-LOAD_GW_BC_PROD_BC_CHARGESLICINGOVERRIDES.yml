@@ -1,0 +1,367 @@
+steps:
+  LOAD_GW_BC_PROD_BC_CHARGESLICINGOVERRIDES-200018747:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123892
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123893
+              stepCounter: "200018747"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTPERCENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"DOWNPAYMENTPERCENT\""
+          - columnReference:
+              columnCounter: 2000123894
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123895
+              stepCounter: "200018747"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123896
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETOFIRSTINSTALL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"DAYSFROMREFDATETOFIRSTINSTALL\""
+          - columnReference:
+              columnCounter: 2000123897
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123898
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETODOWNPAYMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"DAYSFROMREFDATETODOWNPAYMENT\""
+          - columnReference:
+              columnCounter: 2000123899
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000123900
+              stepCounter: "200018747"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123901
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETOONETIMECHARGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"DAYSFROMREFDATETOONETIMECHARGE\""
+          - columnReference:
+              columnCounter: 2000123902
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGESLICINGMODIFIERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"CHARGESLICINGMODIFIERID\""
+          - columnReference:
+              columnCounter: 2000123903
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123904
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FIRSTINSTALLMENTAFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"FIRSTINSTALLMENTAFTER\""
+          - columnReference:
+              columnCounter: 2000123905
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ONETIMECHARGEAFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"ONETIMECHARGEAFTER\""
+          - columnReference:
+              columnCounter: 2000123906
+              stepCounter: "200018747"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123907
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTAFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"DOWNPAYMENTAFTER\""
+          - columnReference:
+              columnCounter: 2000123908
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAXIMUMNUMBEROFINSTALLMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"MAXIMUMNUMBEROFINSTALLMENTS\""
+          - columnReference:
+              columnCounter: 2000123909
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123910
+              stepCounter: "200018747"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123911
+              stepCounter: "200018747"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123912
+              stepCounter: "200018747"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123913
+              stepCounter: "200018747"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123914
+              stepCounter: "200018747"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123915
+              stepCounter: "200018747"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123916
+              stepCounter: "200018747"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123917
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123918
+              stepCounter: "200018747"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123919
+              stepCounter: "200018747"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGESLICINGOVERRIDES\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123891
+              stepCounter: "200018747"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_CHARGESLICINGOVERRIDES'"
+          - columnReference:
+              columnCounter: 2000123890
+              stepCounter: "200018747"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_CHARGESLICINGOVERRIDES
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_CHARGESLICINGOVERRIDES') }} "BC_CHARGESLICINGOVERRIDES" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_CHARGESLICINGOVERRIDES') }} "ODS_GW_BC_PROD_BC_CHARGESLICINGOVERRIDES")
+            name: LOAD_GW_BC_PROD_BC_CHARGESLICINGOVERRIDES
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_CHARGESLICINGOVERRIDES
+      name: LOAD_GW_BC_PROD_BC_CHARGESLICINGOVERRIDES
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018747"

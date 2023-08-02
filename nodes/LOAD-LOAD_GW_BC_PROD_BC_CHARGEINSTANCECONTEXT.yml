@@ -1,0 +1,378 @@
+steps:
+  LOAD_GW_BC_PROD_BC_CHARGEINSTANCECONTEXT-200005195:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123777
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123778
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123779
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTBILLPAYMENTITEMID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"DIRECTBILLPAYMENTITEMID\""
+          - columnReference:
+              columnCounter: 2000123780
+              stepCounter: "200005195"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123781
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123782
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000123783
+              stepCounter: "200005195"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123784
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"WRITEOFFID\""
+          - columnReference:
+              columnCounter: 2000123785
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGENCYPAYMENTITEMID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"AGENCYPAYMENTITEMID\""
+          - columnReference:
+              columnCounter: 2000123786
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"CHARGEID\""
+          - columnReference:
+              columnCounter: 2000123787
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123788
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000123789
+              stepCounter: "200005195"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123790
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FROMPRODUCERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"FROMPRODUCERID\""
+          - columnReference:
+              columnCounter: 2000123791
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000123792
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000123793
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEMID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"INVOICEITEMID\""
+          - columnReference:
+              columnCounter: 2000123794
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123795
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FROMACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"FROMACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000123796
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGECOMMISSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"CHARGECOMMISSION\""
+          - columnReference:
+              columnCounter: 2000123797
+              stepCounter: "200005195"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123798
+              stepCounter: "200005195"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123799
+              stepCounter: "200005195"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123800
+              stepCounter: "200005195"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123801
+              stepCounter: "200005195"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123802
+              stepCounter: "200005195"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123803
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123804
+              stepCounter: "200005195"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123805
+              stepCounter: "200005195"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEINSTANCECONTEXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123776
+              stepCounter: "200005195"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_CHARGEINSTANCECONTEXT'"
+          - columnReference:
+              columnCounter: 2000123775
+              stepCounter: "200005195"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_CHARGEINSTANCECONTEXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_CHARGEINSTANCECONTEXT') }} "BC_CHARGEINSTANCECONTEXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_CHARGEINSTANCECONTEXT') }} "ODS_GW_BC_PROD_BC_CHARGEINSTANCECONTEXT")
+            name: LOAD_GW_BC_PROD_BC_CHARGEINSTANCECONTEXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_CHARGEINSTANCECONTEXT
+      name: LOAD_GW_BC_PROD_BC_CHARGEINSTANCECONTEXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005195"

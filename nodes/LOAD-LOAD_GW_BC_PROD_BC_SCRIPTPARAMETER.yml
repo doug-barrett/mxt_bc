@@ -1,0 +1,510 @@
+steps:
+  LOAD_GW_BC_PROD_BC_SCRIPTPARAMETER-200022861:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126750
+              stepCounter: "200022861"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DECIMALVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"DECIMALVALUE\""
+          - columnReference:
+              columnCounter: 2000126751
+              stepCounter: "200022861"
+            dataType: NUMBER(6,2)
+            defaultValue: ""
+            description: ""
+            name: RISKVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"RISKVALUE\""
+          - columnReference:
+              columnCounter: 2000126752
+              stepCounter: "200022861"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: PHONEVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"PHONEVALUE\""
+          - columnReference:
+              columnCounter: 2000126753
+              stepCounter: "200022861"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126754
+              stepCounter: "200022861"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BITVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"BITVALUE\""
+          - columnReference:
+              columnCounter: 2000126755
+              stepCounter: "200022861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000126756
+              stepCounter: "200022861"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: PERCENTAGEDECVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"PERCENTAGEDECVALUE\""
+          - columnReference:
+              columnCounter: 2000126757
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPEEDVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"SPEEDVALUE\""
+          - columnReference:
+              columnCounter: 2000126758
+              stepCounter: "200022861"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: VARCHARVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"VARCHARVALUE\""
+          - columnReference:
+              columnCounter: 2000126759
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: YEARVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"YEARVALUE\""
+          - columnReference:
+              columnCounter: 2000126760
+              stepCounter: "200022861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000126761
+              stepCounter: "200022861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATETIMEVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"DATETIMEVALUE\""
+          - columnReference:
+              columnCounter: 2000126762
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WEEKLYFREQUENCYVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"WEEKLYFREQUENCYVALUE\""
+          - columnReference:
+              columnCounter: 2000126763
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERCENTAGEVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"PERCENTAGEVALUE\""
+          - columnReference:
+              columnCounter: 2000126764
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000126765
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126766
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126767
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MONTHLYFREQUENCYVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"MONTHLYFREQUENCYVALUE\""
+          - columnReference:
+              columnCounter: 2000126768
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PARAMETERTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"PARAMETERTYPE\""
+          - columnReference:
+              columnCounter: 2000126769
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: USERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"USERID\""
+          - columnReference:
+              columnCounter: 2000126770
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126771
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000126772
+              stepCounter: "200022861"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: POSITIVEMONEYVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"POSITIVEMONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000126773
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POSITIVEINTEGERVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"POSITIVEINTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000126774
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126775
+              stepCounter: "200022861"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: MONEYVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"MONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000126776
+              stepCounter: "200022861"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: NONNEGATIVEMONEYVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"NONNEGATIVEMONEYVALUE\""
+          - columnReference:
+              columnCounter: 2000126777
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTEGERVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"INTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000126778
+              stepCounter: "200022861"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PARAMETERNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"PARAMETERNAME\""
+          - columnReference:
+              columnCounter: 2000126779
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NONNEGATIVEINTEGERVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"NONNEGATIVEINTEGERVALUE\""
+          - columnReference:
+              columnCounter: 2000126780
+              stepCounter: "200022861"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: POSTALCODEVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"POSTALCODEVALUE\""
+          - columnReference:
+              columnCounter: 2000126781
+              stepCounter: "200022861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126782
+              stepCounter: "200022861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126783
+              stepCounter: "200022861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126784
+              stepCounter: "200022861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126785
+              stepCounter: "200022861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126786
+              stepCounter: "200022861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126787
+              stepCounter: "200022861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126788
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126789
+              stepCounter: "200022861"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126790
+              stepCounter: "200022861"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SCRIPTPARAMETER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126749
+              stepCounter: "200022861"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_SCRIPTPARAMETER'"
+          - columnReference:
+              columnCounter: 2000126748
+              stepCounter: "200022861"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_SCRIPTPARAMETER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_SCRIPTPARAMETER') }} "BC_SCRIPTPARAMETER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_SCRIPTPARAMETER') }} "ODS_GW_BC_PROD_BC_SCRIPTPARAMETER")
+            name: LOAD_GW_BC_PROD_BC_SCRIPTPARAMETER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_SCRIPTPARAMETER
+      name: LOAD_GW_BC_PROD_BC_SCRIPTPARAMETER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022861"

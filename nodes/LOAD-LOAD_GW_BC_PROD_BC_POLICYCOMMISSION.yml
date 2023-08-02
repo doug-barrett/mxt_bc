@@ -1,0 +1,389 @@
+steps:
+  LOAD_GW_BC_PROD_BC_POLICYCOMMISSION-200005612:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000125998
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000125999
+              stepCounter: "200005612"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HASHADWRITEOFF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HASHADWRITEOFF\""
+          - columnReference:
+              columnCounter: 2000126000
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126001
+              stepCounter: "200005612"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126002
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126003
+              stepCounter: "200005612"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000126004
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000126005
+              stepCounter: "200005612"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000126006
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"POLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000126007
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126008
+              stepCounter: "200005612"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000126009
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPOLICYPERIODID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"PRIMARYPOLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000126010
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000126011
+              stepCounter: "200005612"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: CMSNPLANOVERRIDEPERCENTAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"CMSNPLANOVERRIDEPERCENTAGE\""
+          - columnReference:
+              columnCounter: 2000126012
+              stepCounter: "200005612"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000126013
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"ROLE\""
+          - columnReference:
+              columnCounter: 2000126014
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMMISSIONSUBPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"COMMISSIONSUBPLANID\""
+          - columnReference:
+              columnCounter: 2000126015
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIDDENTACCOUNTCONTAINERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HIDDENTACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000126016
+              stepCounter: "200005612"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DEFAULTFORPOLICY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"DEFAULTFORPOLICY\""
+          - columnReference:
+              columnCounter: 2000126017
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERCODEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"PRODUCERCODEID\""
+          - columnReference:
+              columnCounter: 2000126018
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126019
+              stepCounter: "200005612"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126020
+              stepCounter: "200005612"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126021
+              stepCounter: "200005612"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126022
+              stepCounter: "200005612"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126023
+              stepCounter: "200005612"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126024
+              stepCounter: "200005612"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126025
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126026
+              stepCounter: "200005612"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126027
+              stepCounter: "200005612"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICYCOMMISSION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000125997
+              stepCounter: "200005612"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_POLICYCOMMISSION'"
+          - columnReference:
+              columnCounter: 2000125996
+              stepCounter: "200005612"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_POLICYCOMMISSION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_POLICYCOMMISSION') }} "BC_POLICYCOMMISSION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_POLICYCOMMISSION') }} "ODS_GW_BC_PROD_BC_POLICYCOMMISSION")
+            name: LOAD_GW_BC_PROD_BC_POLICYCOMMISSION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_POLICYCOMMISSION
+      name: LOAD_GW_BC_PROD_BC_POLICYCOMMISSION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005612"

@@ -1,0 +1,763 @@
+steps:
+  LOAD_GW_BC_PROD_BC_WORKFLOW-200022877:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000127382
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000127383
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENTEREDSTEP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ENTEREDSTEP\""
+          - columnReference:
+              columnCounter: 2000127384
+              stepCounter: "200022877"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSSTEP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PREVIOUSSTEP\""
+          - columnReference:
+              columnCounter: 2000127385
+              stepCounter: "200022877"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000127386
+              stepCounter: "200022877"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CURRENTSTEP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"CURRENTSTEP\""
+          - columnReference:
+              columnCounter: 2000127387
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOPLEVELDELINQUENCYPROCESSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"TOPLEVELDELINQUENCYPROCESSID\""
+          - columnReference:
+              columnCounter: 2000127388
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MESSAGEHISTORYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"MESSAGEHISTORYID\""
+          - columnReference:
+              columnCounter: 2000127389
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROCESSVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PROCESSVERSION\""
+          - columnReference:
+              columnCounter: 2000127390
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000127391
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HANDLER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HANDLER\""
+          - columnReference:
+              columnCounter: 2000127392
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000127393
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACTIVESTATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ACTIVESTATE\""
+          - columnReference:
+              columnCounter: 2000127394
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000127395
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOGENTRYCOUNTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"LOGENTRYCOUNTER\""
+          - columnReference:
+              columnCounter: 2000127396
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000127397
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000127398
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000127399
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000127400
+              stepCounter: "200022877"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CURRENTBRANCH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"CURRENTBRANCH\""
+          - columnReference:
+              columnCounter: 2000127401
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000127402
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000127403
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TESTTIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"TESTTIME\""
+          - columnReference:
+              columnCounter: 2000127404
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MESSAGEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"MESSAGEID\""
+          - columnReference:
+              columnCounter: 2000127405
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127406
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000127407
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000127408
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCYCLEPROCESSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"AGENCYCYCLEPROCESSID\""
+          - columnReference:
+              columnCounter: 2000127409
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000127410
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STEPEXECTIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"STEPEXECTIME\""
+          - columnReference:
+              columnCounter: 2000127411
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TIMEOUTTIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"TIMEOUTTIME\""
+          - columnReference:
+              columnCounter: 2000127412
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENTACTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"CURRENTACTION\""
+          - columnReference:
+              columnCounter: 2000127413
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127414
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000127415
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRIGGERINVOKED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"TRIGGERINVOKED\""
+          - columnReference:
+              columnCounter: 2000127416
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPROCESSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"DELINQUENCYPROCESSID\""
+          - columnReference:
+              columnCounter: 2000127417
+              stepCounter: "200022877"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FORCETIMEOUTBRANCH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"FORCETIMEOUTBRANCH\""
+          - columnReference:
+              columnCounter: 2000127418
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000127419
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000127420
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000127421
+              stepCounter: "200022877"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: STARTAMOUNTDUE_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"STARTAMOUNTDUE_AMT\""
+          - columnReference:
+              columnCounter: 2000127422
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTBALANCE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"LASTBALANCE_CUR\""
+          - columnReference:
+              columnCounter: 2000127423
+              stepCounter: "200022877"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LASTBALANCE_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"LASTBALANCE_AMT\""
+          - columnReference:
+              columnCounter: 2000127424
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"COLLECTIONSTATUS\""
+          - columnReference:
+              columnCounter: 2000127425
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PRODUCER\""
+          - columnReference:
+              columnCounter: 2000127426
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"REASON\""
+          - columnReference:
+              columnCounter: 2000127427
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INCEPTIONDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"INCEPTIONDATE\""
+          - columnReference:
+              columnCounter: 2000127428
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXITDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"EXITDATE\""
+          - columnReference:
+              columnCounter: 2000127429
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CRDELINQUENCYPLAN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"CRDELINQUENCYPLAN\""
+          - columnReference:
+              columnCounter: 2000127430
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WORKBYDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"WORKBYDATE\""
+          - columnReference:
+              columnCounter: 2000127431
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HOLDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HOLDDATE\""
+          - columnReference:
+              columnCounter: 2000127432
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000127433
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STARTAMOUNTDUE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"STARTAMOUNTDUE_CUR\""
+          - columnReference:
+              columnCounter: 2000127434
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PHASE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"PHASE\""
+          - columnReference:
+              columnCounter: 2000127435
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TROUBLETICKET
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"TROUBLETICKET\""
+          - columnReference:
+              columnCounter: 2000127436
+              stepCounter: "200022877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000127437
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127438
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000127439
+              stepCounter: "200022877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000127440
+              stepCounter: "200022877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000127441
+              stepCounter: "200022877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000127442
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127443
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000127444
+              stepCounter: "200022877"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000127445
+              stepCounter: "200022877"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_WORKFLOW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000127381
+              stepCounter: "200022877"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_WORKFLOW'"
+          - columnReference:
+              columnCounter: 2000127380
+              stepCounter: "200022877"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_WORKFLOW
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_WORKFLOW') }} "BC_WORKFLOW" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_WORKFLOW') }} "ODS_GW_BC_PROD_BC_WORKFLOW")
+            name: LOAD_GW_BC_PROD_BC_WORKFLOW
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_WORKFLOW
+      name: LOAD_GW_BC_PROD_BC_WORKFLOW
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022877"

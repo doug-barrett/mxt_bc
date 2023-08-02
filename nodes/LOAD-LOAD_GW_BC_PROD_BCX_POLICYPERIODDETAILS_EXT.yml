@@ -1,0 +1,433 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_POLICYPERIODDETAILS_EXT-200022903:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000129326
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALESTIMATEDPREMIUM_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"TOTALESTIMATEDPREMIUM_CUR\""
+          - columnReference:
+              columnCounter: 2000129327
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000129328
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PERIODSTART
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"PERIODSTART\""
+          - columnReference:
+              columnCounter: 2000129329
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129330
+              stepCounter: "200022903"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000129331
+              stepCounter: "200022903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PERIODPUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"PERIODPUBLICID\""
+          - columnReference:
+              columnCounter: 2000129332
+              stepCounter: "200022903"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ACTIVE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"ACTIVE\""
+          - columnReference:
+              columnCounter: 2000129333
+              stepCounter: "200022903"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: JOBNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"JOBNUMBER\""
+          - columnReference:
+              columnCounter: 2000129334
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000129335
+              stepCounter: "200022903"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALESTIMATEDPREMIUM_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"TOTALESTIMATEDPREMIUM_AMT\""
+          - columnReference:
+              columnCounter: 2000129336
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000129337
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000129338
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PERIODCREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"PERIODCREATETIME\""
+          - columnReference:
+              columnCounter: 2000129339
+              stepCounter: "200022903"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MOSTRECENTMODEL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"MOSTRECENTMODEL\""
+          - columnReference:
+              columnCounter: 2000129340
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000129341
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129342
+              stepCounter: "200022903"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: PERIODSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"PERIODSTATUS\""
+          - columnReference:
+              columnCounter: 2000129343
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000129344
+              stepCounter: "200022903"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"ACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000129345
+              stepCounter: "200022903"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: JOBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"JOBTYPE\""
+          - columnReference:
+              columnCounter: 2000129346
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PERIODEND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"PERIODEND\""
+          - columnReference:
+              columnCounter: 2000129347
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000129348
+              stepCounter: "200022903"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000129349
+              stepCounter: "200022903"
+            dataType: VARCHAR(65)
+            defaultValue: ""
+            description: ""
+            name: UNDERWRITER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"UNDERWRITER\""
+          - columnReference:
+              columnCounter: 2000129350
+              stepCounter: "200022903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000129351
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129352
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000129353
+              stepCounter: "200022903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000129354
+              stepCounter: "200022903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000129355
+              stepCounter: "200022903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000129356
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129357
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000129358
+              stepCounter: "200022903"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000129359
+              stepCounter: "200022903"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_POLICYPERIODDETAILS_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000129325
+              stepCounter: "200022903"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_POLICYPERIODDETAILS_EXT'"
+          - columnReference:
+              columnCounter: 2000129324
+              stepCounter: "200022903"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_POLICYPERIODDETAILS_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_POLICYPERIODDETAILS_EXT') }} "BCX_POLICYPERIODDETAILS_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_POLICYPERIODDETAILS_EXT') }} "ODS_GW_BC_PROD_BCX_POLICYPERIODDETAILS_EXT")
+            name: LOAD_GW_BC_PROD_BCX_POLICYPERIODDETAILS_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_POLICYPERIODDETAILS_EXT
+      name: LOAD_GW_BC_PROD_BCX_POLICYPERIODDETAILS_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022903"

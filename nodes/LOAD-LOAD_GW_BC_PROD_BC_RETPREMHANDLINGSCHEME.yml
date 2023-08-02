@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_BC_PROD_BC_RETPREMHANDLINGSCHEME-200022013:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126597
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXCESSTREATMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"EXCESSTREATMENT\""
+          - columnReference:
+              columnCounter: 2000126598
+              stepCounter: "200022013"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126599
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000126600
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STARTDATEOPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"STARTDATEOPTION\""
+          - columnReference:
+              columnCounter: 2000126601
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HANDLINGCONDITION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HANDLINGCONDITION\""
+          - columnReference:
+              columnCounter: 2000126602
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ALLOCATETIMING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"ALLOCATETIMING\""
+          - columnReference:
+              columnCounter: 2000126603
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126604
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126605
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETURNPREMIUMPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"RETURNPREMIUMPLANID\""
+          - columnReference:
+              columnCounter: 2000126606
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ALLOCATEMETHOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"ALLOCATEMETHOD\""
+          - columnReference:
+              columnCounter: 2000126607
+              stepCounter: "200022013"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126608
+              stepCounter: "200022013"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126609
+              stepCounter: "200022013"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126610
+              stepCounter: "200022013"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126611
+              stepCounter: "200022013"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126612
+              stepCounter: "200022013"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126613
+              stepCounter: "200022013"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126614
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126615
+              stepCounter: "200022013"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126616
+              stepCounter: "200022013"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_RETPREMHANDLINGSCHEME\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126596
+              stepCounter: "200022013"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_RETPREMHANDLINGSCHEME'"
+          - columnReference:
+              columnCounter: 2000126595
+              stepCounter: "200022013"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_RETPREMHANDLINGSCHEME
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_RETPREMHANDLINGSCHEME') }} "BC_RETPREMHANDLINGSCHEME" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_RETPREMHANDLINGSCHEME') }} "ODS_GW_BC_PROD_BC_RETPREMHANDLINGSCHEME")
+            name: LOAD_GW_BC_PROD_BC_RETPREMHANDLINGSCHEME
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_RETPREMHANDLINGSCHEME
+      name: LOAD_GW_BC_PROD_BC_RETPREMHANDLINGSCHEME
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022013"

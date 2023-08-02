@@ -1,0 +1,422 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ITEMEVENT-200022574:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000125224
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000125225
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSFERROLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"TRANSFERROLE\""
+          - columnReference:
+              columnCounter: 2000125226
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125227
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FROMPOLICYCOMMISSIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"FROMPOLICYCOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000125228
+              stepCounter: "200022574"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000125229
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000125230
+              stepCounter: "200022574"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EVENTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"EVENTDATE\""
+          - columnReference:
+              columnCounter: 2000125231
+              stepCounter: "200022574"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000125232
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOINVOICEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"TOINVOICEID\""
+          - columnReference:
+              columnCounter: 2000125233
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125234
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000125235
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOPOLICYCOMMISSIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"TOPOLICYCOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000125236
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EVENTTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"EVENTTYPE\""
+          - columnReference:
+              columnCounter: 2000125237
+              stepCounter: "200022574"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000125238
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYCOMMISSIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"POLICYCOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000125239
+              stepCounter: "200022574"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: GROSSAMOUNTCHANGED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"GROSSAMOUNTCHANGED\""
+          - columnReference:
+              columnCounter: 2000125240
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROSSAMOUNTCHANGED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"GROSSAMOUNTCHANGED_CUR\""
+          - columnReference:
+              columnCounter: 2000125241
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000125242
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000125243
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEMID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"INVOICEITEMID\""
+          - columnReference:
+              columnCounter: 2000125244
+              stepCounter: "200022574"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CMSNRESERVECHANGED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"CMSNRESERVECHANGED\""
+          - columnReference:
+              columnCounter: 2000125245
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CMSNRESERVECHANGED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"CMSNRESERVECHANGED_CUR\""
+          - columnReference:
+              columnCounter: 2000125246
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FROMINVOICEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"FROMINVOICEID\""
+          - columnReference:
+              columnCounter: 2000125247
+              stepCounter: "200022574"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000125248
+              stepCounter: "200022574"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125249
+              stepCounter: "200022574"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000125250
+              stepCounter: "200022574"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000125251
+              stepCounter: "200022574"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000125252
+              stepCounter: "200022574"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000125253
+              stepCounter: "200022574"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125254
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000125255
+              stepCounter: "200022574"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000125256
+              stepCounter: "200022574"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ITEMEVENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000125223
+              stepCounter: "200022574"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ITEMEVENT'"
+          - columnReference:
+              columnCounter: 2000125222
+              stepCounter: "200022574"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ITEMEVENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ITEMEVENT') }} "BC_ITEMEVENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ITEMEVENT') }} "ODS_GW_BC_PROD_BC_ITEMEVENT")
+            name: LOAD_GW_BC_PROD_BC_ITEMEVENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ITEMEVENT
+      name: LOAD_GW_BC_PROD_BC_ITEMEVENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022574"

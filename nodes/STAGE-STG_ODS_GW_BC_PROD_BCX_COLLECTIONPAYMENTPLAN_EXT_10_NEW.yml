@@ -1,0 +1,622 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_10_NEW-200023445:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000251778
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000251779
+              stepCounter: "200023445"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000251780
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000251781
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTPLANFREQUENCY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTPLANFREQUENCY_EXT\""
+          - columnReference:
+              columnCounter: 2000251782
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTDELIVERY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DOCUMENTDELIVERY\""
+          - columnReference:
+              columnCounter: 2000251783
+              stepCounter: "200023445"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: FORMNAMEDINSURED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"FORMNAMEDINSURED\""
+          - columnReference:
+              columnCounter: 2000251784
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000251785
+              stepCounter: "200023445"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALAMOUNTDUE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"TOTALAMOUNTDUE\""
+          - columnReference:
+              columnCounter: 2000251786
+              stepCounter: "200023445"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: RECIPIENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"RECIPIENT\""
+          - columnReference:
+              columnCounter: 2000251787
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000251788
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPROCESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DELINQUENCYPROCESS\""
+          - columnReference:
+              columnCounter: 2000251789
+              stepCounter: "200023445"
+            dataType: VARCHAR(200)
+            defaultValue: ""
+            description: ""
+            name: EMAIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"EMAIL\""
+          - columnReference:
+              columnCounter: 2000251790
+              stepCounter: "200023445"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: FAX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"FAX\""
+          - columnReference:
+              columnCounter: 2000251791
+              stepCounter: "200023445"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: CERTIFIEDMAIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CERTIFIEDMAIL\""
+          - columnReference:
+              columnCounter: 2000251792
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251793
+              stepCounter: "200023445"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: OUTPUTMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"OUTPUTMETHOD\""
+          - columnReference:
+              columnCounter: 2000251794
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SELECTIONFORMADDRESS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"SELECTIONFORMADDRESS\""
+          - columnReference:
+              columnCounter: 2000251795
+              stepCounter: "200023445"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PREMIUMBALANCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"PREMIUMBALANCE\""
+          - columnReference:
+              columnCounter: 2000251796
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTAMOUNTDUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DOWNPAYMENTAMOUNTDUEDATE\""
+          - columnReference:
+              columnCounter: 2000251797
+              stepCounter: "200023445"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: UNALLOCATEDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"UNALLOCATEDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000251798
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000251799
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTREALLOCATEFLAG_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTREALLOCATEFLAG_EXT\""
+          - columnReference:
+              columnCounter: 2000251800
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000251801
+              stepCounter: "200023445"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: RECIPIENTDBA
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"RECIPIENTDBA\""
+          - columnReference:
+              columnCounter: 2000251802
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000251803
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFPLAN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DATEOFPLAN\""
+          - columnReference:
+              columnCounter: 2000251804
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251805
+              stepCounter: "200023445"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ORIGINALPREMIUMPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"ORIGINALPREMIUMPAID\""
+          - columnReference:
+              columnCounter: 2000251806
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTPLANPRINTPROD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTPLANPRINTPROD_EXT\""
+          - columnReference:
+              columnCounter: 2000251807
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"POLICYPERIOD\""
+          - columnReference:
+              columnCounter: 2000251808
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRINTINTERESTRATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"PRINTINTERESTRATE\""
+          - columnReference:
+              columnCounter: 2000251809
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FIRSTINSTALLMENTDUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"FIRSTINSTALLMENTDUEDATE\""
+          - columnReference:
+              columnCounter: 2000251810
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFINSTALLMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"NUMBEROFINSTALLMENTS\""
+          - columnReference:
+              columnCounter: 2000251811
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTPAYPLANSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTPAYPLANSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000251812
+              stepCounter: "200023445"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DOWNPAYMENTAMOUNT\""
+          - columnReference:
+              columnCounter: 2000251813
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEDBY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CREATEDBY\""
+          - columnReference:
+              columnCounter: 2000251814
+              stepCounter: "200023445"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000251815
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251816
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000251828
+              stepCounter: "200023445"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000251829
+              stepCounter: "200023445"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000251830
+              stepCounter: "200023445"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000251817
+              stepCounter: "200023445"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000251818
+              stepCounter: "200023445"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000251819
+              stepCounter: "200023445"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000251820
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251821
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000251822
+              stepCounter: "200023445"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000251823
+              stepCounter: "200023445"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000251824
+              stepCounter: "200023445"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000251825
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000251827
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000251826
+              stepCounter: "200023445"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT') }} \"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO\"    ON LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200023445"

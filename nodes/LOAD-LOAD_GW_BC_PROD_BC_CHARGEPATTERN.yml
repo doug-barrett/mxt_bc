@@ -1,0 +1,400 @@
+steps:
+  LOAD_GW_BC_PROD_BC_CHARGEPATTERN-200005196:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123808
+              stepCounter: "200005196"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CHARGECODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"CHARGECODE\""
+          - columnReference:
+              columnCounter: 2000123809
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123810
+              stepCounter: "200005196"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INUSE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"INUSE\""
+          - columnReference:
+              columnCounter: 2000123811
+              stepCounter: "200005196"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123812
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000123813
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123814
+              stepCounter: "200005196"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123815
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000123816
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICETREATMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"INVOICETREATMENT\""
+          - columnReference:
+              columnCounter: 2000123817
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123818
+              stepCounter: "200005196"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INTERNALCHARGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"INTERNALCHARGE\""
+          - columnReference:
+              columnCounter: 2000123819
+              stepCounter: "200005196"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCLUDEDINEQUITYDATING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"INCLUDEDINEQUITYDATING\""
+          - columnReference:
+              columnCounter: 2000123820
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTOWNERPATTERNID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"TACCOUNTOWNERPATTERNID\""
+          - columnReference:
+              columnCounter: 2000123821
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERIODICITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"PERIODICITY\""
+          - columnReference:
+              columnCounter: 2000123822
+              stepCounter: "200005196"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTSLAZYLOADED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"TACCOUNTSLAZYLOADED\""
+          - columnReference:
+              columnCounter: 2000123823
+              stepCounter: "200005196"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REVERSIBLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"REVERSIBLE\""
+          - columnReference:
+              columnCounter: 2000123824
+              stepCounter: "200005196"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123825
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000123826
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123827
+              stepCounter: "200005196"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYMENTARRANGEMENTELIGIBLE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"PAYMENTARRANGEMENTELIGIBLE_EXT\""
+          - columnReference:
+              columnCounter: 2000123828
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CATEGORY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"CATEGORY\""
+          - columnReference:
+              columnCounter: 2000123829
+              stepCounter: "200005196"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CHARGENAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"CHARGENAME\""
+          - columnReference:
+              columnCounter: 2000123830
+              stepCounter: "200005196"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123831
+              stepCounter: "200005196"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123832
+              stepCounter: "200005196"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123833
+              stepCounter: "200005196"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123834
+              stepCounter: "200005196"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123835
+              stepCounter: "200005196"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123836
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123837
+              stepCounter: "200005196"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123838
+              stepCounter: "200005196"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPATTERN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123807
+              stepCounter: "200005196"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_CHARGEPATTERN'"
+          - columnReference:
+              columnCounter: 2000123806
+              stepCounter: "200005196"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_CHARGEPATTERN
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_CHARGEPATTERN') }} "BC_CHARGEPATTERN" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_CHARGEPATTERN') }} "ODS_GW_BC_PROD_BC_CHARGEPATTERN")
+            name: LOAD_GW_BC_PROD_BC_CHARGEPATTERN
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_CHARGEPATTERN
+      name: LOAD_GW_BC_PROD_BC_CHARGEPATTERN
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005196"

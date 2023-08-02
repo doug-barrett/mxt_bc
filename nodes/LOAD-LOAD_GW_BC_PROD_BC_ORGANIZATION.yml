@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ORGANIZATION-200022409:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000125612
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125613
+              stepCounter: "200022409"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000125614
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000125615
+              stepCounter: "200022409"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAMEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"NAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000125616
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000125617
+              stepCounter: "200022409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000125618
+              stepCounter: "200022409"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000125619
+              stepCounter: "200022409"
+            dataType: VARCHAR(120)
+            defaultValue: ""
+            description: ""
+            name: NAMEKANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"NAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000125620
+              stepCounter: "200022409"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: MASTERADMIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"MASTERADMIN\""
+          - columnReference:
+              columnCounter: 2000125621
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125622
+              stepCounter: "200022409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000125623
+              stepCounter: "200022409"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CARRIER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"CARRIER\""
+          - columnReference:
+              columnCounter: 2000125624
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"TYPE\""
+          - columnReference:
+              columnCounter: 2000125625
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000125626
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"CONTACTID\""
+          - columnReference:
+              columnCounter: 2000125627
+              stepCounter: "200022409"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000125628
+              stepCounter: "200022409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125629
+              stepCounter: "200022409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000125630
+              stepCounter: "200022409"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000125631
+              stepCounter: "200022409"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000125632
+              stepCounter: "200022409"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000125633
+              stepCounter: "200022409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125634
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000125635
+              stepCounter: "200022409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000125636
+              stepCounter: "200022409"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORGANIZATION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000125611
+              stepCounter: "200022409"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ORGANIZATION'"
+          - columnReference:
+              columnCounter: 2000125610
+              stepCounter: "200022409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ORGANIZATION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ORGANIZATION') }} "BC_ORGANIZATION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ORGANIZATION') }} "ODS_GW_BC_PROD_BC_ORGANIZATION")
+            name: LOAD_GW_BC_PROD_BC_ORGANIZATION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ORGANIZATION
+      name: LOAD_GW_BC_PROD_BC_ORGANIZATION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022409"

@@ -1,0 +1,890 @@
+steps:
+  ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION-200005472:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000141748
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000141749
+              stepCounter: "200005472"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: EPATRANSACTIONID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"EPATRANSACTIONID_EXT\""
+          - columnReference:
+              columnCounter: 2000141750
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HOLDUNBILLEDPREMIUMCHARGES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HOLDUNBILLEDPREMIUMCHARGES\""
+          - columnReference:
+              columnCounter: 2000141751
+              stepCounter: "200005472"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"CANCELLATIONREASON\""
+          - columnReference:
+              columnCounter: 2000141752
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000141753
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PAYMENTPLANID\""
+          - columnReference:
+              columnCounter: 2000141754
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ISSUANCEACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"ISSUANCEACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000141755
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXECUTED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"EXECUTED\""
+          - columnReference:
+              columnCounter: 2000141756
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RENEWALACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"RENEWALACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000141757
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000141758
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TOTALPREMIUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"TOTALPREMIUM\""
+          - columnReference:
+              columnCounter: 2000141759
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000141760
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORPOLICYPERIODID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PRIORPOLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000141761
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPAYMENTPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"POLICYPAYMENTPLANID\""
+          - columnReference:
+              columnCounter: 2000141762
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONAMOUNT_EXT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"TRANSACTIONAMOUNT_EXT_CUR\""
+          - columnReference:
+              columnCounter: 2000141763
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREMIUMREPORTDDPOLICYPERIODID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PREMIUMREPORTDDPOLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000141764
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000141765
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SPECIALHANDLING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"SPECIALHANDLING\""
+          - columnReference:
+              columnCounter: 2000141766
+              stepCounter: "200005472"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONAMOUNT_EXT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"TRANSACTIONAMOUNT_EXT_AMT\""
+          - columnReference:
+              columnCounter: 2000141767
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141768
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"DUEDATE\""
+          - columnReference:
+              columnCounter: 2000141769
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATEDFILELDSEFFDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"EFFECTIVEDATEDFILELDSEFFDATE\""
+          - columnReference:
+              columnCounter: 2000141770
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FINALAUDIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"FINALAUDIT\""
+          - columnReference:
+              columnCounter: 2000141771
+              stepCounter: "200005472"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OFFERNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"OFFERNUMBER\""
+          - columnReference:
+              columnCounter: 2000141772
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ONLINEREPORTINGIND_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"ONLINEREPORTINGIND_EXT\""
+          - columnReference:
+              columnCounter: 2000141773
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REPORTINGONLYIND_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"REPORTINGONLYIND_EXT\""
+          - columnReference:
+              columnCounter: 2000141774
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000141775
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PERIODENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PERIODENDDATE\""
+          - columnReference:
+              columnCounter: 2000141776
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCEROFSERVICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PRODUCEROFSERVICE\""
+          - columnReference:
+              columnCounter: 2000141777
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141778
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWRENEWALACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"NEWRENEWALACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000141779
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPROCESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"DELINQUENCYPROCESSID\""
+          - columnReference:
+              columnCounter: 2000141780
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SEGREGATEDCOLLREQID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"SEGREGATEDCOLLREQID\""
+          - columnReference:
+              columnCounter: 2000141781
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"CANCELLATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000141782
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITTENPREMIUM_EXT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"WRITTENPREMIUM_EXT_CUR\""
+          - columnReference:
+              columnCounter: 2000141783
+              stepCounter: "200005472"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000141784
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLATERALREQUIREMENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"COLLATERALREQUIREMENTID\""
+          - columnReference:
+              columnCounter: 2000141785
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000141786
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MODIFICATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"MODIFICATIONDATE\""
+          - columnReference:
+              columnCounter: 2000141787
+              stepCounter: "200005472"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WRITTENPREMIUM_EXT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"WRITTENPREMIUM_EXT_AMT\""
+          - columnReference:
+              columnCounter: 2000141788
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000141789
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSOCIATEDPOLICYPERIODID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"ASSOCIATEDPOLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000141790
+              stepCounter: "200005472"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: PERIODSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PERIODSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000141791
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATEDFILELDSEXPDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"EFFECTIVEDATEDFILELDSEXPDATE\""
+          - columnReference:
+              columnCounter: 2000141792
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PAYMENTDUEDATE\""
+          - columnReference:
+              columnCounter: 2000141793
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BILLINGINSTRUCTIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"BILLINGINSTRUCTIONDATE\""
+          - columnReference:
+              columnCounter: 2000141794
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: AUDITINFOPCPUBLICID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"AUDITINFOPCPUBLICID_EXT\""
+          - columnReference:
+              columnCounter: 2000141795
+              stepCounter: "200005472"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DEPOSITREQUIREMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"DEPOSITREQUIREMENT\""
+          - columnReference:
+              columnCounter: 2000141796
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEPOSITREQUIREMENT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"DEPOSITREQUIREMENT_CUR\""
+          - columnReference:
+              columnCounter: 2000141797
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYMENTRECEIVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PAYMENTRECEIVED\""
+          - columnReference:
+              columnCounter: 2000141798
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEWPOLICYPERIODID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"NEWPOLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000141799
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PERIODSTARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PERIODSTARTDATE\""
+          - columnReference:
+              columnCounter: 2000141800
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000141801
+              stepCounter: "200005472"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000141802
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REWRITEACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"REWRITEACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000141803
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000141804
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVISIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"REVISIONTYPE\""
+          - columnReference:
+              columnCounter: 2000141805
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: REVERSEDBY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"REVERSEDBY\""
+          - columnReference:
+              columnCounter: 2000141806
+              stepCounter: "200005472"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AUTOMATEDPAYROLLREPORTING_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"AUTOMATEDPAYROLLREPORTING_EXT\""
+          - columnReference:
+              columnCounter: 2000141807
+              stepCounter: "200005472"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PCPOLICYPERIODID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PCPOLICYPERIODID_EXT\""
+          - columnReference:
+              columnCounter: 2000141808
+              stepCounter: "200005472"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSLYBILLEDAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PREVIOUSLYBILLEDAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000141809
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSLYBILLEDAMOUNT_EXT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"PREVIOUSLYBILLEDAMOUNT_EXT_CUR\""
+          - columnReference:
+              columnCounter: 2000141810
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000141811
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141812
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000141813
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000141814
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000141815
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141816
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000141817
+              stepCounter: "200005472"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000141818
+              stepCounter: "200005472"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000141819
+              stepCounter: "200005472"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000141825
+              stepCounter: "200005472"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000141820
+              stepCounter: "200005472"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000141821
+              stepCounter: "200005472"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000141822
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000141824
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000141823
+              stepCounter: "200005472"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW') }} "STG_ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION_10_NEW"
+            name: ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION
+            noLinkRefs: []
+      name: ODS_GW_BC_PROD_BC_BILLINGINSTRUCTION
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200005472"

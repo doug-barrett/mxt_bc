@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ORIGCHCMSN-200022411:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000125656
+              stepCounter: "200022411"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000125657
+              stepCounter: "200022411"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000125658
+              stepCounter: "200022411"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000125659
+              stepCounter: "200022411"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000125660
+              stepCounter: "200022411"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000125661
+              stepCounter: "200022411"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000125662
+              stepCounter: "200022411"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000125663
+              stepCounter: "200022411"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125664
+              stepCounter: "200022411"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000125665
+              stepCounter: "200022411"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000125666
+              stepCounter: "200022411"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000125667
+              stepCounter: "200022411"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000125668
+              stepCounter: "200022411"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125669
+              stepCounter: "200022411"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000125670
+              stepCounter: "200022411"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000125671
+              stepCounter: "200022411"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ORIGCHCMSN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000125655
+              stepCounter: "200022411"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ORIGCHCMSN'"
+          - columnReference:
+              columnCounter: 2000125654
+              stepCounter: "200022411"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ORIGCHCMSN
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ORIGCHCMSN') }} "BC_ORIGCHCMSN" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ORIGCHCMSN') }} "ODS_GW_BC_PROD_BC_ORIGCHCMSN")
+            name: LOAD_GW_BC_PROD_BC_ORIGCHCMSN
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ORIGCHCMSN
+      name: LOAD_GW_BC_PROD_BC_ORIGCHCMSN
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022411"

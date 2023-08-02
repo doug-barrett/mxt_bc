@@ -1,0 +1,406 @@
+steps:
+  ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER-200022478:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000144247
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYBILLINGINSTRUCTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"POLICYBILLINGINSTRUCTIONID\""
+          - columnReference:
+              columnCounter: 2000144248
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000144249
+              stepCounter: "200022478"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTPERCENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"DOWNPAYMENTPERCENT\""
+          - columnReference:
+              columnCounter: 2000144250
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000144251
+              stepCounter: "200022478"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000144252
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000144253
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000144254
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000144255
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"PAYMENTPLANID\""
+          - columnReference:
+              columnCounter: 2000144256
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGINSTRUCTIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"BILLINGINSTRUCTIONTYPE\""
+          - columnReference:
+              columnCounter: 2000144257
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000144258
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000144259
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAXIMUMNUMBEROFINSTALLMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"MAXIMUMNUMBEROFINSTALLMENTS\""
+          - columnReference:
+              columnCounter: 2000144260
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REFERENCECHARGEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"REFERENCECHARGEID\""
+          - columnReference:
+              columnCounter: 2000144261
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000144262
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000144263
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPLICATIONORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"APPLICATIONORDER\""
+          - columnReference:
+              columnCounter: 2000144264
+              stepCounter: "200022478"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000144265
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000144266
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000144267
+              stepCounter: "200022478"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000144268
+              stepCounter: "200022478"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000144269
+              stepCounter: "200022478"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000144270
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000144271
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000144272
+              stepCounter: "200022478"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000144273
+              stepCounter: "200022478"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000144274
+              stepCounter: "200022478"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000144275
+              stepCounter: "200022478"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000144276
+              stepCounter: "200022478"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000144277
+              stepCounter: "200022478"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000144278
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000144280
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000144279
+              stepCounter: "200022478"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW') }} "STG_ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER_10_NEW"
+            name: ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER
+            noLinkRefs: []
+      name: ODS_GW_BC_PROD_BC_PAYMENTPLANMODIFIER
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200022478"

@@ -1,0 +1,290 @@
+steps:
+  LOAD_GW_BC_PROD_BC_HOLDTYPEENTRY-200012242:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124876
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124877
+              stepCounter: "200012242"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124878
+              stepCounter: "200012242"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RELEASEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"RELEASEDATE\""
+          - columnReference:
+              columnCounter: 2000124879
+              stepCounter: "200012242"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124880
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124881
+              stepCounter: "200012242"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124882
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000124883
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HOLDTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HOLDTYPE\""
+          - columnReference:
+              columnCounter: 2000124884
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HOLDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HOLDID\""
+          - columnReference:
+              columnCounter: 2000124885
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124886
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124887
+              stepCounter: "200012242"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124888
+              stepCounter: "200012242"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124889
+              stepCounter: "200012242"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000124890
+              stepCounter: "200012242"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124891
+              stepCounter: "200012242"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124892
+              stepCounter: "200012242"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124893
+              stepCounter: "200012242"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124894
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124895
+              stepCounter: "200012242"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124896
+              stepCounter: "200012242"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_HOLDTYPEENTRY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124875
+              stepCounter: "200012242"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_HOLDTYPEENTRY'"
+          - columnReference:
+              columnCounter: 2000124874
+              stepCounter: "200012242"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_HOLDTYPEENTRY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_HOLDTYPEENTRY') }} "BC_HOLDTYPEENTRY" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_HOLDTYPEENTRY') }} "ODS_GW_BC_PROD_BC_HOLDTYPEENTRY")
+            name: LOAD_GW_BC_PROD_BC_HOLDTYPEENTRY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_HOLDTYPEENTRY
+      name: LOAD_GW_BC_PROD_BC_HOLDTYPEENTRY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200012242"

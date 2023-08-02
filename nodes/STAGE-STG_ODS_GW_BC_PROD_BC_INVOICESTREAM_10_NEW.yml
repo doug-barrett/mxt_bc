@@ -1,0 +1,479 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_10_NEW-200022632:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000248173
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000248174
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: OVERRIDINGSECONDANCHORDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"OVERRIDINGSECONDANCHORDATE\""
+          - columnReference:
+              columnCounter: 2000248175
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000248176
+              stepCounter: "200022632"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000248177
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UNAPPLIEDFUNDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"UNAPPLIEDFUNDID\""
+          - columnReference:
+              columnCounter: 2000248178
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000248179
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000248180
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000248181
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000248182
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: OVERRIDINGFIRSTANCHORDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"OVERRIDINGFIRSTANCHORDATE\""
+          - columnReference:
+              columnCounter: 2000248183
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OVERRIDINGINVOICINGLEADTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"OVERRIDINGINVOICINGLEADTIME\""
+          - columnReference:
+              columnCounter: 2000248184
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OVERRIDINGBILLORDUEDATEBILLING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"OVERRIDINGBILLORDUEDATEBILLING\""
+          - columnReference:
+              columnCounter: 2000248187
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000248188
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000248189
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000248190
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATIONORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"CREATIONORDER\""
+          - columnReference:
+              columnCounter: 2000248191
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000248192
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERIODICITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"PERIODICITY\""
+          - columnReference:
+              columnCounter: 2000248193
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000248194
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000248195
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000248196
+              stepCounter: "200022632"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000248197
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OVERRIDINGPAYMENTINSTRUMENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"OVERRIDINGPAYMENTINSTRUMENTID\""
+          - columnReference:
+              columnCounter: 2000248198
+              stepCounter: "200022632"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000248199
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000248200
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000248201
+              stepCounter: "200022632"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000248202
+              stepCounter: "200022632"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000248203
+              stepCounter: "200022632"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000248204
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000248205
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000248206
+              stepCounter: "200022632"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000248207
+              stepCounter: "200022632"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000248186
+              stepCounter: "200022632"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000248211
+              stepCounter: "200022632"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000248185
+              stepCounter: "200022632"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000248208
+              stepCounter: "200022632"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000248209
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICESTREAM\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000248212
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000248210
+              stepCounter: "200022632"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_INVOICESTREAM
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_INVOICESTREAM') }} \"LOAD_GW_BC_PROD_BC_INVOICESTREAM\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_INVOICESTREAM.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_INVOICESTREAM_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200022632"

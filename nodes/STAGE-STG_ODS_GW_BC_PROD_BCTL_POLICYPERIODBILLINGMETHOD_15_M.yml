@@ -1,0 +1,303 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_15_M-200006298:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: true
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 2000082714
+              stepCounter: "200006298"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"L_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029313
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082715
+              stepCounter: "200006298"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"PRIORITY\""
+              - columnReferences:
+                  - columnCounter: 2000029314
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082716
+              stepCounter: "200006298"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"TYPECODE\""
+              - columnReferences:
+                  - columnCounter: 2000029315
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082717
+              stepCounter: "200006298"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"S_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029316
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082718
+              stepCounter: "200006298"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"RETIRED\""
+              - columnReferences:
+                  - columnCounter: 2000029317
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082719
+              stepCounter: "200006298"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"NAME\""
+              - columnReferences:
+                  - columnCounter: 2000029318
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082720
+              stepCounter: "200006298"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"ID\""
+              - columnReferences:
+                  - columnCounter: 2000029319
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082721
+              stepCounter: "200006298"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"DESCRIPTION\""
+              - columnReferences:
+                  - columnCounter: 2000029320
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082722
+              stepCounter: "200006298"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"HVRCAPTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029321
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082723
+              stepCounter: "200006298"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"HVRINTEGTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029322
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082724
+              stepCounter: "200006298"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"HVRCAPTUREKEY\""
+              - columnReferences:
+                  - columnCounter: 2000029323
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082725
+              stepCounter: "200006298"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"BATCH_NUMBER\""
+              - columnReferences:
+                  - columnCounter: 2000029324
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082726
+              stepCounter: "200006298"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"DELETE_FLAG\""
+              - columnReferences:
+                  - columnCounter: 2000029325
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082727
+              stepCounter: "200006298"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"DSS_RECORD_SOURCE\""
+              - columnReferences:
+                  - columnCounter: 2000029326
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082728
+              stepCounter: "200006298"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"DSS_LOAD_DATE\""
+              - columnReferences:
+                  - columnCounter: 2000029327
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082730
+              stepCounter: "200006298"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"DSS_CREATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029329
+                    stepCounter: "200006327"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082729
+              stepCounter: "200006298"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD\".\"DSS_UPDATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029328
+                    stepCounter: "200006327"
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD') }} "STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_05_LOAD"
+            name: STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_15_M
+            noLinkRefs: []
+          - aliases:
+              STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_10_DELETE: "200006327"
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE', 'STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_10_DELETE') }} "STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_10_DELETE"
+            name: STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_10_DEL
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200006298"

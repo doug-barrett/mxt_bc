@@ -1,0 +1,411 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_LOCKBOXWORKERCONFIG_EXT-200022902:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128220
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128221
+              stepCounter: "200022902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PROCESSUID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"PROCESSUID\""
+          - columnReference:
+              columnCounter: 2000128222
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128223
+              stepCounter: "200022902"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128224
+              stepCounter: "200022902"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: BATCHNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"BATCHNAME\""
+          - columnReference:
+              columnCounter: 2000128225
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFBATCHESPROCESSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"NUMBEROFBATCHESPROCESSED\""
+          - columnReference:
+              columnCounter: 2000128226
+              stepCounter: "200022902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RECEIPTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"RECEIPTDATE\""
+          - columnReference:
+              columnCounter: 2000128227
+              stepCounter: "200022902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: MESSAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"MESSAGE\""
+          - columnReference:
+              columnCounter: 2000128228
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128229
+              stepCounter: "200022902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128230
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128231
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFRECORDSPROCESSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"NUMBEROFRECORDSPROCESSED\""
+          - columnReference:
+              columnCounter: 2000128232
+              stepCounter: "200022902"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALAMOUNTFORBATCH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"TOTALAMOUNTFORBATCH\""
+          - columnReference:
+              columnCounter: 2000128233
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128234
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STARTINDEX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"STARTINDEX\""
+          - columnReference:
+              columnCounter: 2000128235
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000128236
+              stepCounter: "200022902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128237
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ENDINDEX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"ENDINDEX\""
+          - columnReference:
+              columnCounter: 2000128238
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128239
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BATCHSEQUENCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"BATCHSEQUENCE\""
+          - columnReference:
+              columnCounter: 2000128240
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFPAYMENTSCREATED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"NUMBEROFPAYMENTSCREATED\""
+          - columnReference:
+              columnCounter: 2000128241
+              stepCounter: "200022902"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: BATCHRUNUID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"BATCHRUNUID\""
+          - columnReference:
+              columnCounter: 2000128242
+              stepCounter: "200022902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128243
+              stepCounter: "200022902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128244
+              stepCounter: "200022902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128245
+              stepCounter: "200022902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128246
+              stepCounter: "200022902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128247
+              stepCounter: "200022902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128248
+              stepCounter: "200022902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128249
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128250
+              stepCounter: "200022902"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128251
+              stepCounter: "200022902"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_LOCKBOXWORKERCONFIG_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128219
+              stepCounter: "200022902"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_LOCKBOXWORKERCONFIG_EXT'"
+          - columnReference:
+              columnCounter: 2000128218
+              stepCounter: "200022902"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_LOCKBOXWORKERCONFIG_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_LOCKBOXWORKERCONFIG_EXT') }} "BCX_LOCKBOXWORKERCONFIG_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_LOCKBOXWORKERCONFIG_EXT') }} "ODS_GW_BC_PROD_BCX_LOCKBOXWORKERCONFIG_EXT")
+            name: LOAD_GW_BC_PROD_BCX_LOCKBOXWORKERCONFIG_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_LOCKBOXWORKERCONFIG_EXT
+      name: LOAD_GW_BC_PROD_BCX_LOCKBOXWORKERCONFIG_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022902"

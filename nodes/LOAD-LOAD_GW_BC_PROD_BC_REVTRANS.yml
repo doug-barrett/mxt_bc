@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_REVTRANS-200022019:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126690
+              stepCounter: "200022019"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000126691
+              stepCounter: "200022019"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000126692
+              stepCounter: "200022019"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126693
+              stepCounter: "200022019"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126694
+              stepCounter: "200022019"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126695
+              stepCounter: "200022019"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000126696
+              stepCounter: "200022019"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126697
+              stepCounter: "200022019"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126698
+              stepCounter: "200022019"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126699
+              stepCounter: "200022019"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126700
+              stepCounter: "200022019"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126701
+              stepCounter: "200022019"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126702
+              stepCounter: "200022019"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126703
+              stepCounter: "200022019"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126704
+              stepCounter: "200022019"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126705
+              stepCounter: "200022019"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVTRANS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126689
+              stepCounter: "200022019"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_REVTRANS'"
+          - columnReference:
+              columnCounter: 2000126688
+              stepCounter: "200022019"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_REVTRANS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_REVTRANS') }} "BC_REVTRANS" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_REVTRANS') }} "ODS_GW_BC_PROD_BC_REVTRANS")
+            name: LOAD_GW_BC_PROD_BC_REVTRANS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_REVTRANS
+      name: LOAD_GW_BC_PROD_BC_REVTRANS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022019"

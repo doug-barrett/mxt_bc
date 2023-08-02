@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_REVNEGWRITEOFF-200022018:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126672
+              stepCounter: "200022018"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000126673
+              stepCounter: "200022018"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000126674
+              stepCounter: "200022018"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126675
+              stepCounter: "200022018"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126676
+              stepCounter: "200022018"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126677
+              stepCounter: "200022018"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000126678
+              stepCounter: "200022018"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126679
+              stepCounter: "200022018"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126680
+              stepCounter: "200022018"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126681
+              stepCounter: "200022018"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126682
+              stepCounter: "200022018"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126683
+              stepCounter: "200022018"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126684
+              stepCounter: "200022018"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126685
+              stepCounter: "200022018"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126686
+              stepCounter: "200022018"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126687
+              stepCounter: "200022018"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVNEGWRITEOFF\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126671
+              stepCounter: "200022018"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_REVNEGWRITEOFF'"
+          - columnReference:
+              columnCounter: 2000126670
+              stepCounter: "200022018"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_REVNEGWRITEOFF
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_REVNEGWRITEOFF') }} "BC_REVNEGWRITEOFF" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_REVNEGWRITEOFF') }} "ODS_GW_BC_PROD_BC_REVNEGWRITEOFF")
+            name: LOAD_GW_BC_PROD_BC_REVNEGWRITEOFF
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_REVNEGWRITEOFF
+      name: LOAD_GW_BC_PROD_BC_REVNEGWRITEOFF
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022018"

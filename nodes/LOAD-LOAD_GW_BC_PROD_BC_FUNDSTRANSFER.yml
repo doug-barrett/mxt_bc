@@ -1,0 +1,389 @@
+steps:
+  LOAD_GW_BC_PROD_BC_FUNDSTRANSFER-200005201:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124654
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000124655
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124656
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TARGETPRODUCER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"TARGETPRODUCER\""
+          - columnReference:
+              columnCounter: 2000124657
+              stepCounter: "200005201"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124658
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"REASON\""
+          - columnReference:
+              columnCounter: 2000124659
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124660
+              stepCounter: "200005201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124661
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000124662
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCEUNAPPLIEDFUNDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"SOURCEUNAPPLIEDFUNDID\""
+          - columnReference:
+              columnCounter: 2000124663
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCEPRODUCER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"SOURCEPRODUCER\""
+          - columnReference:
+              columnCounter: 2000124664
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124665
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000124666
+              stepCounter: "200005201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPROVALDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"APPROVALDATE\""
+          - columnReference:
+              columnCounter: 2000124667
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TARGETUNAPPLIEDFUNDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"TARGETUNAPPLIEDFUNDID\""
+          - columnReference:
+              columnCounter: 2000124668
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVALSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"APPROVALSTATUS\""
+          - columnReference:
+              columnCounter: 2000124669
+              stepCounter: "200005201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124670
+              stepCounter: "200005201"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000124671
+              stepCounter: "200005201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TRANSFERDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"TRANSFERDATE\""
+          - columnReference:
+              columnCounter: 2000124672
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000124673
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTINGUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"REQUESTINGUSERID\""
+          - columnReference:
+              columnCounter: 2000124674
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124675
+              stepCounter: "200005201"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124676
+              stepCounter: "200005201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124677
+              stepCounter: "200005201"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124678
+              stepCounter: "200005201"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124679
+              stepCounter: "200005201"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124680
+              stepCounter: "200005201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124681
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124682
+              stepCounter: "200005201"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124683
+              stepCounter: "200005201"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_FUNDSTRANSFER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124653
+              stepCounter: "200005201"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_FUNDSTRANSFER'"
+          - columnReference:
+              columnCounter: 2000124652
+              stepCounter: "200005201"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_FUNDSTRANSFER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_FUNDSTRANSFER') }} "BC_FUNDSTRANSFER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_FUNDSTRANSFER') }} "ODS_GW_BC_PROD_BC_FUNDSTRANSFER")
+            name: LOAD_GW_BC_PROD_BC_FUNDSTRANSFER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_FUNDSTRANSFER
+      name: LOAD_GW_BC_PROD_BC_FUNDSTRANSFER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005201"

@@ -1,0 +1,257 @@
+steps:
+  LOAD_GW_BC_PROD_BCTL_TRANSACTION-200006273:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000129689
+              stepCounter: "200006273"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000129690
+              stepCounter: "200006273"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000129691
+              stepCounter: "200006273"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000129692
+              stepCounter: "200006273"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000129693
+              stepCounter: "200006273"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000129694
+              stepCounter: "200006273"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000129695
+              stepCounter: "200006273"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000129696
+              stepCounter: "200006273"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000129699
+              stepCounter: "200006273"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000129697
+              stepCounter: "200006273"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129700
+              stepCounter: "200006273"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: TO_TIMESTAMP(BCTL_TRANSACTION.HVRCAPTSTAMPUTC)
+          - columnReference:
+              columnCounter: 2000129701
+              stepCounter: "200006273"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000129702
+              stepCounter: "200006273"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000129703
+              stepCounter: "200006273"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000129698
+              stepCounter: "200006273"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129704
+              stepCounter: "200006273"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000129705
+              stepCounter: "200006273"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000129706
+              stepCounter: "200006273"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCTL_TRANSACTION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000129688
+              stepCounter: "200006273"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCTL_TRANSACTION'"
+          - columnReference:
+              columnCounter: 2000129687
+              stepCounter: "200006273"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCTL_TRANSACTION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCTL_TRANSACTION') }} "BCTL_TRANSACTION" --WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCTL_TRANSACTION') }} "ODS_GW_BC_PROD_BCTL_TRANSACTION")
+            name: LOAD_GW_BC_PROD_BCTL_TRANSACTION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCTL_TRANSACTION
+      name: LOAD_GW_BC_PROD_BCTL_TRANSACTION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200006273"

@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCX_COLLECTIONSREL_05_SEQNO-200023477:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000251977
+              stepCounter: "200023477"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: true
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSREL\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000251980
+              stepCounter: "200023477"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: true
+            name: HVR_REFRESH_SEQNO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000251981
+              stepCounter: "200023477"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'BC_PROD'"
+          - columnReference:
+              columnCounter: 2000251982
+              stepCounter: "200023477"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_BC_PROD_BCX_COLLECTIONSREL\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000251979
+              stepCounter: "200023477"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000251978
+              stepCounter: "200023477"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCX_COLLECTIONSREL
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCX_COLLECTIONSREL') }} \"LOAD_GW_BC_PROD_BCX_COLLECTIONSREL\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_BC_PROD_BCX_COLLECTIONSREL.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE  AND LOAD_GW_BC_PROD_BCX_COLLECTIONSREL.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_COLLECTIONSREL') }} \"ODS_GW_BC_PROD_BCX_COLLECTIONSREL\"  ON LOAD_GW_BC_PROD_BCX_COLLECTIONSREL.HVRINTEGSEQ = ODS_GW_BC_PROD_BCX_COLLECTIONSREL.HVRINTEGSEQ  AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_BC_PROD_BCX_COLLECTIONSREL.HVR_REFRESH_SEQNO WHERE ODS_GW_BC_PROD_BCX_COLLECTIONSREL.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONSREL_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_COLLECTIONSREL
+      name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONSREL_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200023477"

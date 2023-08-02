@@ -1,0 +1,301 @@
+steps:
+  LOAD_GW_BC_PROD_BC_AGENCYDISBPAIDCONTEXT-200018563:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123236
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123237
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGENCYDISBURSEMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"AGENCYDISBURSEMENTID\""
+          - columnReference:
+              columnCounter: 2000123238
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123239
+              stepCounter: "200018563"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123240
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123241
+              stepCounter: "200018563"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123242
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000123243
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123244
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000123245
+              stepCounter: "200018563"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123246
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000123247
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123248
+              stepCounter: "200018563"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123249
+              stepCounter: "200018563"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123250
+              stepCounter: "200018563"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123251
+              stepCounter: "200018563"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123252
+              stepCounter: "200018563"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123253
+              stepCounter: "200018563"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123254
+              stepCounter: "200018563"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123255
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123256
+              stepCounter: "200018563"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123257
+              stepCounter: "200018563"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AGENCYDISBPAIDCONTEXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123235
+              stepCounter: "200018563"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_AGENCYDISBPAIDCONTEXT'"
+          - columnReference:
+              columnCounter: 2000123234
+              stepCounter: "200018563"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_AGENCYDISBPAIDCONTEXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_AGENCYDISBPAIDCONTEXT') }} "BC_AGENCYDISBPAIDCONTEXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_AGENCYDISBPAIDCONTEXT') }} "ODS_GW_BC_PROD_BC_AGENCYDISBPAIDCONTEXT")
+            name: LOAD_GW_BC_PROD_BC_AGENCYDISBPAIDCONTEXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_AGENCYDISBPAIDCONTEXT
+      name: LOAD_GW_BC_PROD_BC_AGENCYDISBPAIDCONTEXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018563"

@@ -1,0 +1,1051 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_10_NEW-200005673:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000249347
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000249348
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HELDFORINVOICESENDING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HELDFORINVOICESENDING\""
+          - columnReference:
+              columnCounter: 2000249349
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: UNDERWRITERUSERNAME_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"UNDERWRITERUSERNAME_EXT\""
+          - columnReference:
+              columnCounter: 2000249350
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: UNDERAUDIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"UNDERAUDIT\""
+          - columnReference:
+              columnCounter: 2000249351
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000249352
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECURITYZONEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"SECURITYZONEID\""
+          - columnReference:
+              columnCounter: 2000249353
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYPEREFFDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYPEREFFDATE\""
+          - columnReference:
+              columnCounter: 2000249354
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PAYMENTPLANID\""
+          - columnReference:
+              columnCounter: 2000249355
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"COLLECTIONSTATUS\""
+          - columnReference:
+              columnCounter: 2000249356
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000249357
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISDEDUCTIBLEPOLICY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"ISDEDUCTIBLEPOLICY_EXT\""
+          - columnReference:
+              columnCounter: 2000249358
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYCANCELREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DELINQUENCYCANCELREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000249359
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000249360
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIDDENTACCOUNTCONTAINERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HIDDENTACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000249361
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000249362
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UWCOMPANY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"UWCOMPANY\""
+          - columnReference:
+              columnCounter: 2000249363
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HOLDINVOICINGWHENDELINQUENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HOLDINVOICINGWHENDELINQUENT\""
+          - columnReference:
+              columnCounter: 2000249364
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"BILLINGMETHOD\""
+          - columnReference:
+              columnCounter: 2000249365
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OVERRIDINGPAYERACCOUNTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"OVERRIDINGPAYERACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000249366
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISEXPIRED_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"ISEXPIRED_EXT\""
+          - columnReference:
+              columnCounter: 2000249367
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDRISK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"ASSIGNEDRISK\""
+          - columnReference:
+              columnCounter: 2000249368
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OVERRIDINGINVOICESTREAMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"OVERRIDINGINVOICESTREAMID\""
+          - columnReference:
+              columnCounter: 2000249369
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000249370
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DBA
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DBA\""
+          - columnReference:
+              columnCounter: 2000249371
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FULLPAYDISCOUNTUNTIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"FULLPAYDISCOUNTUNTIL\""
+          - columnReference:
+              columnCounter: 2000249372
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODDELINQUENCYPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYPERIODDELINQUENCYPLANID\""
+          - columnReference:
+              columnCounter: 2000249373
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OFFERNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"OFFERNUMBER\""
+          - columnReference:
+              columnCounter: 2000249374
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000249375
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLECTOR_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DIRECTCOLLECTOR_EXT\""
+          - columnReference:
+              columnCounter: 2000249376
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000249377
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OTHERSTATESLINKTYPE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"OTHERSTATESLINKTYPE_EXT\""
+          - columnReference:
+              columnCounter: 2000249378
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ELIGIBLEFORFULLPAYDISCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"ELIGIBLEFORFULLPAYDISCOUNT\""
+          - columnReference:
+              columnCounter: 2000249379
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000249380
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYREINSTSOURCE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DELINQUENCYREINSTSOURCE_EXT\""
+          - columnReference:
+              columnCounter: 2000249381
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BOUNDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"BOUNDDATE\""
+          - columnReference:
+              columnCounter: 2000249382
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000249383
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FULLPAYDISCOUNTEVALUATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"FULLPAYDISCOUNTEVALUATED\""
+          - columnReference:
+              columnCounter: 2000249384
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WESTERNMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"WESTERNMETHOD\""
+          - columnReference:
+              columnCounter: 2000249385
+              stepCounter: "200005673"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: PREMIUMFINANCENOTENUM_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PREMIUMFINANCENOTENUM_EXT\""
+          - columnReference:
+              columnCounter: 2000249386
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DPGAFLAG_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DPGAFLAG_EXT\""
+          - columnReference:
+              columnCounter: 2000249387
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TERMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"TERMNUMBER\""
+          - columnReference:
+              columnCounter: 2000249388
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PENDINGREMAININGBALANCEFIX
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PENDINGREMAININGBALANCEFIX\""
+          - columnReference:
+              columnCounter: 2000249389
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CANCELLATIONTYPE\""
+          - columnReference:
+              columnCounter: 2000249390
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CANCELREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CANCELREASON\""
+          - columnReference:
+              columnCounter: 2000249391
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITTENPREMIUM_EXT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"WRITTENPREMIUM_EXT_CUR\""
+          - columnReference:
+              columnCounter: 2000249392
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLECTORASSIGNDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DIRECTCOLLECTORASSIGNDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000249393
+              stepCounter: "200005673"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000249394
+              stepCounter: "200005673"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: PRIORPOLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PRIORPOLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000249395
+              stepCounter: "200005673"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DISCOUNTEDPAYMENTTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DISCOUNTEDPAYMENTTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249396
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISCOUNTEDPAYMENTTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DISCOUNTEDPAYMENTTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249397
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000249398
+              stepCounter: "200005673"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WRITTENPREMIUM_EXT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"WRITTENPREMIUM_EXT_AMT\""
+          - columnReference:
+              columnCounter: 2000249399
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: UNDERWRITER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"UNDERWRITER\""
+          - columnReference:
+              columnCounter: 2000249400
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PCCOMMISSIONOVERRIDE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PCCOMMISSIONOVERRIDE_EXT\""
+          - columnReference:
+              columnCounter: 2000249401
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000249402
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RISKJURISDICTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"RISKJURISDICTION\""
+          - columnReference:
+              columnCounter: 2000249403
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COLLECTING_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"COLLECTING_EXT\""
+          - columnReference:
+              columnCounter: 2000249404
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREMIUMFINANCECOMPANY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PREMIUMFINANCECOMPANY_EXT\""
+          - columnReference:
+              columnCounter: 2000249405
+              stepCounter: "200005673"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: PCCOMMISSIONRATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PCCOMMISSIONRATE_EXT\""
+          - columnReference:
+              columnCounter: 2000249406
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: POLICYPEREXPIRDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYPEREXPIRDATE\""
+          - columnReference:
+              columnCounter: 2000249407
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CHARGEHELD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CHARGEHELD\""
+          - columnReference:
+              columnCounter: 2000249408
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISFINALAUDITCOMPLETE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"ISFINALAUDITCOMPLETE_EXT\""
+          - columnReference:
+              columnCounter: 2000249409
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETURNPREMIUMPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"RETURNPREMIUMPLANID\""
+          - columnReference:
+              columnCounter: 2000249410
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CANCELSTATUS\""
+          - columnReference:
+              columnCounter: 2000249411
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLOSURESTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CLOSURESTATUS\""
+          - columnReference:
+              columnCounter: 2000249412
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONFIRMATIONNOTIFICATIONSTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"CONFIRMATIONNOTIFICATIONSTATE\""
+          - columnReference:
+              columnCounter: 2000249413
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: TERMCONFIRMED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"TERMCONFIRMED\""
+          - columnReference:
+              columnCounter: 2000249414
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBERLONGDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYNUMBERLONGDENORM\""
+          - columnReference:
+              columnCounter: 2000249415
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBERLONG
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYNUMBERLONG\""
+          - columnReference:
+              columnCounter: 2000249416
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDISTRIBUTIONENABLED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"PAYMENTDISTRIBUTIONENABLED\""
+          - columnReference:
+              columnCounter: 2000249417
+              stepCounter: "200005673"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBERDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYNUMBERDENORM\""
+          - columnReference:
+              columnCounter: 2000249418
+              stepCounter: "200005673"
+            dataType: VARCHAR(40)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000249419
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLECTORWORKBYDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DIRECTCOLLECTORWORKBYDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000249420
+              stepCounter: "200005673"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISPREMIERACCOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"ISPREMIERACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000249421
+              stepCounter: "200005673"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TEXASPUBLICID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"TEXASPUBLICID_EXT\""
+          - columnReference:
+              columnCounter: 2000249422
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BANKRUPTCYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"BANKRUPTCYID\""
+          - columnReference:
+              columnCounter: 2000249423
+              stepCounter: "200005673"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000249424
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000249425
+              stepCounter: "200005673"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000249426
+              stepCounter: "200005673"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000249427
+              stepCounter: "200005673"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000249428
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000249429
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000249430
+              stepCounter: "200005673"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000249431
+              stepCounter: "200005673"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000249436
+              stepCounter: "200005673"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000249438
+              stepCounter: "200005673"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000249437
+              stepCounter: "200005673"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000249432
+              stepCounter: "200005673"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000249433
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLICYPERIOD\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000249435
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000249434
+              stepCounter: "200005673"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_POLICYPERIOD
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_POLICYPERIOD') }} \"LOAD_GW_BC_PROD_BC_POLICYPERIOD\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_POLICYPERIOD.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_POLICYPERIOD_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200005673"

@@ -1,0 +1,477 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_COLLECTIONSMETRICS_EXT-200022891:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000127900
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000127901
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"INVOICEITEM\""
+          - columnReference:
+              columnCounter: 2000127902
+              stepCounter: "200022891"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000127903
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLECTOR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"DIRECTCOLLECTOR\""
+          - columnReference:
+              columnCounter: 2000127904
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000127905
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000127906
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECOLLECTED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUECOLLECTED_CUR\""
+          - columnReference:
+              columnCounter: 2000127907
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000127908
+              stepCounter: "200022891"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECOLLECTED_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUECOLLECTED_AMT\""
+          - columnReference:
+              columnCounter: 2000127909
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000127910
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECREDITED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUECREDITED_CUR\""
+          - columnReference:
+              columnCounter: 2000127911
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000127912
+              stepCounter: "200022891"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECREDITED_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUECREDITED_AMT\""
+          - columnReference:
+              columnCounter: 2000127913
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEINITIALLYPAID_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUEINITIALLYPAID_CUR\""
+          - columnReference:
+              columnCounter: 2000127914
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127915
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONAGENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"COLLECTIONAGENCY\""
+          - columnReference:
+              columnCounter: 2000127916
+              stepCounter: "200022891"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEINITIALLYPAID_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUEINITIALLYPAID_AMT\""
+          - columnReference:
+              columnCounter: 2000127917
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000127918
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000127919
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000127920
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEATTEMPTED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUEATTEMPTED_CUR\""
+          - columnReference:
+              columnCounter: 2000127921
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127922
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"POLICYPERIOD\""
+          - columnReference:
+              columnCounter: 2000127923
+              stepCounter: "200022891"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEATTEMPTED_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"ITEMVALUEATTEMPTED_AMT\""
+          - columnReference:
+              columnCounter: 2000127924
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONEVENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"COLLECTIONEVENT\""
+          - columnReference:
+              columnCounter: 2000127925
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONSUNASSIGNMENTREASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"COLLECTIONSUNASSIGNMENTREASON\""
+          - columnReference:
+              columnCounter: 2000127926
+              stepCounter: "200022891"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"WRITEOFFAMOUNT\""
+          - columnReference:
+              columnCounter: 2000127927
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"WRITEOFFAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000127928
+              stepCounter: "200022891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000127929
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127930
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000127931
+              stepCounter: "200022891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000127932
+              stepCounter: "200022891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000127933
+              stepCounter: "200022891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000127934
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127935
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000127936
+              stepCounter: "200022891"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000127937
+              stepCounter: "200022891"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSMETRICS_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000127899
+              stepCounter: "200022891"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_COLLECTIONSMETRICS_EXT'"
+          - columnReference:
+              columnCounter: 2000127898
+              stepCounter: "200022891"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_COLLECTIONSMETRICS_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_COLLECTIONSMETRICS_EXT') }} "BCX_COLLECTIONSMETRICS_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_COLLECTIONSMETRICS_EXT') }} "ODS_GW_BC_PROD_BCX_COLLECTIONSMETRICS_EXT")
+            name: LOAD_GW_BC_PROD_BCX_COLLECTIONSMETRICS_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_COLLECTIONSMETRICS_EXT
+      name: LOAD_GW_BC_PROD_BCX_COLLECTIONSMETRICS_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022891"

@@ -1,0 +1,323 @@
+steps:
+  LOAD_GW_BC_PROD_BC_TROUBLETICKETJOINENTITY-200012244:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000127227
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127228
+              stepCounter: "200012244"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000127229
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000127230
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000127231
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000127232
+              stepCounter: "200012244"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000127233
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000127234
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000127235
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"POLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000127236
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127237
+              stepCounter: "200012244"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000127238
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000127239
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000127240
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TROUBLETICKETID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"TROUBLETICKETID\""
+          - columnReference:
+              columnCounter: 2000127241
+              stepCounter: "200012244"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000127242
+              stepCounter: "200012244"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127243
+              stepCounter: "200012244"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000127244
+              stepCounter: "200012244"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000127245
+              stepCounter: "200012244"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000127246
+              stepCounter: "200012244"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000127247
+              stepCounter: "200012244"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127248
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000127249
+              stepCounter: "200012244"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000127250
+              stepCounter: "200012244"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_TROUBLETICKETJOINENTITY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000127226
+              stepCounter: "200012244"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_TROUBLETICKETJOINENTITY'"
+          - columnReference:
+              columnCounter: 2000127225
+              stepCounter: "200012244"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_TROUBLETICKETJOINENTITY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_TROUBLETICKETJOINENTITY') }} "BC_TROUBLETICKETJOINENTITY" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_TROUBLETICKETJOINENTITY') }} "ODS_GW_BC_PROD_BC_TROUBLETICKETJOINENTITY")
+            name: LOAD_GW_BC_PROD_BC_TROUBLETICKETJOINENTITY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_TROUBLETICKETJOINENTITY
+      name: LOAD_GW_BC_PROD_BC_TROUBLETICKETJOINENTITY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200012244"

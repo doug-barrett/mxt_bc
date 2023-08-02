@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_REVCHARGE-200022014:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126619
+              stepCounter: "200022014"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000126620
+              stepCounter: "200022014"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000126621
+              stepCounter: "200022014"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126622
+              stepCounter: "200022014"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126623
+              stepCounter: "200022014"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126624
+              stepCounter: "200022014"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000126625
+              stepCounter: "200022014"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126626
+              stepCounter: "200022014"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126627
+              stepCounter: "200022014"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126628
+              stepCounter: "200022014"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126629
+              stepCounter: "200022014"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126630
+              stepCounter: "200022014"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126631
+              stepCounter: "200022014"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126632
+              stepCounter: "200022014"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126633
+              stepCounter: "200022014"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126634
+              stepCounter: "200022014"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVCHARGE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126618
+              stepCounter: "200022014"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_REVCHARGE'"
+          - columnReference:
+              columnCounter: 2000126617
+              stepCounter: "200022014"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_REVCHARGE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_REVCHARGE') }} "BC_REVCHARGE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_REVCHARGE') }} "ODS_GW_BC_PROD_BC_REVCHARGE")
+            name: LOAD_GW_BC_PROD_BC_REVCHARGE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_REVCHARGE
+      name: LOAD_GW_BC_PROD_BC_REVCHARGE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022014"

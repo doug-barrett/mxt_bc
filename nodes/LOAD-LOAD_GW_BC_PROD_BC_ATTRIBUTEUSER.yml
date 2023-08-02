@@ -1,0 +1,323 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ATTRIBUTEUSER-200018568:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123352
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123353
+              stepCounter: "200018568"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123354
+              stepCounter: "200018568"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TEXTFIELD1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"TEXTFIELD1\""
+          - columnReference:
+              columnCounter: 2000123355
+              stepCounter: "200018568"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEFIELD1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"DATEFIELD1\""
+          - columnReference:
+              columnCounter: 2000123356
+              stepCounter: "200018568"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TEXTFIELD2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"TEXTFIELD2\""
+          - columnReference:
+              columnCounter: 2000123357
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: USERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"USERID\""
+          - columnReference:
+              columnCounter: 2000123358
+              stepCounter: "200018568"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEFIELD2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"DATEFIELD2\""
+          - columnReference:
+              columnCounter: 2000123359
+              stepCounter: "200018568"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: TEXTFIELD3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"TEXTFIELD3\""
+          - columnReference:
+              columnCounter: 2000123360
+              stepCounter: "200018568"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEFIELD3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"DATEFIELD3\""
+          - columnReference:
+              columnCounter: 2000123361
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123362
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"VALUE\""
+          - columnReference:
+              columnCounter: 2000123363
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000123364
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ATTRIBUTEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"ATTRIBUTEID\""
+          - columnReference:
+              columnCounter: 2000123365
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123366
+              stepCounter: "200018568"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123367
+              stepCounter: "200018568"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123368
+              stepCounter: "200018568"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123369
+              stepCounter: "200018568"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123370
+              stepCounter: "200018568"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123371
+              stepCounter: "200018568"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123372
+              stepCounter: "200018568"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123373
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123374
+              stepCounter: "200018568"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123375
+              stepCounter: "200018568"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ATTRIBUTEUSER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123351
+              stepCounter: "200018568"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ATTRIBUTEUSER'"
+          - columnReference:
+              columnCounter: 2000123350
+              stepCounter: "200018568"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ATTRIBUTEUSER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ATTRIBUTEUSER') }} "BC_ATTRIBUTEUSER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ATTRIBUTEUSER') }} "ODS_GW_BC_PROD_BC_ATTRIBUTEUSER")
+            name: LOAD_GW_BC_PROD_BC_ATTRIBUTEUSER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ATTRIBUTEUSER
+      name: LOAD_GW_BC_PROD_BC_ATTRIBUTEUSER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018568"

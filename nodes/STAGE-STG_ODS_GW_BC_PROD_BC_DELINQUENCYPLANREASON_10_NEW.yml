@@ -1,0 +1,347 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_10_NEW-200022618:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000247218
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000247219
+              stepCounter: "200022618"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000247220
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000247221
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"DELINQUENCYREASON\""
+          - columnReference:
+              columnCounter: 2000247222
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"DELINQUENCYPLANID\""
+          - columnReference:
+              columnCounter: 2000247223
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000247224
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000247225
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000247226
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKFLOWTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"WORKFLOWTYPE\""
+          - columnReference:
+              columnCounter: 2000247227
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"ID\""
+          - columnReference:
+              columnCounter: 2000247228
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000247229
+              stepCounter: "200022618"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000247230
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000247231
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000247232
+              stepCounter: "200022618"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000247233
+              stepCounter: "200022618"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000247234
+              stepCounter: "200022618"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000247235
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000247236
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000247237
+              stepCounter: "200022618"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000247238
+              stepCounter: "200022618"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000247217
+              stepCounter: "200022618"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000247242
+              stepCounter: "200022618"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000247216
+              stepCounter: "200022618"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000247239
+              stepCounter: "200022618"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000247240
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000247243
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000247241
+              stepCounter: "200022618"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON') }} \"LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_DELINQUENCYPLANREASON.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_DELINQUENCYPLANREASON_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200022618"

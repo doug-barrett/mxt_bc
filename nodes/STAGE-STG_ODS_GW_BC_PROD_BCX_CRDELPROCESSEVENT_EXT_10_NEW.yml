@@ -1,0 +1,424 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_10_NEW-200023496:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000252092
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000252093
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000252094
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATIVEORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"RELATIVEORDER\""
+          - columnReference:
+              columnCounter: 2000252095
+              stepCounter: "200023496"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000252096
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EVENTNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"EVENTNAME\""
+          - columnReference:
+              columnCounter: 2000252097
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRIGGERBASIS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"TRIGGERBASIS\""
+          - columnReference:
+              columnCounter: 2000252098
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000252099
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: COMPLETIONTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"COMPLETIONTIME\""
+          - columnReference:
+              columnCounter: 2000252100
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000252101
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000252102
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OFFSETDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"OFFSETDAYS\""
+          - columnReference:
+              columnCounter: 2000252103
+              stepCounter: "200023496"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AUTOMATIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"AUTOMATIC\""
+          - columnReference:
+              columnCounter: 2000252104
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000252105
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVALACTIVITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"APPROVALACTIVITY\""
+          - columnReference:
+              columnCounter: 2000252106
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000252107
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EVENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"EVENTS\""
+          - columnReference:
+              columnCounter: 2000252108
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000252109
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXACTTARGETDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"EXACTTARGETDATE\""
+          - columnReference:
+              columnCounter: 2000252110
+              stepCounter: "200023496"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000252111
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000252112
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000252124
+              stepCounter: "200023496"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000252125
+              stepCounter: "200023496"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000252126
+              stepCounter: "200023496"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000252113
+              stepCounter: "200023496"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000252114
+              stepCounter: "200023496"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000252115
+              stepCounter: "200023496"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000252116
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000252117
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000252118
+              stepCounter: "200023496"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000252119
+              stepCounter: "200023496"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000252120
+              stepCounter: "200023496"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000252121
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000252123
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000252122
+              stepCounter: "200023496"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT') }} \"LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO\"    ON LOAD_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCX_CRDELPROCESSEVENT_EXT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200023496"

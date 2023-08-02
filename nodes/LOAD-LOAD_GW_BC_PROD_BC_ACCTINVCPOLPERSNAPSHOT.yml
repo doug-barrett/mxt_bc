@@ -1,0 +1,345 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ACCTINVCPOLPERSNAPSHOT-200018555:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000122925
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000122926
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000122927
+              stepCounter: "200018555"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000122928
+              stepCounter: "200018555"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REMAININGBALANCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"REMAININGBALANCE\""
+          - columnReference:
+              columnCounter: 2000122929
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REMAININGBALANCE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"REMAININGBALANCE_CUR\""
+          - columnReference:
+              columnCounter: 2000122930
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000122931
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000122932
+              stepCounter: "200018555"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000122933
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"POLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000122934
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000122935
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000122936
+              stepCounter: "200018555"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: OUTSTANDINGAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"OUTSTANDINGAMOUNT\""
+          - columnReference:
+              columnCounter: 2000122937
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OUTSTANDINGAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"OUTSTANDINGAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000122938
+              stepCounter: "200018555"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000122939
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000122940
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTINVOICEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"ACCOUNTINVOICEID\""
+          - columnReference:
+              columnCounter: 2000122941
+              stepCounter: "200018555"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000122942
+              stepCounter: "200018555"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000122943
+              stepCounter: "200018555"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000122944
+              stepCounter: "200018555"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000122945
+              stepCounter: "200018555"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000122946
+              stepCounter: "200018555"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000122947
+              stepCounter: "200018555"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000122948
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000122949
+              stepCounter: "200018555"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000122950
+              stepCounter: "200018555"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTINVCPOLPERSNAPSHOT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000122924
+              stepCounter: "200018555"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ACCTINVCPOLPERSNAPSHOT'"
+          - columnReference:
+              columnCounter: 2000122923
+              stepCounter: "200018555"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ACCTINVCPOLPERSNAPSHOT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ACCTINVCPOLPERSNAPSHOT') }} "BC_ACCTINVCPOLPERSNAPSHOT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ACCTINVCPOLPERSNAPSHOT') }} "ODS_GW_BC_PROD_BC_ACCTINVCPOLPERSNAPSHOT")
+            name: LOAD_GW_BC_PROD_BC_ACCTINVCPOLPERSNAPSHOT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ACCTINVCPOLPERSNAPSHOT
+      name: LOAD_GW_BC_PROD_BC_ACCTINVCPOLPERSNAPSHOT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018555"

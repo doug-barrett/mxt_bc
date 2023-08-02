@@ -1,0 +1,246 @@
+steps:
+  LOAD_GW_BC_PROD_BC_POLTRANSFERPOLICYPERIOD-200022002:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126193
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000126194
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000126195
+              stepCounter: "200022002"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126196
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126197
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYTRANSFERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"POLICYTRANSFERID\""
+          - columnReference:
+              columnCounter: 2000126198
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126199
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"POLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000126200
+              stepCounter: "200022002"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126201
+              stepCounter: "200022002"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126202
+              stepCounter: "200022002"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126203
+              stepCounter: "200022002"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126204
+              stepCounter: "200022002"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126205
+              stepCounter: "200022002"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126206
+              stepCounter: "200022002"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126207
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126208
+              stepCounter: "200022002"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126209
+              stepCounter: "200022002"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLTRANSFERPOLICYPERIOD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126192
+              stepCounter: "200022002"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_POLTRANSFERPOLICYPERIOD'"
+          - columnReference:
+              columnCounter: 2000126191
+              stepCounter: "200022002"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_POLTRANSFERPOLICYPERIOD
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_POLTRANSFERPOLICYPERIOD') }} "BC_POLTRANSFERPOLICYPERIOD" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_POLTRANSFERPOLICYPERIOD') }} "ODS_GW_BC_PROD_BC_POLTRANSFERPOLICYPERIOD")
+            name: LOAD_GW_BC_PROD_BC_POLTRANSFERPOLICYPERIOD
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_POLTRANSFERPOLICYPERIOD
+      name: LOAD_GW_BC_PROD_BC_POLTRANSFERPOLICYPERIOD
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022002"

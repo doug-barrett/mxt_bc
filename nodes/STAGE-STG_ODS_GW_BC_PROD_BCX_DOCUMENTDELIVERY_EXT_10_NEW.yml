@@ -1,0 +1,556 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_10_NEW-200023514:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000252205
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000252206
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BILLINGITEMSTARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"BILLINGITEMSTARTDATE\""
+          - columnReference:
+              columnCounter: 2000252207
+              stepCounter: "200023514"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000252208
+              stepCounter: "200023514"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DELIVERED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"DELIVERED\""
+          - columnReference:
+              columnCounter: 2000252209
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BUSINESSUNIT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"BUSINESSUNIT\""
+          - columnReference:
+              columnCounter: 2000252210
+              stepCounter: "200023514"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: IMAGEDDOCSERIALNUMBERS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"IMAGEDDOCSERIALNUMBERS\""
+          - columnReference:
+              columnCounter: 2000252211
+              stepCounter: "200023514"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: SENDEREMAIL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"SENDEREMAIL\""
+          - columnReference:
+              columnCounter: 2000252212
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000252213
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETRESPONDBYDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETRESPONDBYDATE\""
+          - columnReference:
+              columnCounter: 2000252214
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"PRODUCER\""
+          - columnReference:
+              columnCounter: 2000252215
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"DOCUMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000252216
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000252217
+              stepCounter: "200023514"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETATTENTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETATTENTION\""
+          - columnReference:
+              columnCounter: 2000252218
+              stepCounter: "200023514"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETSENDERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETSENDERID\""
+          - columnReference:
+              columnCounter: 2000252219
+              stepCounter: "200023514"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRINTER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"PRINTER\""
+          - columnReference:
+              columnCounter: 2000252220
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000252221
+              stepCounter: "200023514"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISPREVIEW
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"ISPREVIEW\""
+          - columnReference:
+              columnCounter: 2000252222
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000252223
+              stepCounter: "200023514"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DIRECTFORMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"DIRECTFORMS\""
+          - columnReference:
+              columnCounter: 2000252224
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000252225
+              stepCounter: "200023514"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: IMAGEDDOCTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"IMAGEDDOCTYPE\""
+          - columnReference:
+              columnCounter: 2000252226
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000252227
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"INVOICE\""
+          - columnReference:
+              columnCounter: 2000252228
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000252229
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000252230
+              stepCounter: "200023514"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"AGENCYCODE\""
+          - columnReference:
+              columnCounter: 2000252231
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"POLICYPERIOD\""
+          - columnReference:
+              columnCounter: 2000252232
+              stepCounter: "200023514"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SENDTOPRINTER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"SENDTOPRINTER\""
+          - columnReference:
+              columnCounter: 2000252233
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BILLINGITEMENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"BILLINGITEMENDDATE\""
+          - columnReference:
+              columnCounter: 2000252234
+              stepCounter: "200023514"
+            dataType: VARCHAR(1500)
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000252235
+              stepCounter: "200023514"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000252236
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000252237
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000252249
+              stepCounter: "200023514"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000252250
+              stepCounter: "200023514"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000252251
+              stepCounter: "200023514"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000252238
+              stepCounter: "200023514"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000252239
+              stepCounter: "200023514"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000252240
+              stepCounter: "200023514"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000252241
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000252242
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000252243
+              stepCounter: "200023514"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000252244
+              stepCounter: "200023514"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000252245
+              stepCounter: "200023514"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000252246
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000252248
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000252247
+              stepCounter: "200023514"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT') }} \"LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO\"    ON LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200023514"

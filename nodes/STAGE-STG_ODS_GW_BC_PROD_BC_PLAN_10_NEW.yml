@@ -1,0 +1,1832 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_PLAN_10_NEW-200005452:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000249111
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSUNTILFIRSTDUNNINGSENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSUNTILFIRSTDUNNINGSENT\""
+          - columnReference:
+              columnCounter: 2000249112
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETOFIRSTINSTALL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSFROMREFDATETOFIRSTINSTALL\""
+          - columnReference:
+              columnCounter: 2000249193
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AUTOPROCESSWHENPAYMENTMATCHES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"AUTOPROCESSWHENPAYMENTMATCHES\""
+          - columnReference:
+              columnCounter: 2000249194
+              stepCounter: "200005452"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAMEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"NAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000249195
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLENTERDELNQTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"POLENTERDELNQTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249196
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTOLERWRTPREM_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CANCELLATIONTOLERWRTPREM_EXT\""
+          - columnReference:
+              columnCounter: 2000249197
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000249198
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SUPPRESSLOWBALINVOICES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"SUPPRESSLOWBALINVOICES\""
+          - columnReference:
+              columnCounter: 2000249199
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000249200
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAXIMUMNUMBEROFINSTALLMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"MAXIMUMNUMBEROFINSTALLMENTS\""
+          - columnReference:
+              columnCounter: 2000249201
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000249202
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000249203
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SKIPFEEFORDOWNPAYMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"SKIPFEEFORDOWNPAYMENT\""
+          - columnReference:
+              columnCounter: 2000249204
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYMENTEXCEPTIONSSENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PAYMENTEXCEPTIONSSENT\""
+          - columnReference:
+              columnCounter: 2000249205
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELAYDISBURSEMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DELAYDISBURSEMENT\""
+          - columnReference:
+              columnCounter: 2000249206
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONFORPASTDUESTATEMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EXCEPTIONFORPASTDUESTATEMENT\""
+          - columnReference:
+              columnCounter: 2000249207
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLEARCOMMISIONTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CLEARCOMMISIONTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249208
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000249209
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REPORTING
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"REPORTING\""
+          - columnReference:
+              columnCounter: 2000249210
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000249211
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CREATEOFFSETSONBILLEDINVOICES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CREATEOFFSETSONBILLEDINVOICES\""
+          - columnReference:
+              columnCounter: 2000249212
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERIODICITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PERIODICITY\""
+          - columnReference:
+              columnCounter: 2000249213
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTREVERSALFEE_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PAYMENTREVERSALFEE_CUR\""
+          - columnReference:
+              columnCounter: 2000249214
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLEARGROSSTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CLEARGROSSTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249215
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDUEINDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PROMISEDUEINDAYS\""
+          - columnReference:
+              columnCounter: 2000249216
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTAFTER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DOWNPAYMENTAFTER\""
+          - columnReference:
+              columnCounter: 2000249217
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INVOICEFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INVOICEFEE\""
+          - columnReference:
+              columnCounter: 2000249218
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEFEE_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INVOICEFEE_CUR\""
+          - columnReference:
+              columnCounter: 2000249219
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONPAYPLANSVCFEE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"COLLECTIONPAYPLANSVCFEE_EXT\""
+          - columnReference:
+              columnCounter: 2000249220
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"WRITEOFFTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249221
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"WRITEOFFTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249222
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOWGROSSCLEARED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LOWGROSSCLEARED\""
+          - columnReference:
+              columnCounter: 2000249223
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLOWMODOFMANDISB
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ALLOWMODOFMANDISB\""
+          - columnReference:
+              columnCounter: 2000249224
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPLICABLESEGMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"APPLICABLESEGMENTS\""
+          - columnReference:
+              columnCounter: 2000249225
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CYCLECLOSEDAYOFMONTH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CYCLECLOSEDAYOFMONTH\""
+          - columnReference:
+              columnCounter: 2000249226
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INUSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INUSE\""
+          - columnReference:
+              columnCounter: 2000249227
+              stepCounter: "200005452"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000249228
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: USERVISIBLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"USERVISIBLE\""
+          - columnReference:
+              columnCounter: 2000249229
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SKIPINSTALLMENTFEES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"SKIPINSTALLMENTFEES\""
+          - columnReference:
+              columnCounter: 2000249230
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: STATEMENTSENTAFTERCYCLECLOSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"STATEMENTSENTAFTERCYCLECLOSE\""
+          - columnReference:
+              columnCounter: 2000249231
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: STATEMENTSWITHLOWNETSUPPRESSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"STATEMENTSWITHLOWNETSUPPRESSED\""
+          - columnReference:
+              columnCounter: 2000249232
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CANCELLATIONTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249233
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISAGENCYBILLING_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ISAGENCYBILLING_EXT\""
+          - columnReference:
+              columnCounter: 2000249234
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GRACEPERIODDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"GRACEPERIODDAYS\""
+          - columnReference:
+              columnCounter: 2000249235
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICINGBLACKOUTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INVOICINGBLACKOUTTYPE\""
+          - columnReference:
+              columnCounter: 2000249236
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTARGET
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CANCELLATIONTARGET\""
+          - columnReference:
+              columnCounter: 2000249237
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTINTERVAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"REQUESTINTERVAL\""
+          - columnReference:
+              columnCounter: 2000249238
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISPREMIUMFINANCEPLAN_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ISPREMIUMFINANCEPLAN_EXT\""
+          - columnReference:
+              columnCounter: 2000249239
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SENDAUTODISBAWAITINGAPPROVAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"SENDAUTODISBAWAITINGAPPROVAL\""
+          - columnReference:
+              columnCounter: 2000249240
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: NETTHRESHOLDFORSUPPRESSINGSTMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"NETTHRESHOLDFORSUPPRESSINGSTMT\""
+          - columnReference:
+              columnCounter: 2000249241
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSBEFOREPLCYEXPFORINVBLCKOUT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSBEFOREPLCYEXPFORINVBLCKOUT\""
+          - columnReference:
+              columnCounter: 2000249242
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LOWBALANCETHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LOWBALANCETHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249243
+              stepCounter: "200005452"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTPLANVISIBILITY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PAYMENTPLANVISIBILITY_EXT\""
+          - columnReference:
+              columnCounter: 2000249244
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOWBALANCETHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LOWBALANCETHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249245
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONIFPROMISENOTRECEIVED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EXCEPTIONIFPROMISENOTRECEIVED\""
+          - columnReference:
+              columnCounter: 2000249246
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DRAFTINTERVAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DRAFTINTERVAL\""
+          - columnReference:
+              columnCounter: 2000249247
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REINSTATEMENTFEEAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"REINSTATEMENTFEEAMOUNT\""
+          - columnReference:
+              columnCounter: 2000249248
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CREATEAPPRACTFORAUTODISB
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CREATEAPPRACTFORAUTODISB\""
+          - columnReference:
+              columnCounter: 2000249249
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SNAPSHOTNONPASTDUEITEMS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"SNAPSHOTNONPASTDUEITEMS\""
+          - columnReference:
+              columnCounter: 2000249250
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REINSTATEMENTFEEAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"REINSTATEMENTFEEAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000249251
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKFLOWPLAN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"WORKFLOWPLAN\""
+          - columnReference:
+              columnCounter: 2000249252
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NETTHRESHOLDSUPPRESSSTMT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"NETTHRESHOLDSUPPRESSSTMT_CUR\""
+          - columnReference:
+              columnCounter: 2000249253
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INSTALLMENTFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INSTALLMENTFEE\""
+          - columnReference:
+              columnCounter: 2000249254
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INSTALLMENTFEE_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INSTALLMENTFEE_CUR\""
+          - columnReference:
+              columnCounter: 2000249255
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATEMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"STATEMENT\""
+          - columnReference:
+              columnCounter: 2000249256
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDUEDAYLOGIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PAYMENTDUEDAYLOGIC\""
+          - columnReference:
+              columnCounter: 2000249257
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTOVER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DISBURSEMENTOVER\""
+          - columnReference:
+              columnCounter: 2000249258
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXITDELINQUENCYTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EXITDELINQUENCYTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249259
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTOVER_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DISBURSEMENTOVER_CUR\""
+          - columnReference:
+              columnCounter: 2000249260
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PROMISEEXCEPTIONSSENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PROMISEEXCEPTIONSSENT\""
+          - columnReference:
+              columnCounter: 2000249099
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LATEFEEAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LATEFEEAMOUNT\""
+          - columnReference:
+              columnCounter: 2000249100
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSAFTERCYCLECLOSETOSENDSTMNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSAFTERCYCLECLOSETOSENDSTMNT\""
+          - columnReference:
+              columnCounter: 2000249101
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PMNTSCHDCHNGOFFSETSONBILLED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PMNTSCHDCHNGOFFSETSONBILLED\""
+          - columnReference:
+              columnCounter: 2000249102
+              stepCounter: "200005452"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: MONTHLYINTERESTRATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"MONTHLYINTERESTRATE_EXT\""
+          - columnReference:
+              columnCounter: 2000249103
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000249104
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ACCTENTERDELINQUENCYTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ACCTENTERDELINQUENCYTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249105
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTTERMSINDAYS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PAYMENTTERMSINDAYS\""
+          - columnReference:
+              columnCounter: 2000249106
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CYCLECLOSEDAYOFMONTHLOGIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CYCLECLOSEDAYOFMONTHLOGIC\""
+          - columnReference:
+              columnCounter: 2000249107
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: POLENTERDELINQUENCYTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"POLENTERDELINQUENCYTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249108
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCTENTERDELNQTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ACCTENTERDELNQTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249109
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HOLDINVOICINGONDLNQPOLICIES
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HOLDINVOICINGONDLNQPOLICIES\""
+          - columnReference:
+              columnCounter: 2000249110
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AVAILABLEDISBAMTTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"AVAILABLEDISBAMTTYPE\""
+          - columnReference:
+              columnCounter: 2000249113
+              stepCounter: "200005452"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000249114
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEMPLACEMENTCUTOFFTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INVOICEITEMPLACEMENTCUTOFFTYPE\""
+          - columnReference:
+              columnCounter: 2000249115
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOWCOMMISSIONCLEARED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LOWCOMMISSIONCLEARED\""
+          - columnReference:
+              columnCounter: 2000249116
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTOLERAMOUNT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CANCELLATIONTOLERAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000249117
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ONETIMECHARGEAFTER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ONETIMECHARGEAFTER\""
+          - columnReference:
+              columnCounter: 2000249118
+              stepCounter: "200005452"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTPERCENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DOWNPAYMENTPERCENT\""
+          - columnReference:
+              columnCounter: 2000249119
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLEARCOMMISIONTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CLEARCOMMISIONTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249120
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000249121
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETODOWNPAYMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSFROMREFDATETODOWNPAYMENT\""
+          - columnReference:
+              columnCounter: 2000249122
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SECONDDUNNINGSENTIFNOTPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"SECONDDUNNINGSENTIFNOTPAID\""
+          - columnReference:
+              columnCounter: 2000249123
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTREVERSALFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PAYMENTREVERSALFEE\""
+          - columnReference:
+              columnCounter: 2000249124
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WESTERNMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"WESTERNMETHOD\""
+          - columnReference:
+              columnCounter: 2000249125
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FIRSTINSTALLMENTAFTER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"FIRSTINSTALLMENTAFTER\""
+          - columnReference:
+              columnCounter: 2000249126
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLEARGROSSTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CLEARGROSSTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249127
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LISTBILLACCOUNTEXCESSTREATMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LISTBILLACCOUNTEXCESSTREATMENT\""
+          - columnReference:
+              columnCounter: 2000249128
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEQUALIFICATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CHARGEQUALIFICATION\""
+          - columnReference:
+              columnCounter: 2000249129
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PLANORDER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PLANORDER\""
+          - columnReference:
+              columnCounter: 2000249130
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CANCELLATIONTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249131
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000249132
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REVIEWDISBURSEMENTOVER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"REVIEWDISBURSEMENTOVER\""
+          - columnReference:
+              columnCounter: 2000249133
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHANGEDEADLINEINTERVAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CHANGEDEADLINEINTERVAL\""
+          - columnReference:
+              columnCounter: 2000249134
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVIEWDISBURSEMENTOVER_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"REVIEWDISBURSEMENTOVER_CUR\""
+          - columnReference:
+              columnCounter: 2000249135
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSUNTILSECONDDUNNINGSENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSUNTILSECONDDUNNINGSENT\""
+          - columnReference:
+              columnCounter: 2000249136
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000249137
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLEARINGLOGICTARGET
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CLEARINGLOGICTARGET\""
+          - columnReference:
+              columnCounter: 2000249138
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPIRATIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000249139
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REMINDERSENTIFPROMISENOTRCVD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"REMINDERSENTIFPROMISENOTRCVD\""
+          - columnReference:
+              columnCounter: 2000249140
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSUNTILPROMISEREMINDERSENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSUNTILPROMISEREMINDERSENT\""
+          - columnReference:
+              columnCounter: 2000249141
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGGREGATION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"AGGREGATION\""
+          - columnReference:
+              columnCounter: 2000249142
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DRAFTDAYLOGIC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DRAFTDAYLOGIC\""
+          - columnReference:
+              columnCounter: 2000249143
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERWRITEOFFTHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PRODUCERWRITEOFFTHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249144
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOWBALANCEMETHOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LOWBALANCEMETHOD\""
+          - columnReference:
+              columnCounter: 2000249145
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FIRSTDUNNINGSENTIFNOTPAID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"FIRSTDUNNINGSENTIFNOTPAID\""
+          - columnReference:
+              columnCounter: 2000249146
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERWRITEOFFTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PRODUCERWRITEOFFTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249147
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETOONETIMECHARGE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DAYSFROMREFDATETOONETIMECHARGE\""
+          - columnReference:
+              columnCounter: 2000249148
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDUEINTERVAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PAYMENTDUEINTERVAL\""
+          - columnReference:
+              columnCounter: 2000249149
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NONRESPONSIVEPMNTDUEINTERVAL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"NONRESPONSIVEPMNTDUEINTERVAL\""
+          - columnReference:
+              columnCounter: 2000249150
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXITDELINQUENCYTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EXITDELINQUENCYTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249151
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LATEFEEAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"LATEFEEAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000249152
+              stepCounter: "200005452"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000249153
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"WRITEOFFAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000249154
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLHIGHLIMIT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"BELOWCOLHIGHLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000249155
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFSTATMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"NUMBEROFSTATMENTS\""
+          - columnReference:
+              columnCounter: 2000249156
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLHIGHLIMIT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INDIRECTCOLHIGHLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000249157
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLLOWERLIMIT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"BELOWCOLLOWERLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000249158
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLHIGHLIMIT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DIRECTCOLHIGHLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000249159
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGCYCLEPASTDUETHRESHOLD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"BILLINGCYCLEPASTDUETHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000249160
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLLOWLIMIT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INDIRECTCOLLOWLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000249161
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXITCRDTHRESHOLD_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EXITCRDTHRESHOLD_AMT\""
+          - columnReference:
+              columnCounter: 2000249162
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLOWLIMIT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DIRECTCOLLOWLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000249163
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CRDPLANINUSE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CRDPLANINUSE\""
+          - columnReference:
+              columnCounter: 2000249164
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFAMOUNT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"WRITEOFFAMOUNT_AMT\""
+          - columnReference:
+              columnCounter: 2000249165
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLHIGHLIMIT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"BELOWCOLHIGHLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000249166
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGCYCLEAUTOWRITEOFF
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"BILLINGCYCLEAUTOWRITEOFF\""
+          - columnReference:
+              columnCounter: 2000249167
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLHIGHLIMIT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INDIRECTCOLHIGHLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000249168
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLHIGHLIMIT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DIRECTCOLHIGHLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000249169
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLLOWERLIMIT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"BELOWCOLLOWERLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000249170
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXITCRDTHRESHOLD_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"EXITCRDTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000249171
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLLOWLIMIT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"INDIRECTCOLLOWLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000249172
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLOWLIMIT_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DIRECTCOLLOWLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000249173
+              stepCounter: "200005452"
+            dataType: VARCHAR(12)
+            defaultValue: ""
+            description: ""
+            name: CODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CODE\""
+          - columnReference:
+              columnCounter: 2000249174
+              stepCounter: "200005452"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISINSTALLMENTORFINANCEPLAN_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"ISINSTALLMENTORFINANCEPLAN_EXT\""
+          - columnReference:
+              columnCounter: 2000249175
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREDITTHRESHOLD_EXT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CREDITTHRESHOLD_EXT_CUR\""
+          - columnReference:
+              columnCounter: 2000249176
+              stepCounter: "200005452"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITTHRESHOLD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"CREDITTHRESHOLD_EXT\""
+          - columnReference:
+              columnCounter: 2000249177
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREMREPORTDOWNPAYMENTPCT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"PREMREPORTDOWNPAYMENTPCT_EXT\""
+          - columnReference:
+              columnCounter: 2000249178
+              stepCounter: "200005452"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000249179
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000249180
+              stepCounter: "200005452"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000249181
+              stepCounter: "200005452"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000249182
+              stepCounter: "200005452"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000249183
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000249184
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000249185
+              stepCounter: "200005452"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000249186
+              stepCounter: "200005452"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000249192
+              stepCounter: "200005452"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000249261
+              stepCounter: "200005452"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000249191
+              stepCounter: "200005452"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000249187
+              stepCounter: "200005452"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000249188
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PLAN\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000249190
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000249189
+              stepCounter: "200005452"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_PLAN
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_PLAN') }} \"LOAD_GW_BC_PROD_BC_PLAN\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_PLAN.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_PLAN_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_PLAN_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_PLAN_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200005452"

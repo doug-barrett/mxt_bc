@@ -1,0 +1,534 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_WRITEOFF_10_NEW-200006575:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000251400
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000251388
+              stepCounter: "200006575"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REVERSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"REVERSED\""
+          - columnReference:
+              columnCounter: 2000251389
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTCONTAINERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"TACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000251390
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"REASON\""
+          - columnReference:
+              columnCounter: 2000251391
+              stepCounter: "200006575"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000251392
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXECUTIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"EXECUTIONDATE\""
+          - columnReference:
+              columnCounter: 2000251393
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000251396
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000251397
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000251398
+              stepCounter: "200006575"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000251399
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMCOMMISSIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"ITEMCOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000251402
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTINGUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"REQUESTINGUSERID\""
+          - columnReference:
+              columnCounter: 2000251403
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000251404
+              stepCounter: "200006575"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REVERSEDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"REVERSEDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000251405
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"INVOICEITEMID\""
+          - columnReference:
+              columnCounter: 2000251406
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSEDAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"REVERSEDAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000251407
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"ID\""
+          - columnReference:
+              columnCounter: 2000251408
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251409
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000251410
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000251411
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000251412
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251413
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPROVALDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"APPROVALDATE\""
+          - columnReference:
+              columnCounter: 2000251414
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVALSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"APPROVALSTATUS\""
+          - columnReference:
+              columnCounter: 2000251415
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEPATTERNID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"CHARGEPATTERNID\""
+          - columnReference:
+              columnCounter: 2000251416
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGECOMMISSIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"CHARGECOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000251417
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROSSAGENCYPMNTITEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"GROSSAGENCYPMNTITEMID\""
+          - columnReference:
+              columnCounter: 2000251418
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000251419
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CMSNAGENCYPMNTITEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"CMSNAGENCYPMNTITEMID\""
+          - columnReference:
+              columnCounter: 2000251420
+              stepCounter: "200006575"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000251421
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251422
+              stepCounter: "200006575"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000251423
+              stepCounter: "200006575"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000251394
+              stepCounter: "200006575"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000251424
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251425
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000251426
+              stepCounter: "200006575"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000251427
+              stepCounter: "200006575"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000251432
+              stepCounter: "200006575"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000251395
+              stepCounter: "200006575"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000251401
+              stepCounter: "200006575"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000251428
+              stepCounter: "200006575"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000251429
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_WRITEOFF\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000251431
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000251430
+              stepCounter: "200006575"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_WRITEOFF
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_WRITEOFF') }} \"LOAD_GW_BC_PROD_BC_WRITEOFF\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_WRITEOFF.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_WRITEOFF_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_WRITEOFF_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_WRITEOFF_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200006575"

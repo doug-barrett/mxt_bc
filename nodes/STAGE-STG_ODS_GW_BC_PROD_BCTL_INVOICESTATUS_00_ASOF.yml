@@ -1,0 +1,325 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_00_ASOF-200033732:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000300647
+              stepCounter: "200033732"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000300648
+              stepCounter: "200033732"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000300649
+              stepCounter: "200033732"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000300650
+              stepCounter: "200033732"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000300651
+              stepCounter: "200033732"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000300652
+              stepCounter: "200033732"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000300653
+              stepCounter: "200033732"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000300654
+              stepCounter: "200033732"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000300665
+              stepCounter: "200033732"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000300655
+              stepCounter: "200033732"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000300657
+              stepCounter: "200033732"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000300666
+              stepCounter: "200033732"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000300667
+              stepCounter: "200033732"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000300668
+              stepCounter: "200033732"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000300656
+              stepCounter: "200033732"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000300669
+              stepCounter: "200033732"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000300670
+              stepCounter: "200033732"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000300671
+              stepCounter: "200033732"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000300662
+              stepCounter: "200033732"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000300663
+              stepCounter: "200033732"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000300664
+              stepCounter: "200033732"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CASE   WHEN LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.HVROP = 0 THEN 'Y'   WHEN LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.HVRCAPTSTAMP < ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE THEN 'Y'   ELSE 'N'   END
+          - columnReference:
+              columnCounter: 2000300672
+              stepCounter: "200033732"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROW_NUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ROW_NUMBER() OVER(    PARTITION BY      LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.ID    ORDER BY      LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.HVRCAPTSTAMP DESC     ,LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.HVRINTEGSEQ DESC  )
+          - columnReference:
+              columnCounter: 2000300658
+              stepCounter: "200033732"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000300659
+              stepCounter: "200033732"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000300661
+              stepCounter: "200033732"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000300660
+              stepCounter: "200033732"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCTL_INVOICESTATUS
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCTL_INVOICESTATUS') }} \"LOAD_GW_BC_PROD_BCTL_INVOICESTATUS\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY = 'BC_PROD'   AND LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.HVRCAPTSTAMP < ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP  JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_BC_PROD_BCTL_INVOICESTATUS.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  "
+            name: STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_00_ASOF
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_00_ASOF
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200033732"

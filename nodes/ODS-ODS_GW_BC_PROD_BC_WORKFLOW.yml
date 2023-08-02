@@ -1,0 +1,813 @@
+steps:
+  ODS_GW_BC_PROD_BC_WORKFLOW-200023141:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000146113
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000146114
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENTEREDSTEP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ENTEREDSTEP\""
+          - columnReference:
+              columnCounter: 2000146115
+              stepCounter: "200023141"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSSTEP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PREVIOUSSTEP\""
+          - columnReference:
+              columnCounter: 2000146116
+              stepCounter: "200023141"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000146117
+              stepCounter: "200023141"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CURRENTSTEP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"CURRENTSTEP\""
+          - columnReference:
+              columnCounter: 2000146118
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOPLEVELDELINQUENCYPROCESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"TOPLEVELDELINQUENCYPROCESSID\""
+          - columnReference:
+              columnCounter: 2000146119
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MESSAGEHISTORYID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"MESSAGEHISTORYID\""
+          - columnReference:
+              columnCounter: 2000146120
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROCESSVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PROCESSVERSION\""
+          - columnReference:
+              columnCounter: 2000146121
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000146122
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HANDLER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HANDLER\""
+          - columnReference:
+              columnCounter: 2000146123
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000146124
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACTIVESTATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ACTIVESTATE\""
+          - columnReference:
+              columnCounter: 2000146125
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000146126
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOGENTRYCOUNTER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"LOGENTRYCOUNTER\""
+          - columnReference:
+              columnCounter: 2000146127
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000146128
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000146129
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000146130
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000146131
+              stepCounter: "200023141"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CURRENTBRANCH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"CURRENTBRANCH\""
+          - columnReference:
+              columnCounter: 2000146132
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000146133
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000146134
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TESTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"TESTTIME\""
+          - columnReference:
+              columnCounter: 2000146135
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MESSAGEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"MESSAGEID\""
+          - columnReference:
+              columnCounter: 2000146136
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000146137
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000146138
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000146139
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCYCLEPROCESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"AGENCYCYCLEPROCESSID\""
+          - columnReference:
+              columnCounter: 2000146140
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000146141
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STEPEXECTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"STEPEXECTIME\""
+          - columnReference:
+              columnCounter: 2000146142
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: TIMEOUTTIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"TIMEOUTTIME\""
+          - columnReference:
+              columnCounter: 2000146143
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENTACTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"CURRENTACTION\""
+          - columnReference:
+              columnCounter: 2000146144
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000146145
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000146146
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRIGGERINVOKED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"TRIGGERINVOKED\""
+          - columnReference:
+              columnCounter: 2000146147
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPROCESSID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"DELINQUENCYPROCESSID\""
+          - columnReference:
+              columnCounter: 2000146148
+              stepCounter: "200023141"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: FORCETIMEOUTBRANCH
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"FORCETIMEOUTBRANCH\""
+          - columnReference:
+              columnCounter: 2000146149
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000146150
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000146151
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000146152
+              stepCounter: "200023141"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: STARTAMOUNTDUE_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"STARTAMOUNTDUE_AMT\""
+          - columnReference:
+              columnCounter: 2000146153
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTBALANCE_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"LASTBALANCE_CUR\""
+          - columnReference:
+              columnCounter: 2000146154
+              stepCounter: "200023141"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LASTBALANCE_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"LASTBALANCE_AMT\""
+          - columnReference:
+              columnCounter: 2000146155
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONSTATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"COLLECTIONSTATUS\""
+          - columnReference:
+              columnCounter: 2000146156
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PRODUCER\""
+          - columnReference:
+              columnCounter: 2000146157
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"REASON\""
+          - columnReference:
+              columnCounter: 2000146158
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INCEPTIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"INCEPTIONDATE\""
+          - columnReference:
+              columnCounter: 2000146159
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXITDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"EXITDATE\""
+          - columnReference:
+              columnCounter: 2000146160
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CRDELINQUENCYPLAN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"CRDELINQUENCYPLAN\""
+          - columnReference:
+              columnCounter: 2000146161
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WORKBYDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"WORKBYDATE\""
+          - columnReference:
+              columnCounter: 2000146162
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HOLDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HOLDDATE\""
+          - columnReference:
+              columnCounter: 2000146163
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000146164
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STARTAMOUNTDUE_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"STARTAMOUNTDUE_CUR\""
+          - columnReference:
+              columnCounter: 2000146165
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PHASE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"PHASE\""
+          - columnReference:
+              columnCounter: 2000146166
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TROUBLETICKET
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"TROUBLETICKET\""
+          - columnReference:
+              columnCounter: 2000146167
+              stepCounter: "200023141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000146168
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000146169
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000146170
+              stepCounter: "200023141"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000146171
+              stepCounter: "200023141"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000146172
+              stepCounter: "200023141"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000146173
+              stepCounter: "200023141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000146174
+              stepCounter: "200023141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000146175
+              stepCounter: "200023141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000146176
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000146177
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000146178
+              stepCounter: "200023141"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000146179
+              stepCounter: "200023141"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000146180
+              stepCounter: "200023141"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000146181
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000146183
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000146182
+              stepCounter: "200023141"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW') }} "STG_ODS_GW_BC_PROD_BC_WORKFLOW_10_NEW"
+            name: ODS_GW_BC_PROD_BC_WORKFLOW
+            noLinkRefs: []
+      name: ODS_GW_BC_PROD_BC_WORKFLOW
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200023141"

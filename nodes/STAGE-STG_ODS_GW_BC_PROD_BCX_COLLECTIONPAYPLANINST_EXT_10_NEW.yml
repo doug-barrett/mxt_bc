@@ -1,0 +1,479 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_10_NEW-200023460:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000251837
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000251838
+              stepCounter: "200023460"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTPLANSERVICEFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"PAYMENTPLANSERVICEFEE\""
+          - columnReference:
+              columnCounter: 2000251839
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251840
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CHARGEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"CHARGEDATE\""
+          - columnReference:
+              columnCounter: 2000251841
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DUEDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"DUEDATE\""
+          - columnReference:
+              columnCounter: 2000251842
+              stepCounter: "200023460"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000251843
+              stepCounter: "200023460"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PAIDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"PAIDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000251844
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000251845
+              stepCounter: "200023460"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ATTORNEYFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"ATTORNEYFEE\""
+          - columnReference:
+              columnCounter: 2000251846
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000251847
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000251848
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251849
+              stepCounter: "200023460"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HASACCOUNTFEESGENERATED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HASACCOUNTFEESGENERATED\""
+          - columnReference:
+              columnCounter: 2000251850
+              stepCounter: "200023460"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PREMIUMAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"PREMIUMAMOUNT\""
+          - columnReference:
+              columnCounter: 2000251851
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"ACTIVITY\""
+          - columnReference:
+              columnCounter: 2000251852
+              stepCounter: "200023460"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: COURTSCOSTFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"COURTSCOSTFEE\""
+          - columnReference:
+              columnCounter: 2000251853
+              stepCounter: "200023460"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: JUDGEMENTFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"JUDGEMENTFEE\""
+          - columnReference:
+              columnCounter: 2000251854
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONPAYMENTPLAN_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"COLLECTIONPAYMENTPLAN_EXT\""
+          - columnReference:
+              columnCounter: 2000251855
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000251856
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTPAYINSTSTATUS_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"COLLECTPAYINSTSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000251857
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000251858
+              stepCounter: "200023460"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INTERESTSERVICEFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"INTERESTSERVICEFEE\""
+          - columnReference:
+              columnCounter: 2000251859
+              stepCounter: "200023460"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISDOWNPAYMENTINSTALLMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"ISDOWNPAYMENTINSTALLMENT\""
+          - columnReference:
+              columnCounter: 2000251860
+              stepCounter: "200023460"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000251861
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251862
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000251874
+              stepCounter: "200023460"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000251875
+              stepCounter: "200023460"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000251876
+              stepCounter: "200023460"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000251863
+              stepCounter: "200023460"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000251864
+              stepCounter: "200023460"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000251865
+              stepCounter: "200023460"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000251866
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251867
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000251868
+              stepCounter: "200023460"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000251869
+              stepCounter: "200023460"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000251870
+              stepCounter: "200023460"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000251871
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000251873
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000251872
+              stepCounter: "200023460"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT') }} \"LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO\"    ON LOAD_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONPAYPLANINST_EXT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200023460"

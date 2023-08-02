@@ -1,0 +1,334 @@
+steps:
+  LOAD_GW_BC_PROD_BC_UNAPPLIEDFUND-200022873:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000127253
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000127254
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127255
+              stepCounter: "200022873"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000127256
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DEFAULTACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"DEFAULTACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000127257
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000127258
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000127259
+              stepCounter: "200022873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000127260
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTINGGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"REPORTINGGROUPID\""
+          - columnReference:
+              columnCounter: 2000127261
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"POLICYID\""
+          - columnReference:
+              columnCounter: 2000127262
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127263
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000127264
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"TACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000127265
+              stepCounter: "200022873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000127266
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"ID\""
+          - columnReference:
+              columnCounter: 2000127267
+              stepCounter: "200022873"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000127268
+              stepCounter: "200022873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000127269
+              stepCounter: "200022873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127270
+              stepCounter: "200022873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000127271
+              stepCounter: "200022873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000127272
+              stepCounter: "200022873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000127273
+              stepCounter: "200022873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000127274
+              stepCounter: "200022873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127275
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000127276
+              stepCounter: "200022873"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000127277
+              stepCounter: "200022873"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_UNAPPLIEDFUND\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000127252
+              stepCounter: "200022873"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_UNAPPLIEDFUND'"
+          - columnReference:
+              columnCounter: 2000127251
+              stepCounter: "200022873"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_UNAPPLIEDFUND
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_UNAPPLIEDFUND') }} "BC_UNAPPLIEDFUND" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_UNAPPLIEDFUND') }} "ODS_GW_BC_PROD_BC_UNAPPLIEDFUND")
+            name: LOAD_GW_BC_PROD_BC_UNAPPLIEDFUND
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_UNAPPLIEDFUND
+      name: LOAD_GW_BC_PROD_BC_UNAPPLIEDFUND
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022873"

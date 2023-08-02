@@ -1,0 +1,281 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_10_NEW-200018792:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000246674
+              stepCounter: "200018792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TIER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"TIER\""
+          - columnReference:
+              columnCounter: 2000246675
+              stepCounter: "200018792"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000246676
+              stepCounter: "200018792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000246677
+              stepCounter: "200018792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000246678
+              stepCounter: "200018792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMMISSIONPLANID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"COMMISSIONPLANID\""
+          - columnReference:
+              columnCounter: 2000246679
+              stepCounter: "200018792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000246680
+              stepCounter: "200018792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000246681
+              stepCounter: "200018792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000246682
+              stepCounter: "200018792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000246683
+              stepCounter: "200018792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000246684
+              stepCounter: "200018792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000246685
+              stepCounter: "200018792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000246686
+              stepCounter: "200018792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000246687
+              stepCounter: "200018792"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000246688
+              stepCounter: "200018792"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000246693
+              stepCounter: "200018792"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000246694
+              stepCounter: "200018792"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000246695
+              stepCounter: "200018792"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000246689
+              stepCounter: "200018792"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000246690
+              stepCounter: "200018792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000246692
+              stepCounter: "200018792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000246691
+              stepCounter: "200018792"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER') }} \"LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_COMMISSIONPLANTIER.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_COMMISSIONPLANTIER_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018792"

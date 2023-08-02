@@ -1,0 +1,369 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_10_NEW-200023209:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000251477
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000251478
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251479
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BASEPAYMENTITEMID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"BASEPAYMENTITEMID\""
+          - columnReference:
+              columnCounter: 2000251480
+              stepCounter: "200023209"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000251481
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEWRITTENOFFID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"CHARGEWRITTENOFFID\""
+          - columnReference:
+              columnCounter: 2000251482
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000251483
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000251484
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000251485
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251486
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000251487
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000251488
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000251489
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMCOMMISSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"ITEMCOMMISSION\""
+          - columnReference:
+              columnCounter: 2000251490
+              stepCounter: "200023209"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000251491
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251492
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000251504
+              stepCounter: "200023209"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000251505
+              stepCounter: "200023209"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000251506
+              stepCounter: "200023209"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000251493
+              stepCounter: "200023209"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000251494
+              stepCounter: "200023209"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000251495
+              stepCounter: "200023209"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000251496
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251497
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000251498
+              stepCounter: "200023209"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000251499
+              stepCounter: "200023209"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000251500
+              stepCounter: "200023209"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000251501
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000251503
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000251502
+              stepCounter: "200023209"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER') }} \"LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_ZEROCMSNEARNEDMARKER_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200023209"

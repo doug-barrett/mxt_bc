@@ -1,0 +1,279 @@
+steps:
+  LOAD_GW_BC_PROD_BC_SECURITYZONE-200022862:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126793
+              stepCounter: "200022862"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126794
+              stepCounter: "200022862"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126795
+              stepCounter: "200022862"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000126796
+              stepCounter: "200022862"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126797
+              stepCounter: "200022862"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000126798
+              stepCounter: "200022862"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000126799
+              stepCounter: "200022862"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126800
+              stepCounter: "200022862"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000126801
+              stepCounter: "200022862"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000126802
+              stepCounter: "200022862"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126803
+              stepCounter: "200022862"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126804
+              stepCounter: "200022862"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126805
+              stepCounter: "200022862"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126806
+              stepCounter: "200022862"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126807
+              stepCounter: "200022862"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126808
+              stepCounter: "200022862"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126809
+              stepCounter: "200022862"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126810
+              stepCounter: "200022862"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126811
+              stepCounter: "200022862"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126812
+              stepCounter: "200022862"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SECURITYZONE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126792
+              stepCounter: "200022862"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_SECURITYZONE'"
+          - columnReference:
+              columnCounter: 2000126791
+              stepCounter: "200022862"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_SECURITYZONE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_SECURITYZONE') }} "BC_SECURITYZONE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_SECURITYZONE') }} "ODS_GW_BC_PROD_BC_SECURITYZONE")
+            name: LOAD_GW_BC_PROD_BC_SECURITYZONE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_SECURITYZONE
+      name: LOAD_GW_BC_PROD_BC_SECURITYZONE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022862"

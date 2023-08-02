@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ACCTPMNTINST-200018556:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000122953
+              stepCounter: "200018556"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000122954
+              stepCounter: "200018556"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000122955
+              stepCounter: "200018556"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000122956
+              stepCounter: "200018556"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000122957
+              stepCounter: "200018556"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"ID\""
+          - columnReference:
+              columnCounter: 2000122958
+              stepCounter: "200018556"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000122959
+              stepCounter: "200018556"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000122960
+              stepCounter: "200018556"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000122961
+              stepCounter: "200018556"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000122962
+              stepCounter: "200018556"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000122963
+              stepCounter: "200018556"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000122964
+              stepCounter: "200018556"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000122965
+              stepCounter: "200018556"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000122966
+              stepCounter: "200018556"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000122967
+              stepCounter: "200018556"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000122968
+              stepCounter: "200018556"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCTPMNTINST\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000122952
+              stepCounter: "200018556"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ACCTPMNTINST'"
+          - columnReference:
+              columnCounter: 2000122951
+              stepCounter: "200018556"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ACCTPMNTINST
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ACCTPMNTINST') }} "BC_ACCTPMNTINST" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ACCTPMNTINST') }} "ODS_GW_BC_PROD_BC_ACCTPMNTINST")
+            name: LOAD_GW_BC_PROD_BC_ACCTPMNTINST
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ACCTPMNTINST
+      name: LOAD_GW_BC_PROD_BC_ACCTPMNTINST
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018556"

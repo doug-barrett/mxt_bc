@@ -1,0 +1,323 @@
+steps:
+  LOAD_GW_BC_PROD_BC_DELINQUENCYPLANEVENT-200022558:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124401
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPLANREASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"DELINQUENCYPLANREASON\""
+          - columnReference:
+              columnCounter: 2000124402
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RELATIVEORDER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"RELATIVEORDER\""
+          - columnReference:
+              columnCounter: 2000124403
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124404
+              stepCounter: "200022558"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124405
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EVENTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"EVENTNAME\""
+          - columnReference:
+              columnCounter: 2000124406
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRIGGERBASIS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"TRIGGERBASIS\""
+          - columnReference:
+              columnCounter: 2000124407
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124408
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000124409
+              stepCounter: "200022558"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124410
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OFFSETDAYS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"OFFSETDAYS\""
+          - columnReference:
+              columnCounter: 2000124411
+              stepCounter: "200022558"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AUTOMATIC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"AUTOMATIC\""
+          - columnReference:
+              columnCounter: 2000124412
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124413
+              stepCounter: "200022558"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124414
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124415
+              stepCounter: "200022558"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124416
+              stepCounter: "200022558"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124417
+              stepCounter: "200022558"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000124418
+              stepCounter: "200022558"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124419
+              stepCounter: "200022558"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124420
+              stepCounter: "200022558"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124421
+              stepCounter: "200022558"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124422
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124423
+              stepCounter: "200022558"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124424
+              stepCounter: "200022558"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPLANEVENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124400
+              stepCounter: "200022558"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_DELINQUENCYPLANEVENT'"
+          - columnReference:
+              columnCounter: 2000124399
+              stepCounter: "200022558"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_DELINQUENCYPLANEVENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_DELINQUENCYPLANEVENT') }} "BC_DELINQUENCYPLANEVENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_DELINQUENCYPLANEVENT') }} "ODS_GW_BC_PROD_BC_DELINQUENCYPLANEVENT")
+            name: LOAD_GW_BC_PROD_BC_DELINQUENCYPLANEVENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_DELINQUENCYPLANEVENT
+      name: LOAD_GW_BC_PROD_BC_DELINQUENCYPLANEVENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022558"

@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_REVINVOICEITEM-200022016:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126637
+              stepCounter: "200022016"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000126638
+              stepCounter: "200022016"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000126639
+              stepCounter: "200022016"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126640
+              stepCounter: "200022016"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126641
+              stepCounter: "200022016"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126642
+              stepCounter: "200022016"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000126643
+              stepCounter: "200022016"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126644
+              stepCounter: "200022016"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126645
+              stepCounter: "200022016"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126646
+              stepCounter: "200022016"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126647
+              stepCounter: "200022016"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126648
+              stepCounter: "200022016"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126649
+              stepCounter: "200022016"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126650
+              stepCounter: "200022016"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126651
+              stepCounter: "200022016"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126652
+              stepCounter: "200022016"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVINVOICEITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126636
+              stepCounter: "200022016"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_REVINVOICEITEM'"
+          - columnReference:
+              columnCounter: 2000126635
+              stepCounter: "200022016"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_REVINVOICEITEM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_REVINVOICEITEM') }} "BC_REVINVOICEITEM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_REVINVOICEITEM') }} "ODS_GW_BC_PROD_BC_REVINVOICEITEM")
+            name: LOAD_GW_BC_PROD_BC_REVINVOICEITEM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_REVINVOICEITEM
+      name: LOAD_GW_BC_PROD_BC_REVINVOICEITEM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022016"

@@ -1,0 +1,288 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_PLAN_15_M-200025409:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: true
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 2000155484
+              stepCounter: "200025409"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"L_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000155580
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155485
+              stepCounter: "200025409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"PRIORITY\""
+              - columnReferences:
+                  - columnCounter: 2000155581
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155486
+              stepCounter: "200025409"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"TYPECODE\""
+              - columnReferences:
+                  - columnCounter: 2000155582
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155487
+              stepCounter: "200025409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"S_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000155583
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155488
+              stepCounter: "200025409"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"RETIRED\""
+              - columnReferences:
+                  - columnCounter: 2000155584
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155489
+              stepCounter: "200025409"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"NAME\""
+              - columnReferences:
+                  - columnCounter: 2000155585
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155490
+              stepCounter: "200025409"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"ID\""
+              - columnReferences:
+                  - columnCounter: 2000155586
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155491
+              stepCounter: "200025409"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"DESCRIPTION\""
+              - columnReferences:
+                  - columnCounter: 2000155587
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155492
+              stepCounter: "200025409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"HVRCAPTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000155588
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155493
+              stepCounter: "200025409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"HVRINTEGTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000155589
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155494
+              stepCounter: "200025409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"HVRCAPTSTAMPUTC\""
+              - columnReferences:
+                  - columnCounter: 2000155590
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155495
+              stepCounter: "200025409"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"HVRCAPTUREKEY\""
+              - columnReferences:
+                  - columnCounter: 2000155591
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155496
+              stepCounter: "200025409"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"BATCH_NUMBER\""
+              - columnReferences:
+                  - columnCounter: 2000155592
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155497
+              stepCounter: "200025409"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"DELETE_FLAG\""
+              - columnReferences:
+                  - columnCounter: 2000155593
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155499
+              stepCounter: "200025409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"DSS_CREATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000155595
+                    stepCounter: "200025434"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000155498
+              stepCounter: "200025409"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD\".\"DSS_UPDATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000155594
+                    stepCounter: "200025434"
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD') }} "STG_ODS_GW_BC_PROD_BCTL_PLAN_05_LOAD"
+            name: STG_ODS_GW_BC_PROD_BCTL_PLAN_15_M
+            noLinkRefs: []
+          - aliases:
+              STG_ODS_GW_BC_PROD_BCTL_PLAN_10_DELETE: "200025434"
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_PLAN_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE', 'STG_ODS_GW_BC_PROD_BCTL_PLAN_10_DELETE') }} "STG_ODS_GW_BC_PROD_BCTL_PLAN_10_DELETE"
+            name: STG_ODS_GW_BC_PROD_BCTL_PLAN_10_DEL
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_PLAN_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200025409"

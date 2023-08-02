@@ -1,0 +1,554 @@
+steps:
+  LOAD_GW_BC_PROD_BC_DELINQUENCYPROCESS-200022560:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124450
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000124451
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"PREVIOUSGROUPID\""
+          - columnReference:
+              columnCounter: 2000124452
+              stepCounter: "200022560"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124453
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"REASON\""
+          - columnReference:
+              columnCounter: 2000124454
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000124455
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124456
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDBYUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ASSIGNEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000124457
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INCEPTIONDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"INCEPTIONDATE\""
+          - columnReference:
+              columnCounter: 2000124458
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXITDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"EXITDATE\""
+          - columnReference:
+              columnCounter: 2000124459
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ASSIGNEDGROUPID\""
+          - columnReference:
+              columnCounter: 2000124460
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"POLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000124461
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000124462
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000124463
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSQUEUEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"PREVIOUSQUEUEID\""
+          - columnReference:
+              columnCounter: 2000124464
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124465
+              stepCounter: "200022560"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000124466
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000124467
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124468
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREVIOUSUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"PREVIOUSUSERID\""
+          - columnReference:
+              columnCounter: 2000124469
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDQUEUEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ASSIGNEDQUEUEID\""
+          - columnReference:
+              columnCounter: 2000124470
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124471
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HELDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HELDDATE\""
+          - columnReference:
+              columnCounter: 2000124472
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000124473
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124474
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000124475
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124476
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TMIDELINQUECYSUBREASON_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"TMIDELINQUECYSUBREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000124477
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000124478
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ASSIGNEDUSERID\""
+          - columnReference:
+              columnCounter: 2000124479
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"DELINQUENCYPLANID\""
+          - columnReference:
+              columnCounter: 2000124480
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000124481
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PHASE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"PHASE\""
+          - columnReference:
+              columnCounter: 2000124482
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ASSIGNMENTDATE\""
+          - columnReference:
+              columnCounter: 2000124483
+              stepCounter: "200022560"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISWRITEOFF_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ISWRITEOFF_EXT\""
+          - columnReference:
+              columnCounter: 2000124484
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"ASSIGNMENTSTATUS\""
+          - columnReference:
+              columnCounter: 2000124485
+              stepCounter: "200022560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124486
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124487
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000124488
+              stepCounter: "200022560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124489
+              stepCounter: "200022560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124490
+              stepCounter: "200022560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124491
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124492
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124493
+              stepCounter: "200022560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124494
+              stepCounter: "200022560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQUENCYPROCESS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124449
+              stepCounter: "200022560"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_DELINQUENCYPROCESS'"
+          - columnReference:
+              columnCounter: 2000124448
+              stepCounter: "200022560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_DELINQUENCYPROCESS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_DELINQUENCYPROCESS') }} "BC_DELINQUENCYPROCESS" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_DELINQUENCYPROCESS') }} "ODS_GW_BC_PROD_BC_DELINQUENCYPROCESS")
+            name: LOAD_GW_BC_PROD_BC_DELINQUENCYPROCESS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_DELINQUENCYPROCESS
+      name: LOAD_GW_BC_PROD_BC_DELINQUENCYPROCESS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022560"

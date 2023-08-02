@@ -1,0 +1,301 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_CRDELPLANREASON_EXT-200022894:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000127992
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000127993
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127994
+              stepCounter: "200022894"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000127995
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000127996
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000127997
+              stepCounter: "200022894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000127998
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CRDELINQUENCYPLAN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"CRDELINQUENCYPLAN\""
+          - columnReference:
+              columnCounter: 2000127999
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128000
+              stepCounter: "200022894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128001
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYREASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"DELINQUENCYREASON\""
+          - columnReference:
+              columnCounter: 2000128002
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKFLOWTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"WORKFLOWTYPE\""
+          - columnReference:
+              columnCounter: 2000128003
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128004
+              stepCounter: "200022894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128005
+              stepCounter: "200022894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128006
+              stepCounter: "200022894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128007
+              stepCounter: "200022894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128008
+              stepCounter: "200022894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128009
+              stepCounter: "200022894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128010
+              stepCounter: "200022894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128011
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128012
+              stepCounter: "200022894"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128013
+              stepCounter: "200022894"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_CRDELPLANREASON_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000127991
+              stepCounter: "200022894"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_CRDELPLANREASON_EXT'"
+          - columnReference:
+              columnCounter: 2000127990
+              stepCounter: "200022894"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_CRDELPLANREASON_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_CRDELPLANREASON_EXT') }} "BCX_CRDELPLANREASON_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_CRDELPLANREASON_EXT') }} "ODS_GW_BC_PROD_BCX_CRDELPLANREASON_EXT")
+            name: LOAD_GW_BC_PROD_BCX_CRDELPLANREASON_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_CRDELPLANREASON_EXT
+      name: LOAD_GW_BC_PROD_BCX_CRDELPLANREASON_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022894"

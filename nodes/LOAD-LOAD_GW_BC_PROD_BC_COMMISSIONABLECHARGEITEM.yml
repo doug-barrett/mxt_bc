@@ -1,0 +1,224 @@
+steps:
+  LOAD_GW_BC_PROD_BC_COMMISSIONABLECHARGEITEM-200018750:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123983
+              stepCounter: "200018750"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123984
+              stepCounter: "200018750"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEPATTERNID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"CHARGEPATTERNID\""
+          - columnReference:
+              columnCounter: 2000123985
+              stepCounter: "200018750"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123986
+              stepCounter: "200018750"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMMISSIONSUBPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"COMMISSIONSUBPLANID\""
+          - columnReference:
+              columnCounter: 2000123987
+              stepCounter: "200018750"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123988
+              stepCounter: "200018750"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123989
+              stepCounter: "200018750"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123990
+              stepCounter: "200018750"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123991
+              stepCounter: "200018750"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123992
+              stepCounter: "200018750"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123993
+              stepCounter: "200018750"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123994
+              stepCounter: "200018750"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123995
+              stepCounter: "200018750"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123996
+              stepCounter: "200018750"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123997
+              stepCounter: "200018750"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONABLECHARGEITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123982
+              stepCounter: "200018750"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_COMMISSIONABLECHARGEITEM'"
+          - columnReference:
+              columnCounter: 2000123981
+              stepCounter: "200018750"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_COMMISSIONABLECHARGEITEM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_COMMISSIONABLECHARGEITEM') }} "BC_COMMISSIONABLECHARGEITEM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_COMMISSIONABLECHARGEITEM') }} "ODS_GW_BC_PROD_BC_COMMISSIONABLECHARGEITEM")
+            name: LOAD_GW_BC_PROD_BC_COMMISSIONABLECHARGEITEM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_COMMISSIONABLECHARGEITEM
+      name: LOAD_GW_BC_PROD_BC_COMMISSIONABLECHARGEITEM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018750"

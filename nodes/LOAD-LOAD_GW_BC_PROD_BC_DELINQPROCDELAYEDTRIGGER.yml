@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_DELINQPROCDELAYEDTRIGGER-200018761:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124383
+              stepCounter: "200018761"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124384
+              stepCounter: "200018761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DELAYEDTRIGGERDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"DELAYEDTRIGGERDATE\""
+          - columnReference:
+              columnCounter: 2000124385
+              stepCounter: "200018761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELAYEDTRIGGER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"DELAYEDTRIGGER\""
+          - columnReference:
+              columnCounter: 2000124386
+              stepCounter: "200018761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPROCESSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"DELINQUENCYPROCESSID\""
+          - columnReference:
+              columnCounter: 2000124387
+              stepCounter: "200018761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124388
+              stepCounter: "200018761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124389
+              stepCounter: "200018761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124390
+              stepCounter: "200018761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124391
+              stepCounter: "200018761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000124392
+              stepCounter: "200018761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124393
+              stepCounter: "200018761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124394
+              stepCounter: "200018761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124395
+              stepCounter: "200018761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124396
+              stepCounter: "200018761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124397
+              stepCounter: "200018761"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124398
+              stepCounter: "200018761"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DELINQPROCDELAYEDTRIGGER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124382
+              stepCounter: "200018761"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_DELINQPROCDELAYEDTRIGGER'"
+          - columnReference:
+              columnCounter: 2000124381
+              stepCounter: "200018761"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_DELINQPROCDELAYEDTRIGGER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_DELINQPROCDELAYEDTRIGGER') }} "BC_DELINQPROCDELAYEDTRIGGER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_DELINQPROCDELAYEDTRIGGER') }} "ODS_GW_BC_PROD_BC_DELINQPROCDELAYEDTRIGGER")
+            name: LOAD_GW_BC_PROD_BC_DELINQPROCDELAYEDTRIGGER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_DELINQPROCDELAYEDTRIGGER
+      name: LOAD_GW_BC_PROD_BC_DELINQPROCDELAYEDTRIGGER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018761"

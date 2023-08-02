@@ -1,0 +1,675 @@
+steps:
+  LOAD_GW_BC_PROD_BC_DISBURSEMENT-200005198:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124529
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCYCLEPAYMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"AGENCYCYCLEPAYMENTID\""
+          - columnReference:
+              columnCounter: 2000124530
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000124531
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INTERNALCOMMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"INTERNALCOMMENT\""
+          - columnReference:
+              columnCounter: 2000124532
+              stepCounter: "200005198"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124533
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"REASON\""
+          - columnReference:
+              columnCounter: 2000124534
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYTO_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"PAYTO_EXT\""
+          - columnReference:
+              columnCounter: 2000124535
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FINANCECOMPANY_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"FINANCECOMPANY_EXT\""
+          - columnReference:
+              columnCounter: 2000124536
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000124537
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTINSTRUMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"PAYMENTINSTRUMENTID\""
+          - columnReference:
+              columnCounter: 2000124538
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124539
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"ACCOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000124540
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000124541
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLATERALID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"COLLATERALID\""
+          - columnReference:
+              columnCounter: 2000124542
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAILTO_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"MAILTO_EXT\""
+          - columnReference:
+              columnCounter: 2000124543
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124544
+              stepCounter: "200005198"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000124545
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VOIDREASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"VOIDREASON\""
+          - columnReference:
+              columnCounter: 2000124546
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFNUMBERDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"REFNUMBERDENORM\""
+          - columnReference:
+              columnCounter: 2000124547
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000124548
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTINGUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"REQUESTINGUSERID\""
+          - columnReference:
+              columnCounter: 2000124549
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124550
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"REFNUMBER\""
+          - columnReference:
+              columnCounter: 2000124551
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREMIUMFINANCECOM_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"PREMIUMFINANCECOM_EXT\""
+          - columnReference:
+              columnCounter: 2000124552
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTODENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"PAYTODENORM\""
+          - columnReference:
+              columnCounter: 2000124553
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124554
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DUEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"DUEDATE\""
+          - columnReference:
+              columnCounter: 2000124555
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"PAYTO\""
+          - columnReference:
+              columnCounter: 2000124556
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UNAPPLIEDFUNDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"UNAPPLIEDFUNDID\""
+          - columnReference:
+              columnCounter: 2000124557
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAILTOADDRESS_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"MAILTOADDRESS_EXT\""
+          - columnReference:
+              columnCounter: 2000124558
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: VOIDDATE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"VOIDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000124559
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CLOSEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"CLOSEDATE\""
+          - columnReference:
+              columnCounter: 2000124560
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUSPENSEPAYMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"SUSPENSEPAYMENTID\""
+          - columnReference:
+              columnCounter: 2000124561
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124562
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000124563
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"DISBURSEMENTNUMBER\""
+          - columnReference:
+              columnCounter: 2000124564
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BATCHRECEIVEDDATE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"BATCHRECEIVEDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000124565
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTINGGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"REPORTINGGROUPID\""
+          - columnReference:
+              columnCounter: 2000124566
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000124567
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124568
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPROVALDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"APPROVALDATE\""
+          - columnReference:
+              columnCounter: 2000124569
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000124570
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"MAILTO\""
+          - columnReference:
+              columnCounter: 2000124571
+              stepCounter: "200005198"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: ADDRESS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"ADDRESS\""
+          - columnReference:
+              columnCounter: 2000124572
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVALSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"APPROVALSTATUS\""
+          - columnReference:
+              columnCounter: 2000124573
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTACTION_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"DISBURSEMENTACTION_EXT\""
+          - columnReference:
+              columnCounter: 2000124574
+              stepCounter: "200005198"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MEMO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"MEMO\""
+          - columnReference:
+              columnCounter: 2000124575
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000124576
+              stepCounter: "200005198"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124577
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124578
+              stepCounter: "200005198"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124579
+              stepCounter: "200005198"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124580
+              stepCounter: "200005198"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124581
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124582
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124583
+              stepCounter: "200005198"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124584
+              stepCounter: "200005198"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DISBURSEMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124528
+              stepCounter: "200005198"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_DISBURSEMENT'"
+          - columnReference:
+              columnCounter: 2000124527
+              stepCounter: "200005198"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_DISBURSEMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_DISBURSEMENT') }} "BC_DISBURSEMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_DISBURSEMENT') }} "ODS_GW_BC_PROD_BC_DISBURSEMENT")
+            name: LOAD_GW_BC_PROD_BC_DISBURSEMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_DISBURSEMENT
+      name: LOAD_GW_BC_PROD_BC_DISBURSEMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005198"

@@ -1,0 +1,1775 @@
+steps:
+  LOAD_GW_BC_PROD_BC_PLAN-200005074:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128948
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSUNTILFIRSTDUNNINGSENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSUNTILFIRSTDUNNINGSENT\""
+          - columnReference:
+              columnCounter: 2000128949
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETOFIRSTINSTALL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSFROMREFDATETOFIRSTINSTALL\""
+          - columnReference:
+              columnCounter: 2000128950
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: AUTOPROCESSWHENPAYMENTMATCHES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"AUTOPROCESSWHENPAYMENTMATCHES\""
+          - columnReference:
+              columnCounter: 2000128951
+              stepCounter: "200005074"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAMEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"NAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000128952
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLENTERDELNQTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128953
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTOLERWRTPREM_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CANCELLATIONTOLERWRTPREM_EXT\""
+          - columnReference:
+              columnCounter: 2000128954
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000128955
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SUPPRESSLOWBALINVOICES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"SUPPRESSLOWBALINVOICES\""
+          - columnReference:
+              columnCounter: 2000128956
+              stepCounter: "200005074"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128957
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MAXIMUMNUMBEROFINSTALLMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"MAXIMUMNUMBEROFINSTALLMENTS\""
+          - columnReference:
+              columnCounter: 2000128958
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128959
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128960
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SKIPFEEFORDOWNPAYMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"SKIPFEEFORDOWNPAYMENT\""
+          - columnReference:
+              columnCounter: 2000128961
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYMENTEXCEPTIONSSENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PAYMENTEXCEPTIONSSENT\""
+          - columnReference:
+              columnCounter: 2000128962
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELAYDISBURSEMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DELAYDISBURSEMENT\""
+          - columnReference:
+              columnCounter: 2000128963
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONFORPASTDUESTATEMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"EXCEPTIONFORPASTDUESTATEMENT\""
+          - columnReference:
+              columnCounter: 2000128964
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLEARCOMMISIONTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128965
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128966
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REPORTING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"REPORTING\""
+          - columnReference:
+              columnCounter: 2000128967
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128968
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CREATEOFFSETSONBILLEDINVOICES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CREATEOFFSETSONBILLEDINVOICES\""
+          - columnReference:
+              columnCounter: 2000128969
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PERIODICITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PERIODICITY\""
+          - columnReference:
+              columnCounter: 2000128970
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTREVERSALFEE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128971
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLEARGROSSTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128972
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDUEINDAYS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PROMISEDUEINDAYS\""
+          - columnReference:
+              columnCounter: 2000128973
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTAFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DOWNPAYMENTAFTER\""
+          - columnReference:
+              columnCounter: 2000128974
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INVOICEFEE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128975
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEFEE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128976
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONPAYPLANSVCFEE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"COLLECTIONPAYPLANSVCFEE_EXT\""
+          - columnReference:
+              columnCounter: 2000128977
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128978
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128979
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOWGROSSCLEARED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"LOWGROSSCLEARED\""
+          - columnReference:
+              columnCounter: 2000128980
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLOWMODOFMANDISB
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"ALLOWMODOFMANDISB\""
+          - columnReference:
+              columnCounter: 2000128981
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPLICABLESEGMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"APPLICABLESEGMENTS\""
+          - columnReference:
+              columnCounter: 2000128982
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CYCLECLOSEDAYOFMONTH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CYCLECLOSEDAYOFMONTH\""
+          - columnReference:
+              columnCounter: 2000128983
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INUSE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"INUSE\""
+          - columnReference:
+              columnCounter: 2000128984
+              stepCounter: "200005074"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128985
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: USERVISIBLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"USERVISIBLE\""
+          - columnReference:
+              columnCounter: 2000128986
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SKIPINSTALLMENTFEES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"SKIPINSTALLMENTFEES\""
+          - columnReference:
+              columnCounter: 2000128987
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: STATEMENTSENTAFTERCYCLECLOSE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"STATEMENTSENTAFTERCYCLECLOSE\""
+          - columnReference:
+              columnCounter: 2000128988
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: STATEMENTSWITHLOWNETSUPPRESSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"STATEMENTSWITHLOWNETSUPPRESSED\""
+          - columnReference:
+              columnCounter: 2000128989
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128990
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISAGENCYBILLING_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"ISAGENCYBILLING_EXT\""
+          - columnReference:
+              columnCounter: 2000128991
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GRACEPERIODDAYS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"GRACEPERIODDAYS\""
+          - columnReference:
+              columnCounter: 2000128992
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICINGBLACKOUTTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"INVOICINGBLACKOUTTYPE\""
+          - columnReference:
+              columnCounter: 2000128993
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTARGET
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CANCELLATIONTARGET\""
+          - columnReference:
+              columnCounter: 2000128994
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTINTERVAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128995
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISPREMIUMFINANCEPLAN_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"ISPREMIUMFINANCEPLAN_EXT\""
+          - columnReference:
+              columnCounter: 2000128996
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SENDAUTODISBAWAITINGAPPROVAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"SENDAUTODISBAWAITINGAPPROVAL\""
+          - columnReference:
+              columnCounter: 2000128997
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: NETTHRESHOLDFORSUPPRESSINGSTMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128998
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSBEFOREPLCYEXPFORINVBLCKOUT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSBEFOREPLCYEXPFORINVBLCKOUT\""
+          - columnReference:
+              columnCounter: 2000128999
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LOWBALANCETHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129000
+              stepCounter: "200005074"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTPLANVISIBILITY_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PAYMENTPLANVISIBILITY_EXT\""
+          - columnReference:
+              columnCounter: 2000129001
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOWBALANCETHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129002
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONIFPROMISENOTRECEIVED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"EXCEPTIONIFPROMISENOTRECEIVED\""
+          - columnReference:
+              columnCounter: 2000129003
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DRAFTINTERVAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129004
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REINSTATEMENTFEEAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129005
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CREATEAPPRACTFORAUTODISB
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CREATEAPPRACTFORAUTODISB\""
+          - columnReference:
+              columnCounter: 2000129006
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SNAPSHOTNONPASTDUEITEMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"SNAPSHOTNONPASTDUEITEMS\""
+          - columnReference:
+              columnCounter: 2000129007
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REINSTATEMENTFEEAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129008
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKFLOWPLAN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"WORKFLOWPLAN\""
+          - columnReference:
+              columnCounter: 2000129009
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NETTHRESHOLDSUPPRESSSTMT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129010
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INSTALLMENTFEE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129011
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INSTALLMENTFEE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129012
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATEMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"STATEMENT\""
+          - columnReference:
+              columnCounter: 2000129013
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDUEDAYLOGIC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PAYMENTDUEDAYLOGIC\""
+          - columnReference:
+              columnCounter: 2000129014
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTOVER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129015
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXITDELINQUENCYTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129016
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTOVER_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129017
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PROMISEEXCEPTIONSSENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PROMISEEXCEPTIONSSENT\""
+          - columnReference:
+              columnCounter: 2000129018
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: LATEFEEAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129019
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSAFTERCYCLECLOSETOSENDSTMNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSAFTERCYCLECLOSETOSENDSTMNT\""
+          - columnReference:
+              columnCounter: 2000129020
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PMNTSCHDCHNGOFFSETSONBILLED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PMNTSCHDCHNGOFFSETSONBILLED\""
+          - columnReference:
+              columnCounter: 2000129021
+              stepCounter: "200005074"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: MONTHLYINTERESTRATE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"MONTHLYINTERESTRATE_EXT\""
+          - columnReference:
+              columnCounter: 2000129022
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000129023
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ACCTENTERDELINQUENCYTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129024
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTTERMSINDAYS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PAYMENTTERMSINDAYS\""
+          - columnReference:
+              columnCounter: 2000129025
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CYCLECLOSEDAYOFMONTHLOGIC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CYCLECLOSEDAYOFMONTHLOGIC\""
+          - columnReference:
+              columnCounter: 2000129026
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: POLENTERDELINQUENCYTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129027
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCTENTERDELNQTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129028
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HOLDINVOICINGONDLNQPOLICIES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HOLDINVOICINGONDLNQPOLICIES\""
+          - columnReference:
+              columnCounter: 2000129029
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AVAILABLEDISBAMTTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"AVAILABLEDISBAMTTYPE\""
+          - columnReference:
+              columnCounter: 2000129030
+              stepCounter: "200005074"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000129031
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEMPLACEMENTCUTOFFTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"INVOICEITEMPLACEMENTCUTOFFTYPE\""
+          - columnReference:
+              columnCounter: 2000129032
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOWCOMMISSIONCLEARED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"LOWCOMMISSIONCLEARED\""
+          - columnReference:
+              columnCounter: 2000129033
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTOLERAMOUNT_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CANCELLATIONTOLERAMOUNT_EXT\""
+          - columnReference:
+              columnCounter: 2000129034
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ONETIMECHARGEAFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"ONETIMECHARGEAFTER\""
+          - columnReference:
+              columnCounter: 2000129035
+              stepCounter: "200005074"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTPERCENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DOWNPAYMENTPERCENT\""
+          - columnReference:
+              columnCounter: 2000129036
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CLEARCOMMISIONTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129037
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000129038
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETODOWNPAYMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSFROMREFDATETODOWNPAYMENT\""
+          - columnReference:
+              columnCounter: 2000129039
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SECONDDUNNINGSENTIFNOTPAID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"SECONDDUNNINGSENTIFNOTPAID\""
+          - columnReference:
+              columnCounter: 2000129040
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTREVERSALFEE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129041
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: WESTERNMETHOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"WESTERNMETHOD\""
+          - columnReference:
+              columnCounter: 2000129042
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FIRSTINSTALLMENTAFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"FIRSTINSTALLMENTAFTER\""
+          - columnReference:
+              columnCounter: 2000129043
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLEARGROSSTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129044
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LISTBILLACCOUNTEXCESSTREATMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"LISTBILLACCOUNTEXCESSTREATMENT\""
+          - columnReference:
+              columnCounter: 2000129045
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEQUALIFICATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CHARGEQUALIFICATION\""
+          - columnReference:
+              columnCounter: 2000129046
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PLANORDER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PLANORDER\""
+          - columnReference:
+              columnCounter: 2000129047
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CANCELLATIONTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129048
+              stepCounter: "200005074"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000129049
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: REVIEWDISBURSEMENTOVER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129050
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHANGEDEADLINEINTERVAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129051
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVIEWDISBURSEMENTOVER_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129052
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSUNTILSECONDDUNNINGSENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSUNTILSECONDDUNNINGSENT\""
+          - columnReference:
+              columnCounter: 2000129053
+              stepCounter: "200005074"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EFFECTIVEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"EFFECTIVEDATE\""
+          - columnReference:
+              columnCounter: 2000129054
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CLEARINGLOGICTARGET
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CLEARINGLOGICTARGET\""
+          - columnReference:
+              columnCounter: 2000129055
+              stepCounter: "200005074"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EXPIRATIONDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"EXPIRATIONDATE\""
+          - columnReference:
+              columnCounter: 2000129056
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REMINDERSENTIFPROMISENOTRCVD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"REMINDERSENTIFPROMISENOTRCVD\""
+          - columnReference:
+              columnCounter: 2000129057
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSUNTILPROMISEREMINDERSENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSUNTILPROMISEREMINDERSENT\""
+          - columnReference:
+              columnCounter: 2000129058
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGGREGATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"AGGREGATION\""
+          - columnReference:
+              columnCounter: 2000129059
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DRAFTDAYLOGIC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DRAFTDAYLOGIC\""
+          - columnReference:
+              columnCounter: 2000129060
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERWRITEOFFTHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129061
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOWBALANCEMETHOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"LOWBALANCEMETHOD\""
+          - columnReference:
+              columnCounter: 2000129062
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: FIRSTDUNNINGSENTIFNOTPAID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"FIRSTDUNNINGSENTIFNOTPAID\""
+          - columnReference:
+              columnCounter: 2000129063
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERWRITEOFFTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129064
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DAYSFROMREFDATETOONETIMECHARGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DAYSFROMREFDATETOONETIMECHARGE\""
+          - columnReference:
+              columnCounter: 2000129065
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDUEINTERVAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PAYMENTDUEINTERVAL\""
+          - columnReference:
+              columnCounter: 2000129066
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NONRESPONSIVEPMNTDUEINTERVAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"NONRESPONSIVEPMNTDUEINTERVAL\""
+          - columnReference:
+              columnCounter: 2000129067
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXITDELINQUENCYTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129068
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LATEFEEAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129069
+              stepCounter: "200005074"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000129070
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"WRITEOFFAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000129071
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLHIGHLIMIT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"BELOWCOLHIGHLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000129072
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFSTATMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"NUMBEROFSTATMENTS\""
+          - columnReference:
+              columnCounter: 2000129073
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLHIGHLIMIT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"INDIRECTCOLHIGHLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000129074
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLLOWERLIMIT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"BELOWCOLLOWERLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000129075
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLHIGHLIMIT_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DIRECTCOLHIGHLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000129076
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGCYCLEPASTDUETHRESHOLD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"BILLINGCYCLEPASTDUETHRESHOLD\""
+          - columnReference:
+              columnCounter: 2000129077
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLLOWLIMIT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"INDIRECTCOLLOWLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000129078
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: EXITCRDTHRESHOLD_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"EXITCRDTHRESHOLD_AMT\""
+          - columnReference:
+              columnCounter: 2000129079
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLOWLIMIT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DIRECTCOLLOWLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000129080
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CRDPLANINUSE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CRDPLANINUSE\""
+          - columnReference:
+              columnCounter: 2000129081
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFAMOUNT_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"WRITEOFFAMOUNT_AMT\""
+          - columnReference:
+              columnCounter: 2000129082
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLHIGHLIMIT_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"BELOWCOLHIGHLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000129083
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGCYCLEAUTOWRITEOFF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"BILLINGCYCLEAUTOWRITEOFF\""
+          - columnReference:
+              columnCounter: 2000129084
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLHIGHLIMIT_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"INDIRECTCOLHIGHLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000129085
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLHIGHLIMIT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DIRECTCOLHIGHLIMIT_CUR\""
+          - columnReference:
+              columnCounter: 2000129086
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: BELOWCOLLOWERLIMIT_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"BELOWCOLLOWERLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000129087
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: EXITCRDTHRESHOLD_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"EXITCRDTHRESHOLD_CUR\""
+          - columnReference:
+              columnCounter: 2000129088
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INDIRECTCOLLOWLIMIT_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"INDIRECTCOLLOWLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000129089
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLOWLIMIT_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"DIRECTCOLLOWLIMIT_AMT\""
+          - columnReference:
+              columnCounter: 2000129090
+              stepCounter: "200005074"
+            dataType: VARCHAR(12)
+            defaultValue: ""
+            description: ""
+            name: CODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CODE\""
+          - columnReference:
+              columnCounter: 2000129091
+              stepCounter: "200005074"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISINSTALLMENTORFINANCEPLAN_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"ISINSTALLMENTORFINANCEPLAN_EXT\""
+          - columnReference:
+              columnCounter: 2000129092
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREDITTHRESHOLD_EXT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CREDITTHRESHOLD_EXT_CUR\""
+          - columnReference:
+              columnCounter: 2000129093
+              stepCounter: "200005074"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: CREDITTHRESHOLD_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"CREDITTHRESHOLD_EXT\""
+          - columnReference:
+              columnCounter: 2000129094
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREMREPORTDOWNPAYMENTPCT_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"PREMREPORTDOWNPAYMENTPCT_EXT\""
+          - columnReference:
+              columnCounter: 2000129095
+              stepCounter: "200005074"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000129096
+              stepCounter: "200005074"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129097
+              stepCounter: "200005074"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000129098
+              stepCounter: "200005074"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000129099
+              stepCounter: "200005074"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000129100
+              stepCounter: "200005074"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129101
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000129102
+              stepCounter: "200005074"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000129103
+              stepCounter: "200005074"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PLAN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128947
+              stepCounter: "200005074"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_PLAN'"
+          - columnReference:
+              columnCounter: 2000128946
+              stepCounter: "200005074"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_PLAN
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_PLAN') }} "BC_PLAN" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_PLAN') }} "ODS_GW_BC_PROD_BC_PLAN")
+            name: LOAD_GW_BC_PROD_BC_PLAN
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_PLAN
+      name: LOAD_GW_BC_PROD_BC_PLAN
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005074"

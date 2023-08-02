@@ -1,0 +1,318 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_15_M-200015289:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: true
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 2000089521
+              stepCounter: "200015289"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"L_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000089539
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089522
+              stepCounter: "200015289"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"PRIORITY\""
+              - columnReferences:
+                  - columnCounter: 2000089540
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089523
+              stepCounter: "200015289"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"TYPECODE\""
+              - columnReferences:
+                  - columnCounter: 2000089541
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089524
+              stepCounter: "200015289"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"S_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000089542
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089525
+              stepCounter: "200015289"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"RETIRED\""
+              - columnReferences:
+                  - columnCounter: 2000089543
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089526
+              stepCounter: "200015289"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"NAME\""
+              - columnReferences:
+                  - columnCounter: 2000089544
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089527
+              stepCounter: "200015289"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"ID\""
+              - columnReferences:
+                  - columnCounter: 2000089545
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089528
+              stepCounter: "200015289"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"DESCRIPTION\""
+              - columnReferences:
+                  - columnCounter: 2000089546
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089529
+              stepCounter: "200015289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"HVRCAPTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000089547
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089530
+              stepCounter: "200015289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"HVRINTEGTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000089548
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089531
+              stepCounter: "200015289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"HVRCAPTSTAMPUTC\""
+              - columnReferences:
+                  - columnCounter: 2000089549
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089532
+              stepCounter: "200015289"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"HVRCAPTUREKEY\""
+              - columnReferences:
+                  - columnCounter: 2000089550
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089533
+              stepCounter: "200015289"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"BATCH_NUMBER\""
+              - columnReferences:
+                  - columnCounter: 2000089551
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089534
+              stepCounter: "200015289"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"DELETE_FLAG\""
+              - columnReferences:
+                  - columnCounter: 2000089552
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089535
+              stepCounter: "200015289"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"DSS_RECORD_SOURCE\""
+              - columnReferences:
+                  - columnCounter: 2000089553
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089536
+              stepCounter: "200015289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"DSS_LOAD_DATE\""
+              - columnReferences:
+                  - columnCounter: 2000089554
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089538
+              stepCounter: "200015289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"DSS_CREATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000089556
+                    stepCounter: "200015293"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000089537
+              stepCounter: "200015289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD\".\"DSS_UPDATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000089555
+                    stepCounter: "200015293"
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD') }} "STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_05_LOAD"
+            name: STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_15_M
+            noLinkRefs: []
+          - aliases:
+              STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_10_DELETE: "200015293"
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE', 'STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_10_DELETE') }} "STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_10_DELETE"
+            name: STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_10_DEL
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_INVOICESTATUS_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200015289"

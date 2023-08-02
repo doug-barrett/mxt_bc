@@ -1,0 +1,422 @@
+steps:
+  LOAD_GW_BC_PROD_BC_COMMISSIONSUBPLAN-200018754:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128567
+              stepCounter: "200018754"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLSEGMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ALLSEGMENTS\""
+          - columnReference:
+              columnCounter: 2000128568
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYABLECRITERIA
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"PAYABLECRITERIA\""
+          - columnReference:
+              columnCounter: 2000128569
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128570
+              stepCounter: "200018754"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128571
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBPLANORDER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"SUBPLANORDER\""
+          - columnReference:
+              columnCounter: 2000128572
+              stepCounter: "200018754"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLTERMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ALLTERMS\""
+          - columnReference:
+              columnCounter: 2000128573
+              stepCounter: "200018754"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SUSPENDFORDELINQUENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"SUSPENDFORDELINQUENCY\""
+          - columnReference:
+              columnCounter: 2000128574
+              stepCounter: "200018754"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLLOBCODES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ALLLOBCODES\""
+          - columnReference:
+              columnCounter: 2000128575
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128576
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128577
+              stepCounter: "200018754"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128578
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RENEWALSET
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"RENEWALSET\""
+          - columnReference:
+              columnCounter: 2000128579
+              stepCounter: "200018754"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000128580
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMMISSIONPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"COMMISSIONPLANID\""
+          - columnReference:
+              columnCounter: 2000128581
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128582
+              stepCounter: "200018754"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLJURISDICTIONS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ALLJURISDICTIONS\""
+          - columnReference:
+              columnCounter: 2000128583
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000128584
+              stepCounter: "200018754"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLEVALUATIONS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ALLEVALUATIONS\""
+          - columnReference:
+              columnCounter: 2000128585
+              stepCounter: "200018754"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128586
+              stepCounter: "200018754"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ALLUWCOMPANIES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ALLUWCOMPANIES\""
+          - columnReference:
+              columnCounter: 2000128587
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000128588
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128589
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ASSIGNEDRISK
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"ASSIGNEDRISK\""
+          - columnReference:
+              columnCounter: 2000128590
+              stepCounter: "200018754"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128591
+              stepCounter: "200018754"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128592
+              stepCounter: "200018754"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128593
+              stepCounter: "200018754"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128594
+              stepCounter: "200018754"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128595
+              stepCounter: "200018754"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128596
+              stepCounter: "200018754"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128597
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128598
+              stepCounter: "200018754"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128599
+              stepCounter: "200018754"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONSUBPLAN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128566
+              stepCounter: "200018754"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_COMMISSIONSUBPLAN'"
+          - columnReference:
+              columnCounter: 2000128565
+              stepCounter: "200018754"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_COMMISSIONSUBPLAN
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_COMMISSIONSUBPLAN') }} "BC_COMMISSIONSUBPLAN" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_COMMISSIONSUBPLAN') }} "ODS_GW_BC_PROD_BC_COMMISSIONSUBPLAN")
+            name: LOAD_GW_BC_PROD_BC_COMMISSIONSUBPLAN
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_COMMISSIONSUBPLAN
+      name: LOAD_GW_BC_PROD_BC_COMMISSIONSUBPLAN
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018754"

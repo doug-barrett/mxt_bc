@@ -1,0 +1,477 @@
+steps:
+  LOAD_GW_BC_PROD_BC_SNAPSHOTINVOICEITEM-200022864:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000129181
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000129182
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYWRITTENOFFCMSN_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PRIMARYWRITTENOFFCMSN_CUR\""
+          - columnReference:
+              columnCounter: 2000129183
+              stepCounter: "200022864"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000129184
+              stepCounter: "200022864"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCOMMISSIONAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PRIMARYCOMMISSIONAMOUNT\""
+          - columnReference:
+              columnCounter: 2000129185
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCOMMISSIONAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PRIMARYCOMMISSIONAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000129186
+              stepCounter: "200022864"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000129187
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LINEITEMNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"LINEITEMNUMBER\""
+          - columnReference:
+              columnCounter: 2000129188
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000129189
+              stepCounter: "200022864"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDCOMMISSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PROMISEDCOMMISSION\""
+          - columnReference:
+              columnCounter: 2000129190
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDCOMMISSION_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PROMISEDCOMMISSION_CUR\""
+          - columnReference:
+              columnCounter: 2000129191
+              stepCounter: "200022864"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000129192
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000129193
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEMID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"INVOICEITEMID\""
+          - columnReference:
+              columnCounter: 2000129194
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129195
+              stepCounter: "200022864"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PAIDAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PAIDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000129196
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAIDAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PAIDAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000129197
+              stepCounter: "200022864"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYWRITTENOFFCOMMISSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PRIMARYWRITTENOFFCOMMISSION\""
+          - columnReference:
+              columnCounter: 2000129198
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000129199
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000129200
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129201
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000129202
+              stepCounter: "200022864"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDANDPAIDAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PROMISEDANDPAIDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000129203
+              stepCounter: "200022864"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCMSNPAYABLEAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129204
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDANDPAIDAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"PROMISEDANDPAIDAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000129205
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCMSNPAYABLEAMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129206
+              stepCounter: "200022864"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPAIDCOMMISSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129207
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATEMENTINVOICEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"STATEMENTINVOICEID\""
+          - columnReference:
+              columnCounter: 2000129208
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPAIDCOMMISSION_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129209
+              stepCounter: "200022864"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000129210
+              stepCounter: "200022864"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129211
+              stepCounter: "200022864"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000129212
+              stepCounter: "200022864"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000129213
+              stepCounter: "200022864"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000129214
+              stepCounter: "200022864"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000129215
+              stepCounter: "200022864"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129216
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000129217
+              stepCounter: "200022864"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000129218
+              stepCounter: "200022864"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_SNAPSHOTINVOICEITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000129180
+              stepCounter: "200022864"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_SNAPSHOTINVOICEITEM'"
+          - columnReference:
+              columnCounter: 2000129179
+              stepCounter: "200022864"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_SNAPSHOTINVOICEITEM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_SNAPSHOTINVOICEITEM') }} "BC_SNAPSHOTINVOICEITEM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_SNAPSHOTINVOICEITEM') }} "ODS_GW_BC_PROD_BC_SNAPSHOTINVOICEITEM")
+            name: LOAD_GW_BC_PROD_BC_SNAPSHOTINVOICEITEM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_SNAPSHOTINVOICEITEM
+      name: LOAD_GW_BC_PROD_BC_SNAPSHOTINVOICEITEM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022864"

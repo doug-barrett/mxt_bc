@@ -1,0 +1,996 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_INVOICEITEM_10_NEW-200005448:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000248051
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000248052
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INSTALLMENTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"INSTALLMENTNUMBER\""
+          - columnReference:
+              columnCounter: 2000248053
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCOMMISSIONAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYCOMMISSIONAMOUNT\""
+          - columnReference:
+              columnCounter: 2000248054
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONAGENCY_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"COLLECTIONAGENCY_EXT\""
+          - columnReference:
+              columnCounter: 2000248055
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCOMMISSIONAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYCOMMISSIONAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000248056
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"INVOICEID\""
+          - columnReference:
+              columnCounter: 2000248057
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGENCYDISBURSEMENT_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"AGENCYDISBURSEMENT_EXT\""
+          - columnReference:
+              columnCounter: 2000248058
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INTERESTRATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"INTERESTRATE\""
+          - columnReference:
+              columnCounter: 2000248059
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRINTPROMISSORYNOTE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRINTPROMISSORYNOTE\""
+          - columnReference:
+              columnCounter: 2000248060
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LINEITEMNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"LINEITEMNUMBER\""
+          - columnReference:
+              columnCounter: 2000248061
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000248062
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: GROSSAMOUNTWRITTENOFF
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"GROSSAMOUNTWRITTENOFF\""
+          - columnReference:
+              columnCounter: 2000248063
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROSSAMOUNTWRITTENOFF_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"GROSSAMOUNTWRITTENOFF_CUR\""
+          - columnReference:
+              columnCounter: 2000248064
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000248065
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BILLTODAY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"BILLTODAY\""
+          - columnReference:
+              columnCounter: 2000248066
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000248067
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BILLEDORDUEINVADJID_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"BILLEDORDUEINVADJID_EXT\""
+          - columnReference:
+              columnCounter: 2000248068
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000248069
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PAIDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PAIDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000248070
+              stepCounter: "200005448"
+            dataType: NUMBER(6,2)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"DOWNPAYMENT\""
+          - columnReference:
+              columnCounter: 2000248071
+              stepCounter: "200005448"
+            dataType: NUMBER(6,2)
+            defaultValue: ""
+            description: ""
+            name: ONETIMESERVICEFEE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"ONETIMESERVICEFEE\""
+          - columnReference:
+              columnCounter: 2000248072
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAIDAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PAIDAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000248073
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLECTOR_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"DIRECTCOLLECTOR_EXT\""
+          - columnReference:
+              columnCounter: 2000248074
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000248075
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000248076
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HASCHARGEBILLEDTRANSACTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HASCHARGEBILLEDTRANSACTION\""
+          - columnReference:
+              columnCounter: 2000248077
+              stepCounter: "200005448"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: CUSTOMPAYMENTGROUP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"CUSTOMPAYMENTGROUP\""
+          - columnReference:
+              columnCounter: 2000248078
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000248079
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDANDPAIDAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PROMISEDANDPAIDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000248080
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDANDPAIDAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PROMISEDANDPAIDAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000248081
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONPAYMENTPLAN_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"COLLECTIONPAYMENTPLAN_EXT\""
+          - columnReference:
+              columnCounter: 2000248082
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CANBEPROMISEDMOREBYAGENCYBILL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"CANBEPROMISEDMOREBYAGENCYBILL\""
+          - columnReference:
+              columnCounter: 2000248083
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTEXCEPTIONLOCK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PAYMENTEXCEPTIONLOCK\""
+          - columnReference:
+              columnCounter: 2000248084
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: GROSSSETTLED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"GROSSSETTLED\""
+          - columnReference:
+              columnCounter: 2000248085
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAYMENTEXCEPTIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PAYMENTEXCEPTIONDATE\""
+          - columnReference:
+              columnCounter: 2000248086
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HASCHARGEDUETRANSACTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HASCHARGEDUETRANSACTION\""
+          - columnReference:
+              columnCounter: 2000248087
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPAIDCOMMISSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYPAIDCOMMISSION\""
+          - columnReference:
+              columnCounter: 2000248088
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPAIDCOMMISSION_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYPAIDCOMMISSION_CUR\""
+          - columnReference:
+              columnCounter: 2000248089
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"TYPE\""
+          - columnReference:
+              columnCounter: 2000248090
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAYMENTPLANAGREEMENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PAYMENTPLANAGREEMENT\""
+          - columnReference:
+              columnCounter: 2000248091
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROMISEEXCEPTIONLOCK
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PROMISEEXCEPTIONLOCK\""
+          - columnReference:
+              columnCounter: 2000248092
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYWRITTENOFFCMSN_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYWRITTENOFFCMSN_CUR\""
+          - columnReference:
+              columnCounter: 2000248093
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: RETURNDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"RETURNDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000248094
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PROMISEEXCEPTIONDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PROMISEEXCEPTIONDATE\""
+          - columnReference:
+              columnCounter: 2000248095
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REVERSED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"REVERSED\""
+          - columnReference:
+              columnCounter: 2000248096
+              stepCounter: "200005448"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: EXCEPTIONCOMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"EXCEPTIONCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000248097
+              stepCounter: "200005448"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000248098
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EVENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"EVENTDATE\""
+          - columnReference:
+              columnCounter: 2000248099
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000248100
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"POLICYPERIODID\""
+          - columnReference:
+              columnCounter: 2000248101
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"CHARGEID\""
+          - columnReference:
+              columnCounter: 2000248102
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HASBEENPAYMENTEXCEPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HASBEENPAYMENTEXCEPTION\""
+          - columnReference:
+              columnCounter: 2000248103
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDCOMMISSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PROMISEDCOMMISSION\""
+          - columnReference:
+              columnCounter: 2000248104
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PROMISEDCOMMISSION_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PROMISEDCOMMISSION_CUR\""
+          - columnReference:
+              columnCounter: 2000248105
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CANBEPAIDMOREBYAGENCYBILL
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"CANBEPAIDMOREBYAGENCYBILL\""
+          - columnReference:
+              columnCounter: 2000248106
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000248107
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRINTEDINSTALLMENTNUMBER_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRINTEDINSTALLMENTNUMBER_EXT\""
+          - columnReference:
+              columnCounter: 2000248108
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000248109
+              stepCounter: "200005448"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COLLECTING_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"COLLECTING_EXT\""
+          - columnReference:
+              columnCounter: 2000248110
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ASSIGNMENTDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"ASSIGNMENTDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000248111
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAYMENTEXCEPTIONLOCKDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PAYMENTEXCEPTIONLOCKDATE\""
+          - columnReference:
+              columnCounter: 2000248112
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYWRITTENOFFCOMMISSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYWRITTENOFFCOMMISSION\""
+          - columnReference:
+              columnCounter: 2000248113
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PROMISEEXCEPTIONLOCKDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PROMISEEXCEPTIONLOCKDATE\""
+          - columnReference:
+              columnCounter: 2000248114
+              stepCounter: "200005448"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCMSNPAYABLEAMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYCMSNPAYABLEAMOUNT\""
+          - columnReference:
+              columnCounter: 2000248115
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYCMSNPAYABLEAMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIMARYCMSNPAYABLEAMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000248116
+              stepCounter: "200005448"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: COMMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"COMMENTS\""
+          - columnReference:
+              columnCounter: 2000248117
+              stepCounter: "200005448"
+            dataType: NUMBER(6,2)
+            defaultValue: ""
+            description: ""
+            name: PERINSTALLMENTSERVICE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PERINSTALLMENTSERVICE\""
+          - columnReference:
+              columnCounter: 2000248118
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PRIORDUEDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"PRIORDUEDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000248119
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFINSTALLMENTS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"NUMBEROFINSTALLMENTS\""
+          - columnReference:
+              columnCounter: 2000248120
+              stepCounter: "200005448"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000248121
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTBILLMONEYRCVD_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"DIRECTBILLMONEYRCVD_EXT\""
+          - columnReference:
+              columnCounter: 2000248122
+              stepCounter: "200005448"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000248123
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000248124
+              stepCounter: "200005448"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000248125
+              stepCounter: "200005448"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000248126
+              stepCounter: "200005448"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000248127
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000248128
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000248129
+              stepCounter: "200005448"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000248130
+              stepCounter: "200005448"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000248135
+              stepCounter: "200005448"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000248137
+              stepCounter: "200005448"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000248136
+              stepCounter: "200005448"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000248131
+              stepCounter: "200005448"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000248132
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_INVOICEITEM\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000248134
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000248133
+              stepCounter: "200005448"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_INVOICEITEM
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_INVOICEITEM') }} \"LOAD_GW_BC_PROD_BC_INVOICEITEM\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_INVOICEITEM.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_INVOICEITEM_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_INVOICEITEM_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_INVOICEITEM_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200005448"

@@ -1,0 +1,466 @@
+steps:
+  LOAD_GW_BC_PROD_BC_GROUP_ASSIGN-200022564:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124715
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124716
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPROCESSLOAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"DELINQUENCYPROCESSLOAD\""
+          - columnReference:
+              columnCounter: 2000124717
+              stepCounter: "200022564"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124718
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124719
+              stepCounter: "200022564"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124720
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000124721
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTACTIVITYUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTACTIVITYUSERID\""
+          - columnReference:
+              columnCounter: 2000124722
+              stepCounter: "200022564"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INCLUDESUBGROUPS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"INCLUDESUBGROUPS\""
+          - columnReference:
+              columnCounter: 2000124723
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOCKINGCOLUMN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LOCKINGCOLUMN\""
+          - columnReference:
+              columnCounter: 2000124724
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTDELINQUENCYPROCESSGRPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTDELINQUENCYPROCESSGRPID\""
+          - columnReference:
+              columnCounter: 2000124725
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124726
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTREVIEWGRPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTREVIEWGRPID\""
+          - columnReference:
+              columnCounter: 2000124727
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTREVIEWUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTREVIEWUSERID\""
+          - columnReference:
+              columnCounter: 2000124728
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYLOAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"ACTIVITYLOAD\""
+          - columnReference:
+              columnCounter: 2000124729
+              stepCounter: "200022564"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124730
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTDELINQUENCYPROCESSUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTDELINQUENCYPROCESSUSERID\""
+          - columnReference:
+              columnCounter: 2000124731
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"GROUPTYPE\""
+          - columnReference:
+              columnCounter: 2000124732
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000124733
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124734
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTACTIVITYGRPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTACTIVITYGRPID\""
+          - columnReference:
+              columnCounter: 2000124735
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVIEWLOAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"REVIEWLOAD\""
+          - columnReference:
+              columnCounter: 2000124736
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTTCAGRPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTTCAGRPID\""
+          - columnReference:
+              columnCounter: 2000124737
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTTEAEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTTEAEUSERID\""
+          - columnReference:
+              columnCounter: 2000124738
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTTCAUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTTCAUSERID\""
+          - columnReference:
+              columnCounter: 2000124739
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LASTTEAEGRPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"LASTTEAEGRPID\""
+          - columnReference:
+              columnCounter: 2000124740
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TCALOAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"TCALOAD\""
+          - columnReference:
+              columnCounter: 2000124741
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TEAELOAD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"TEAELOAD\""
+          - columnReference:
+              columnCounter: 2000124742
+              stepCounter: "200022564"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124743
+              stepCounter: "200022564"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124744
+              stepCounter: "200022564"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000124745
+              stepCounter: "200022564"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124746
+              stepCounter: "200022564"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124747
+              stepCounter: "200022564"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124748
+              stepCounter: "200022564"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124749
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124750
+              stepCounter: "200022564"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124751
+              stepCounter: "200022564"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_GROUP_ASSIGN\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124714
+              stepCounter: "200022564"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_GROUP_ASSIGN'"
+          - columnReference:
+              columnCounter: 2000124713
+              stepCounter: "200022564"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_GROUP_ASSIGN
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_GROUP_ASSIGN') }} "BC_GROUP_ASSIGN" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_GROUP_ASSIGN') }} "ODS_GW_BC_PROD_BC_GROUP_ASSIGN")
+            name: LOAD_GW_BC_PROD_BC_GROUP_ASSIGN
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_GROUP_ASSIGN
+      name: LOAD_GW_BC_PROD_BC_GROUP_ASSIGN
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022564"

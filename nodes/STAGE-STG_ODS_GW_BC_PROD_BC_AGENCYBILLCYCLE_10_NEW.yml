@@ -1,0 +1,369 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_10_NEW-200018636:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000245498
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000245499
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000245500
+              stepCounter: "200018636"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000245501
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000245502
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000245503
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000245504
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000245505
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000245506
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000245507
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000245508
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATEMENTINVOICEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"STATEMENTINVOICEID\""
+          - columnReference:
+              columnCounter: 2000245509
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000245510
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000245511
+              stepCounter: "200018636"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000245512
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000245513
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000245514
+              stepCounter: "200018636"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000245515
+              stepCounter: "200018636"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000245516
+              stepCounter: "200018636"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000245517
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000245518
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000245519
+              stepCounter: "200018636"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000245520
+              stepCounter: "200018636"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000245525
+              stepCounter: "200018636"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000245526
+              stepCounter: "200018636"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000245527
+              stepCounter: "200018636"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000245521
+              stepCounter: "200018636"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000245522
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000245524
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000245523
+              stepCounter: "200018636"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE') }} \"LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_AGENCYBILLCYCLE.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_AGENCYBILLCYCLE_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200018636"

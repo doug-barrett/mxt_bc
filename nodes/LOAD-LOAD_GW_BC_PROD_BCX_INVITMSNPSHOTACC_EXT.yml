@@ -1,0 +1,356 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_INVITMSNPSHOTACC_EXT-200022901:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128191
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVITEMPRINTEDINSTALMENTNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"INVITEMPRINTEDINSTALMENTNUMBER\""
+          - columnReference:
+              columnCounter: 2000128192
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128193
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128194
+              stepCounter: "200022901"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128195
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INVITEMEVENTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"INVITEMEVENTDATE\""
+          - columnReference:
+              columnCounter: 2000128196
+              stepCounter: "200022901"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: INVITEMCHARGECODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"INVITEMCHARGECODE\""
+          - columnReference:
+              columnCounter: 2000128197
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128198
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128199
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128200
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: INVITEMCREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"INVITEMCREATETIME\""
+          - columnReference:
+              columnCounter: 2000128201
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128202
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"POLICYPERIOD\""
+          - columnReference:
+              columnCounter: 2000128203
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128204
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128205
+              stepCounter: "200022901"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: INVITEMAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"INVITEMAMOUNT\""
+          - columnReference:
+              columnCounter: 2000128206
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVITEMTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"INVITEMTYPE\""
+          - columnReference:
+              columnCounter: 2000128207
+              stepCounter: "200022901"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: INVITEMSNAPSHOTTAGTODEL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"INVITEMSNAPSHOTTAGTODEL\""
+          - columnReference:
+              columnCounter: 2000128208
+              stepCounter: "200022901"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128209
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128210
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128211
+              stepCounter: "200022901"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128212
+              stepCounter: "200022901"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128213
+              stepCounter: "200022901"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128214
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128215
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128216
+              stepCounter: "200022901"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128217
+              stepCounter: "200022901"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_INVITMSNPSHOTACC_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128190
+              stepCounter: "200022901"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_INVITMSNPSHOTACC_EXT'"
+          - columnReference:
+              columnCounter: 2000128189
+              stepCounter: "200022901"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_INVITMSNPSHOTACC_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_INVITMSNPSHOTACC_EXT') }} "BCX_INVITMSNPSHOTACC_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_INVITMSNPSHOTACC_EXT') }} "ODS_GW_BC_PROD_BCX_INVITMSNPSHOTACC_EXT")
+            name: LOAD_GW_BC_PROD_BCX_INVITMSNPSHOTACC_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_INVITMSNPSHOTACC_EXT
+      name: LOAD_GW_BC_PROD_BCX_INVITMSNPSHOTACC_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022901"

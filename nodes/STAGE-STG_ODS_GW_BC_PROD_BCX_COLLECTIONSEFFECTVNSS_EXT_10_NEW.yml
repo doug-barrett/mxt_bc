@@ -1,0 +1,512 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_10_NEW-200023466:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000251883
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"INVOICEITEM\""
+          - columnReference:
+              columnCounter: 2000251884
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000251885
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251886
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONAGENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"COLLECTIONAGENCY\""
+          - columnReference:
+              columnCounter: 2000251887
+              stepCounter: "200023466"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000251888
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLECTOR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"DIRECTCOLLECTOR\""
+          - columnReference:
+              columnCounter: 2000251889
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000251890
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000251891
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000251892
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECOLLECTED_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECOLLECTED_CUR\""
+          - columnReference:
+              columnCounter: 2000251893
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000251894
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEATTEMPTED_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEATTEMPTED_CUR\""
+          - columnReference:
+              columnCounter: 2000251895
+              stepCounter: "200023466"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECOLLECTED_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECOLLECTED_AMT\""
+          - columnReference:
+              columnCounter: 2000251896
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000251897
+              stepCounter: "200023466"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEATTEMPTED_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEATTEMPTED_AMT\""
+          - columnReference:
+              columnCounter: 2000251898
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000251899
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONEVENT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"COLLECTIONEVENT\""
+          - columnReference:
+              columnCounter: 2000251900
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONSUNASSIGNMENTREASON
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"COLLECTIONSUNASSIGNMENTREASON\""
+          - columnReference:
+              columnCounter: 2000251901
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000251902
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000251903
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECREDITED_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECREDITED_CUR\""
+          - columnReference:
+              columnCounter: 2000251904
+              stepCounter: "200023466"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECREDITED_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECREDITED_AMT\""
+          - columnReference:
+              columnCounter: 2000251905
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEINITIALLYPAID_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEINITIALLYPAID_CUR\""
+          - columnReference:
+              columnCounter: 2000251906
+              stepCounter: "200023466"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEINITIALLYPAID_AMT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEINITIALLYPAID_AMT\""
+          - columnReference:
+              columnCounter: 2000251907
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000251908
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"POLICYPERIOD\""
+          - columnReference:
+              columnCounter: 2000251909
+              stepCounter: "200023466"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000251910
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251911
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000251923
+              stepCounter: "200023466"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000251924
+              stepCounter: "200023466"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000251925
+              stepCounter: "200023466"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000251912
+              stepCounter: "200023466"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000251913
+              stepCounter: "200023466"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000251914
+              stepCounter: "200023466"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000251915
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000251916
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000251917
+              stepCounter: "200023466"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000251918
+              stepCounter: "200023466"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000251919
+              stepCounter: "200023466"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000251920
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000251922
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000251921
+              stepCounter: "200023466"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT') }} \"LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO\"    ON LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200023466"

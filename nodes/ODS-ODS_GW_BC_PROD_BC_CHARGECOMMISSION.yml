@@ -1,0 +1,362 @@
+steps:
+  ODS_GW_BC_PROD_BC_CHARGECOMMISSION-200005497:
+    operation:
+      config: {}
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000010
+      locationName: ODS
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000141873
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000141874
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYABLECRITERIA
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"PAYABLECRITERIA\""
+          - columnReference:
+              columnCounter: 2000141875
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141876
+              stepCounter: "200005497"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000141877
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000141878
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000141879
+              stepCounter: "200005497"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000141880
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"CHARGEID\""
+          - columnReference:
+              columnCounter: 2000141881
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000141882
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000141883
+              stepCounter: "200005497"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000141884
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYCOMMISSIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"POLICYCOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000141885
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIDDENTACCOUNTCONTAINERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HIDDENTACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000141886
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"ID\""
+          - columnReference:
+              columnCounter: 2000141887
+              stepCounter: "200005497"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000141888
+              stepCounter: "200005497"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141889
+              stepCounter: "200005497"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000141890
+              stepCounter: "200005497"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000141891
+              stepCounter: "200005497"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: "true"
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000141892
+              stepCounter: "200005497"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000141893
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000141894
+              stepCounter: "200005497"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000141895
+              stepCounter: "200005497"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000141896
+              stepCounter: "200005497"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000141902
+              stepCounter: "200005497"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: "true"
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000141897
+              stepCounter: "200005497"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000141898
+              stepCounter: "200005497"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000141899
+              stepCounter: "200005497"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000141901
+              stepCounter: "200005497"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000141900
+              stepCounter: "200005497"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW') }} "STG_ODS_GW_BC_PROD_BC_CHARGECOMMISSION_10_NEW"
+            name: ODS_GW_BC_PROD_BC_CHARGECOMMISSION
+            noLinkRefs: []
+      name: ODS_GW_BC_PROD_BC_CHARGECOMMISSION
+      overrideSQL: false
+      sqlType: "10"
+      type: sql
+    stepCounter: "200005497"

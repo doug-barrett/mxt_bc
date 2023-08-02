@@ -1,0 +1,107 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE_05_SEQNO-200022439:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000249514
+              stepCounter: "200022439"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            isBusinessKey: true
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_POLPERIODCONTACTROLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000249519
+              stepCounter: "200022439"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ_ODS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000249518
+              stepCounter: "200022439"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'BC_PROD'"
+          - columnReference:
+              columnCounter: 2000249517
+              stepCounter: "200022439"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            isBusinessKey: true
+            name: HVR_REFRESH_SEQNO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRREFRESH_HISTORY\".\"HVR_REFRESH_SEQNO_HIST\""
+          - columnReference:
+              columnCounter: 2000249516
+              stepCounter: "200022439"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000249515
+              stepCounter: "200022439"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_POLPERIODCONTACTROLE
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_POLPERIODCONTACTROLE') }} \"LOAD_GW_BC_PROD_BC_POLPERIODCONTACTROLE\" JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_BC_PROD_BC_POLPERIODCONTACTROLE.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_BC_PROD_BC_POLPERIODCONTACTROLE.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  LEFT JOIN {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE') }} \"ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE\"    ON LOAD_GW_BC_PROD_BC_POLPERIODCONTACTROLE.HVRINTEGSEQ = ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE.HVRINTEGSEQ   AND ODS_CTRL_HVRREFRESH_HISTORY.HVR_REFRESH_SEQNO_HIST = ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE.HVR_REFRESH_SEQNO WHERE ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE.HVRINTEGSEQ IS NULL "
+            name: STG_ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE_05_SEQNO
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE
+      name: STG_ODS_GW_BC_PROD_BC_POLPERIODCONTACTROLE_05_SEQNO
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200022439"

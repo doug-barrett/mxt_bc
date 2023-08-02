@@ -1,0 +1,369 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_10_NEW-200022993:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000250642
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000250643
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000250644
+              stepCounter: "200022993"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000250645
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUSPENSEPAYMENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"SUSPENSEPAYMENTID\""
+          - columnReference:
+              columnCounter: 2000250646
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000250647
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000250648
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000250649
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000250650
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000250651
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000250652
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000250653
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000250654
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"DISBURSEMENTID\""
+          - columnReference:
+              columnCounter: 2000250655
+              stepCounter: "200022993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000250656
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000250657
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000250669
+              stepCounter: "200022993"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000250670
+              stepCounter: "200022993"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000250671
+              stepCounter: "200022993"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000250658
+              stepCounter: "200022993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000250659
+              stepCounter: "200022993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000250660
+              stepCounter: "200022993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000250661
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000250662
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000250663
+              stepCounter: "200022993"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000250664
+              stepCounter: "200022993"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000250665
+              stepCounter: "200022993"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000250666
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000250668
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000250667
+              stepCounter: "200022993"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT') }} \"LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_SUSPPYMTCONTEXT.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_SUSPPYMTCONTEXT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200022993"

@@ -1,0 +1,345 @@
+steps:
+  LOAD_GW_BC_PROD_BC_PRODUCERPAYMENT-200022009:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126470
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000126471
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126472
+              stepCounter: "200022009"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126473
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126474
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000126475
+              stepCounter: "200022009"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000126476
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTINGGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"REPORTINGGROUPID\""
+          - columnReference:
+              columnCounter: 2000126477
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000126478
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000126479
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000126480
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000126481
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSALREASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"REVERSALREASON\""
+          - columnReference:
+              columnCounter: 2000126482
+              stepCounter: "200022009"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000126483
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000126484
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126485
+              stepCounter: "200022009"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REVERSALDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"REVERSALDATE\""
+          - columnReference:
+              columnCounter: 2000126486
+              stepCounter: "200022009"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126487
+              stepCounter: "200022009"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126488
+              stepCounter: "200022009"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126489
+              stepCounter: "200022009"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126490
+              stepCounter: "200022009"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126491
+              stepCounter: "200022009"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126492
+              stepCounter: "200022009"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126493
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126494
+              stepCounter: "200022009"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126495
+              stepCounter: "200022009"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCERPAYMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126469
+              stepCounter: "200022009"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_PRODUCERPAYMENT'"
+          - columnReference:
+              columnCounter: 2000126468
+              stepCounter: "200022009"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_PRODUCERPAYMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_PRODUCERPAYMENT') }} "BC_PRODUCERPAYMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_PRODUCERPAYMENT') }} "ODS_GW_BC_PROD_BC_PRODUCERPAYMENT")
+            name: LOAD_GW_BC_PROD_BC_PRODUCERPAYMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_PRODUCERPAYMENT
+      name: LOAD_GW_BC_PROD_BC_PRODUCERPAYMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022009"

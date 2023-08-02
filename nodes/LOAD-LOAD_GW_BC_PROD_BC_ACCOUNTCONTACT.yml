@@ -1,0 +1,312 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ACCOUNTCONTACT-200018553:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000122851
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000122852
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000122853
+              stepCounter: "200018553"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000122854
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000122855
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000122856
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000122857
+              stepCounter: "200018553"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000122858
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000122859
+              stepCounter: "200018553"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPAYER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"PRIMARYPAYER\""
+          - columnReference:
+              columnCounter: 2000122860
+              stepCounter: "200018553"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000122861
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"CONTACTID\""
+          - columnReference:
+              columnCounter: 2000122862
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000122863
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INSUREDACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"INSUREDACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000122864
+              stepCounter: "200018553"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000122865
+              stepCounter: "200018553"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000122866
+              stepCounter: "200018553"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000122867
+              stepCounter: "200018553"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000122868
+              stepCounter: "200018553"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000122869
+              stepCounter: "200018553"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000122870
+              stepCounter: "200018553"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000122871
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000122872
+              stepCounter: "200018553"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000122873
+              stepCounter: "200018553"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ACCOUNTCONTACT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000122850
+              stepCounter: "200018553"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ACCOUNTCONTACT'"
+          - columnReference:
+              columnCounter: 2000122849
+              stepCounter: "200018553"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ACCOUNTCONTACT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ACCOUNTCONTACT') }} "BC_ACCOUNTCONTACT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ACCOUNTCONTACT') }} "ODS_GW_BC_PROD_BC_ACCOUNTCONTACT")
+            name: LOAD_GW_BC_PROD_BC_ACCOUNTCONTACT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ACCOUNTCONTACT
+      name: LOAD_GW_BC_PROD_BC_ACCOUNTCONTACT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018553"

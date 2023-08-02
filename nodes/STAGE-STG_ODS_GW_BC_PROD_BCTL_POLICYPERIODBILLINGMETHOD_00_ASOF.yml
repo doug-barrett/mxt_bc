@@ -1,0 +1,325 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_00_ASOF-200033736:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000300822
+              stepCounter: "200033736"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000300823
+              stepCounter: "200033736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000300824
+              stepCounter: "200033736"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000300825
+              stepCounter: "200033736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000300826
+              stepCounter: "200033736"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000300827
+              stepCounter: "200033736"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000300828
+              stepCounter: "200033736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"ID\""
+          - columnReference:
+              columnCounter: 2000300829
+              stepCounter: "200033736"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000300839
+              stepCounter: "200033736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000300830
+              stepCounter: "200033736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000300840
+              stepCounter: "200033736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000300841
+              stepCounter: "200033736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000300842
+              stepCounter: "200033736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000300843
+              stepCounter: "200033736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000300831
+              stepCounter: "200033736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000300844
+              stepCounter: "200033736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000300845
+              stepCounter: "200033736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000300846
+              stepCounter: "200033736"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000300836
+              stepCounter: "200033736"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000300837
+              stepCounter: "200033736"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000300838
+              stepCounter: "200033736"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CASE   WHEN LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.HVROP = 0 THEN 'Y'   WHEN LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.HVRCAPTSTAMP < ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE THEN 'Y'   ELSE 'N'   END
+          - columnReference:
+              columnCounter: 2000300847
+              stepCounter: "200033736"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROW_NUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ROW_NUMBER() OVER(    PARTITION BY      LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.ID    ORDER BY      LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.HVRCAPTSTAMP DESC     ,LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.HVRINTEGSEQ DESC  )
+          - columnReference:
+              columnCounter: 2000300832
+              stepCounter: "200033736"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000300833
+              stepCounter: "200033736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000300835
+              stepCounter: "200033736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000300834
+              stepCounter: "200033736"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD') }} \"LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY = 'BC_PROD'   AND LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.HVRCAPTSTAMP < ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP  JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  "
+            name: STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_00_ASOF
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_POLICYPERIODBILLINGMETHOD_00_ASOF
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200033736"

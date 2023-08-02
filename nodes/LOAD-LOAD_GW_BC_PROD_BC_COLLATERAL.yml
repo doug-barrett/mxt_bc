@@ -1,0 +1,367 @@
+steps:
+  LOAD_GW_BC_PROD_BC_COLLATERAL-200018749:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123953
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123954
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123955
+              stepCounter: "200018749"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123956
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123957
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000123958
+              stepCounter: "200018749"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CHARGEHELD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"CHARGEHELD\""
+          - columnReference:
+              columnCounter: 2000123959
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000123960
+              stepCounter: "200018749"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123961
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALCASHVALUEATREQUIRMNTS_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"TOTALCASHVALUEATREQUIRMNTS_CUR\""
+          - columnReference:
+              columnCounter: 2000123962
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123963
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000123964
+              stepCounter: "200018749"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALLOCVALUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"TOTALLOCVALUE\""
+          - columnReference:
+              columnCounter: 2000123965
+              stepCounter: "200018749"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123966
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALLOCVALUE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"TOTALLOCVALUE_CUR\""
+          - columnReference:
+              columnCounter: 2000123967
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIDDENTACCOUNTCONTAINERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HIDDENTACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000123968
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123969
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMPLIANCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"COMPLIANCE\""
+          - columnReference:
+              columnCounter: 2000123970
+              stepCounter: "200018749"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALCASHVALUEATREQUIREMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"TOTALCASHVALUEATREQUIREMENTS\""
+          - columnReference:
+              columnCounter: 2000123971
+              stepCounter: "200018749"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123972
+              stepCounter: "200018749"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123973
+              stepCounter: "200018749"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123974
+              stepCounter: "200018749"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123975
+              stepCounter: "200018749"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123976
+              stepCounter: "200018749"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123977
+              stepCounter: "200018749"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123978
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123979
+              stepCounter: "200018749"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123980
+              stepCounter: "200018749"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COLLATERAL\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123952
+              stepCounter: "200018749"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_COLLATERAL'"
+          - columnReference:
+              columnCounter: 2000123951
+              stepCounter: "200018749"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_COLLATERAL
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_COLLATERAL') }} "BC_COLLATERAL" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_COLLATERAL') }} "ODS_GW_BC_PROD_BC_COLLATERAL")
+            name: LOAD_GW_BC_PROD_BC_COLLATERAL
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_COLLATERAL
+      name: LOAD_GW_BC_PROD_BC_COLLATERAL
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018749"

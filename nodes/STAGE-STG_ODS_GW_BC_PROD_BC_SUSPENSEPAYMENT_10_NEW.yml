@@ -1,0 +1,688 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_10_NEW-200022984:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000250577
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIODAPPLIEDTOID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"POLICYPERIODAPPLIEDTOID\""
+          - columnReference:
+              columnCounter: 2000250578
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERAPPLIEDTOID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PRODUCERAPPLIEDTOID\""
+          - columnReference:
+              columnCounter: 2000250579
+              stepCounter: "200022984"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000250580
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTAPPLIEDTOID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"ACCOUNTAPPLIEDTOID\""
+          - columnReference:
+              columnCounter: 2000250581
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTINSTRUMENTID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PAYMENTINSTRUMENTID\""
+          - columnReference:
+              columnCounter: 2000250582
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000250583
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OFFEROPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"OFFEROPTION\""
+          - columnReference:
+              columnCounter: 2000250584
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000250585
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREDITID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"CREDITID\""
+          - columnReference:
+              columnCounter: 2000250586
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000250587
+              stepCounter: "200022984"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000250588
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFNUMBERDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"REFNUMBERDENORM\""
+          - columnReference:
+              columnCounter: 2000250589
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000250590
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIDDENTACCOUNTCONTAINERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HIDDENTACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000250591
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERNAMEDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PRODUCERNAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000250592
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000250593
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"REFNUMBER\""
+          - columnReference:
+              columnCounter: 2000250594
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERNAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PRODUCERNAME\""
+          - columnReference:
+              columnCounter: 2000250595
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERCODE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PRODUCERCODE_EXT\""
+          - columnReference:
+              columnCounter: 2000250596
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000250597
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: OFFERNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"OFFERNUMBER\""
+          - columnReference:
+              columnCounter: 2000250598
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000250599
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000250600
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BATCHRECEIVEDDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"BATCHRECEIVEDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000250601
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTINGGROUPID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"REPORTINGGROUPID\""
+          - columnReference:
+              columnCounter: 2000250602
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000250603
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000250604
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBERDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"ACCOUNTNUMBERDENORM\""
+          - columnReference:
+              columnCounter: 2000250605
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAYMENTDATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PAYMENTDATE\""
+          - columnReference:
+              columnCounter: 2000250606
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: INVOICENUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"INVOICENUMBER\""
+          - columnReference:
+              columnCounter: 2000250607
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"ACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000250608
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTMONEYRECEIVEDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PAYMENTMONEYRECEIVEDID\""
+          - columnReference:
+              columnCounter: 2000250609
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBERDENORM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"POLICYNUMBERDENORM\""
+          - columnReference:
+              columnCounter: 2000250610
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPLIEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"APPLIEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000250611
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: POLICYNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"POLICYNUMBER\""
+          - columnReference:
+              columnCounter: 2000250612
+              stepCounter: "200022984"
+            dataType: VARCHAR(1333)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000250613
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REVERSEDBYUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"REVERSEDBYUSERID\""
+          - columnReference:
+              columnCounter: 2000250614
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: BANKROUTINGNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"BANKROUTINGNUMBER\""
+          - columnReference:
+              columnCounter: 2000250615
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REVERSALDATE_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"REVERSALDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000250616
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BATCHINFO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"BATCHINFO\""
+          - columnReference:
+              columnCounter: 2000250617
+              stepCounter: "200022984"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: BANKACCOUNTNUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"BANKACCOUNTNUMBER\""
+          - columnReference:
+              columnCounter: 2000250618
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTREVERSALREASON_EXT
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"PAYMENTREVERSALREASON_EXT\""
+          - columnReference:
+              columnCounter: 2000250619
+              stepCounter: "200022984"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000250620
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000250621
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000250633
+              stepCounter: "200022984"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000250634
+              stepCounter: "200022984"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Historical Refresh SEQNO for the HVR Table within the specified window
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000250635
+              stepCounter: "200022984"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000250622
+              stepCounter: "200022984"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000250623
+              stepCounter: "200022984"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000250624
+              stepCounter: "200022984"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000250625
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000250626
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000250627
+              stepCounter: "200022984"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000250628
+              stepCounter: "200022984"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000250629
+              stepCounter: "200022984"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000250630
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000250632
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000250631
+              stepCounter: "200022984"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT') }} \"LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_SUSPENSEPAYMENT.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY    "
+            name: STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_SUSPENSEPAYMENT_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200022984"

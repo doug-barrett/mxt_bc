@@ -1,0 +1,303 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_15_M-200006291:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: true
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 2000082645
+              stepCounter: "200006291"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"L_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029262
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082646
+              stepCounter: "200006291"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"PRIORITY\""
+              - columnReferences:
+                  - columnCounter: 2000029263
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082647
+              stepCounter: "200006291"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"TYPECODE\""
+              - columnReferences:
+                  - columnCounter: 2000029264
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082648
+              stepCounter: "200006291"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"S_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029265
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082649
+              stepCounter: "200006291"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"RETIRED\""
+              - columnReferences:
+                  - columnCounter: 2000029266
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082650
+              stepCounter: "200006291"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"NAME\""
+              - columnReferences:
+                  - columnCounter: 2000029267
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082651
+              stepCounter: "200006291"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"ID\""
+              - columnReferences:
+                  - columnCounter: 2000029268
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082652
+              stepCounter: "200006291"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"DESCRIPTION\""
+              - columnReferences:
+                  - columnCounter: 2000029269
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082653
+              stepCounter: "200006291"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"HVRCAPTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029270
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082654
+              stepCounter: "200006291"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"HVRINTEGTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029271
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082655
+              stepCounter: "200006291"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"HVRCAPTUREKEY\""
+              - columnReferences:
+                  - columnCounter: 2000029272
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082656
+              stepCounter: "200006291"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"BATCH_NUMBER\""
+              - columnReferences:
+                  - columnCounter: 2000029273
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082657
+              stepCounter: "200006291"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"DELETE_FLAG\""
+              - columnReferences:
+                  - columnCounter: 2000029274
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082658
+              stepCounter: "200006291"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"DSS_RECORD_SOURCE\""
+              - columnReferences:
+                  - columnCounter: 2000029275
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082659
+              stepCounter: "200006291"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"DSS_LOAD_DATE\""
+              - columnReferences:
+                  - columnCounter: 2000029276
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082661
+              stepCounter: "200006291"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"DSS_CREATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029278
+                    stepCounter: "200006321"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082660
+              stepCounter: "200006291"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD\".\"DSS_UPDATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029277
+                    stepCounter: "200006321"
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD') }} "STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_05_LOAD"
+            name: STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_15_M
+            noLinkRefs: []
+          - aliases:
+              STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_10_DELETE: "200006321"
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE', 'STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_10_DELETE') }} "STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_10_DELETE"
+            name: STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_10_DEL
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_CHARGECATEGORY_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200006291"

@@ -1,0 +1,477 @@
+steps:
+  LOAD_GW_BC_PROD_BC_OUTGOINGPAYMENT-200022412:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000125674
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000125675
+              stepCounter: "200022412"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTOADDRESS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"MAILTOADDRESS\""
+          - columnReference:
+              columnCounter: 2000125676
+              stepCounter: "200022412"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000125677
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ISSUEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"ISSUEDATE\""
+          - columnReference:
+              columnCounter: 2000125678
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTINSTRUMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"PAYMENTINSTRUMENTID\""
+          - columnReference:
+              columnCounter: 2000125679
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000125680
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERPAYMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"PRODUCERPAYMENTID\""
+          - columnReference:
+              columnCounter: 2000125681
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000125682
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000125683
+              stepCounter: "200022412"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000125684
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000125685
+              stepCounter: "200022412"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFNUMBERDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"REFNUMBERDENORM\""
+          - columnReference:
+              columnCounter: 2000125686
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000125687
+              stepCounter: "200022412"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: REFNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"REFNUMBER\""
+          - columnReference:
+              columnCounter: 2000125688
+              stepCounter: "200022412"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTODENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"PAYTODENORM\""
+          - columnReference:
+              columnCounter: 2000125689
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125690
+              stepCounter: "200022412"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PAYTO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"PAYTO\""
+          - columnReference:
+              columnCounter: 2000125691
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000125692
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000125693
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BATCHRECEIVEDDATE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"BATCHRECEIVEDDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000125694
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: REJECTEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"REJECTEDDATE\""
+          - columnReference:
+              columnCounter: 2000125695
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125696
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000125697
+              stepCounter: "200022412"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MAILTO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"MAILTO\""
+          - columnReference:
+              columnCounter: 2000125698
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000125699
+              stepCounter: "200022412"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: MEMO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"MEMO\""
+          - columnReference:
+              columnCounter: 2000125700
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAIDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"PAIDDATE\""
+          - columnReference:
+              columnCounter: 2000125701
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"DISBURSEMENTID\""
+          - columnReference:
+              columnCounter: 2000125702
+              stepCounter: "200022412"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000125703
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125704
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000125705
+              stepCounter: "200022412"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000125706
+              stepCounter: "200022412"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000125707
+              stepCounter: "200022412"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000125708
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125709
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000125710
+              stepCounter: "200022412"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000125711
+              stepCounter: "200022412"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_OUTGOINGPAYMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000125673
+              stepCounter: "200022412"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_OUTGOINGPAYMENT'"
+          - columnReference:
+              columnCounter: 2000125672
+              stepCounter: "200022412"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_OUTGOINGPAYMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_OUTGOINGPAYMENT') }} "BC_OUTGOINGPAYMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_OUTGOINGPAYMENT') }} "ODS_GW_BC_PROD_BC_OUTGOINGPAYMENT")
+            name: LOAD_GW_BC_PROD_BC_OUTGOINGPAYMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_OUTGOINGPAYMENT
+      name: LOAD_GW_BC_PROD_BC_OUTGOINGPAYMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022412"

@@ -1,0 +1,323 @@
+steps:
+  LOAD_GW_BC_PROD_BC_CHARGEPRORATATX-200018745:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123841
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123842
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123843
+              stepCounter: "200018745"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123844
+              stepCounter: "200018745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: EARNDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"EARNDATE\""
+          - columnReference:
+              columnCounter: 2000123845
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123846
+              stepCounter: "200018745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123847
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"CHARGEID\""
+          - columnReference:
+              columnCounter: 2000123848
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123849
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000123850
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"STATUS\""
+          - columnReference:
+              columnCounter: 2000123851
+              stepCounter: "200018745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123852
+              stepCounter: "200018745"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000123853
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000123854
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123855
+              stepCounter: "200018745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123856
+              stepCounter: "200018745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123857
+              stepCounter: "200018745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123858
+              stepCounter: "200018745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123859
+              stepCounter: "200018745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123860
+              stepCounter: "200018745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123861
+              stepCounter: "200018745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123862
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123863
+              stepCounter: "200018745"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123864
+              stepCounter: "200018745"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CHARGEPRORATATX\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123840
+              stepCounter: "200018745"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_CHARGEPRORATATX'"
+          - columnReference:
+              columnCounter: 2000123839
+              stepCounter: "200018745"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_CHARGEPRORATATX
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_CHARGEPRORATATX') }} "BC_CHARGEPRORATATX" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_CHARGEPRORATATX') }} "ODS_GW_BC_PROD_BC_CHARGEPRORATATX")
+            name: LOAD_GW_BC_PROD_BC_CHARGEPRORATATX
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_CHARGEPRORATATX
+      name: LOAD_GW_BC_PROD_BC_CHARGEPRORATATX
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018745"

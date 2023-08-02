@@ -1,0 +1,380 @@
+steps:
+  STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_10_NEW-200022044:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000249644
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000249645
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000249646
+              stepCounter: "200022044"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000249647
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000249648
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000249649
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000249650
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000249651
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BILLINGINSTRUCTIONID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"BILLINGINSTRUCTIONID\""
+          - columnReference:
+              columnCounter: 2000249652
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000249653
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000249654
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"ROLE\""
+          - columnReference:
+              columnCounter: 2000249655
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000249656
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERCODEID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"PRODUCERCODEID\""
+          - columnReference:
+              columnCounter: 2000249657
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000249658
+              stepCounter: "200022044"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000249659
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000249660
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000249661
+              stepCounter: "200022044"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000249662
+              stepCounter: "200022044"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000249663
+              stepCounter: "200022044"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000249664
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000249665
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000249666
+              stepCounter: "200022044"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000249667
+              stepCounter: "200022044"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000249643
+              stepCounter: "200022044"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_05_SEQNO\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000249672
+              stepCounter: "200022044"
+            dataType: NUMBER
+            defaultValue: ""
+            description: Refresh SEQNO for the HVR Table
+            name: HVR_REFRESH_SEQNO
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_05_SEQNO\".\"HVR_REFRESH_SEQNO\""
+          - columnReference:
+              columnCounter: 2000249642
+              stepCounter: "200022044"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000249668
+              stepCounter: "200022044"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"DSS_RECORD_SOURCE\""
+          - columnReference:
+              columnCounter: 2000249669
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\".\"DSS_LOAD_DATE\""
+          - columnReference:
+              columnCounter: 2000249671
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000249670
+              stepCounter: "200022044"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_05_SEQNO
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY') }} \"LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY\" JOIN {{ ref('STAGE','STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_05_SEQNO') }} \"STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_05_SEQNO\"    ON LOAD_GW_BC_PROD_BC_PRODCODEROLEENTRY.HVRINTEGSEQ = STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_05_SEQNO.HVRINTEGSEQ  JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_05_SEQNO.HVRCAPTUREKEY = ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY  "
+            name: STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_10_NEW
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BC_PRODCODEROLEENTRY_10_NEW
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200022044"

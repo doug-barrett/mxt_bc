@@ -1,0 +1,235 @@
+steps:
+  LOAD_GW_BC_PROD_BC_REVWRITEOFF-200022020:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000126708
+              stepCounter: "200022020"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000126709
+              stepCounter: "200022020"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FOREIGNENTITYID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"FOREIGNENTITYID\""
+          - columnReference:
+              columnCounter: 2000126710
+              stepCounter: "200022020"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000126711
+              stepCounter: "200022020"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000126712
+              stepCounter: "200022020"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"ID\""
+          - columnReference:
+              columnCounter: 2000126713
+              stepCounter: "200022020"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: OWNERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"OWNERID\""
+          - columnReference:
+              columnCounter: 2000126714
+              stepCounter: "200022020"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000126715
+              stepCounter: "200022020"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126716
+              stepCounter: "200022020"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000126717
+              stepCounter: "200022020"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000126718
+              stepCounter: "200022020"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000126719
+              stepCounter: "200022020"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000126720
+              stepCounter: "200022020"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000126721
+              stepCounter: "200022020"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000126722
+              stepCounter: "200022020"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000126723
+              stepCounter: "200022020"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_REVWRITEOFF\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000126707
+              stepCounter: "200022020"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_REVWRITEOFF'"
+          - columnReference:
+              columnCounter: 2000126706
+              stepCounter: "200022020"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_REVWRITEOFF
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_REVWRITEOFF') }} "BC_REVWRITEOFF" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_REVWRITEOFF') }} "ODS_GW_BC_PROD_BC_REVWRITEOFF")
+            name: LOAD_GW_BC_PROD_BC_REVWRITEOFF
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_REVWRITEOFF
+      name: LOAD_GW_BC_PROD_BC_REVWRITEOFF
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022020"

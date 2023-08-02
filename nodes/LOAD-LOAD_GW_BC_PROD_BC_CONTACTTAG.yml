@@ -1,0 +1,301 @@
+steps:
+  LOAD_GW_BC_PROD_BC_CONTACTTAG-200018757:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128706
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128707
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128708
+              stepCounter: "200018757"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128709
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128710
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128711
+              stepCounter: "200018757"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128712
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128713
+              stepCounter: "200018757"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: ADDRESSBOOKUID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"ADDRESSBOOKUID\""
+          - columnReference:
+              columnCounter: 2000128714
+              stepCounter: "200018757"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128715
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"TYPE\""
+          - columnReference:
+              columnCounter: 2000128716
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CONTACTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"CONTACTID\""
+          - columnReference:
+              columnCounter: 2000128717
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128718
+              stepCounter: "200018757"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128719
+              stepCounter: "200018757"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128720
+              stepCounter: "200018757"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128721
+              stepCounter: "200018757"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128722
+              stepCounter: "200018757"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128723
+              stepCounter: "200018757"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128724
+              stepCounter: "200018757"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128725
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128726
+              stepCounter: "200018757"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128727
+              stepCounter: "200018757"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACTTAG\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128705
+              stepCounter: "200018757"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_CONTACTTAG'"
+          - columnReference:
+              columnCounter: 2000128704
+              stepCounter: "200018757"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_CONTACTTAG
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_CONTACTTAG') }} "BC_CONTACTTAG" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_CONTACTTAG') }} "ODS_GW_BC_PROD_BC_CONTACTTAG")
+            name: LOAD_GW_BC_PROD_BC_CONTACTTAG
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_CONTACTTAG
+      name: LOAD_GW_BC_PROD_BC_CONTACTTAG
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018757"

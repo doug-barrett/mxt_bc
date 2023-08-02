@@ -1,0 +1,378 @@
+steps:
+  LOAD_GW_BC_PROD_BC_CMSNREDUCTION-200018748:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123922
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123923
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123924
+              stepCounter: "200018748"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: REVERSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"REVERSED\""
+          - columnReference:
+              columnCounter: 2000123925
+              stepCounter: "200018748"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123926
+              stepCounter: "200018748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEWRITTENOFF
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"DATEWRITTENOFF\""
+          - columnReference:
+              columnCounter: 2000123927
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEWRITTENOFFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"CHARGEWRITTENOFFID\""
+          - columnReference:
+              columnCounter: 2000123928
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123929
+              stepCounter: "200018748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123930
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000123931
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123932
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000123933
+              stepCounter: "200018748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123934
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMMISSIONWRITEOFFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"COMMISSIONWRITEOFFID\""
+          - columnReference:
+              columnCounter: 2000123935
+              stepCounter: "200018748"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000123936
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000123937
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"TYPE\""
+          - columnReference:
+              columnCounter: 2000123938
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGECOMMISSIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"CHARGECOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000123939
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123940
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEMID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"INVOICEITEMID\""
+          - columnReference:
+              columnCounter: 2000123941
+              stepCounter: "200018748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123942
+              stepCounter: "200018748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123943
+              stepCounter: "200018748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123944
+              stepCounter: "200018748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123945
+              stepCounter: "200018748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123946
+              stepCounter: "200018748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123947
+              stepCounter: "200018748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123948
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123949
+              stepCounter: "200018748"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123950
+              stepCounter: "200018748"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CMSNREDUCTION\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123921
+              stepCounter: "200018748"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_CMSNREDUCTION'"
+          - columnReference:
+              columnCounter: 2000123920
+              stepCounter: "200018748"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_CMSNREDUCTION
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_CMSNREDUCTION') }} "BC_CMSNREDUCTION" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_CMSNREDUCTION') }} "ODS_GW_BC_PROD_BC_CMSNREDUCTION")
+            name: LOAD_GW_BC_PROD_BC_CMSNREDUCTION
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_CMSNREDUCTION
+      name: LOAD_GW_BC_PROD_BC_CMSNREDUCTION
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018748"

@@ -1,0 +1,972 @@
+steps:
+  LOAD_GW_BC_PROD_BC_CONTACT-200012238:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128602
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128603
+              stepCounter: "200012238"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PREFERRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PREFERRED\""
+          - columnReference:
+              columnCounter: 2000128604
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VENDORTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"VENDORTYPE\""
+          - columnReference:
+              columnCounter: 2000128605
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FAXPHONECOUNTRY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"FAXPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000128606
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: PARTICLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PARTICLE\""
+          - columnReference:
+              columnCounter: 2000128607
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: TAXID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"TAXID\""
+          - columnReference:
+              columnCounter: 2000128608
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAMEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"NAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000128609
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000128610
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: VENDORNUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"VENDORNUMBER\""
+          - columnReference:
+              columnCounter: 2000128611
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREFIX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PREFIX\""
+          - columnReference:
+              columnCounter: 2000128612
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SCORE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"SCORE\""
+          - columnReference:
+              columnCounter: 2000128613
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PREFERREDCURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PREFERREDCURRENCY\""
+          - columnReference:
+              columnCounter: 2000128614
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: LASTNAMEKANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LASTNAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000128615
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TAXFILINGSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"TAXFILINGSTATUS\""
+          - columnReference:
+              columnCounter: 2000128616
+              stepCounter: "200012238"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128617
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128618
+              stepCounter: "200012238"
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: WITHHOLDINGRATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"WITHHOLDINGRATE\""
+          - columnReference:
+              columnCounter: 2000128619
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: LASTNAMEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LASTNAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000128620
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: MIDDLENAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"MIDDLENAME\""
+          - columnReference:
+              columnCounter: 2000128621
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: LASTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LASTNAME\""
+          - columnReference:
+              columnCounter: 2000128622
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128623
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EXTERNALID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"EXTERNALID\""
+          - columnReference:
+              columnCounter: 2000128624
+              stepCounter: "200012238"
+            dataType: VARCHAR(500)
+            defaultValue: ""
+            description: ""
+            name: LEGALNAME_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LEGALNAME_EXT\""
+          - columnReference:
+              columnCounter: 2000128625
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128626
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VENUETYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"VENUETYPE\""
+          - columnReference:
+              columnCounter: 2000128627
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128628
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: VALIDATIONLEVEL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"VALIDATIONLEVEL\""
+          - columnReference:
+              columnCounter: 2000128629
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYPHONE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PRIMARYPHONE\""
+          - columnReference:
+              columnCounter: 2000128630
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128631
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: HOMEPHONEEXTENSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HOMEPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000128632
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FIRSTNAMEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"FIRSTNAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000128633
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FIRSTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"FIRSTNAME\""
+          - columnReference:
+              columnCounter: 2000128634
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FIRSTNAMEKANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"FIRSTNAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000128635
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GENDER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"GENDER\""
+          - columnReference:
+              columnCounter: 2000128636
+              stepCounter: "200012238"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: NOTES
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"NOTES\""
+          - columnReference:
+              columnCounter: 2000128637
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMDEPENDENTSU18
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"NUMDEPENDENTSU18\""
+          - columnReference:
+              columnCounter: 2000128638
+              stepCounter: "200012238"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128639
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HOMEPHONECOUNTRY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HOMEPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000128640
+              stepCounter: "200012238"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128641
+              stepCounter: "200012238"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: LICENSENUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LICENSENUMBER\""
+          - columnReference:
+              columnCounter: 2000128642
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AUTOSYNC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"AUTOSYNC\""
+          - columnReference:
+              columnCounter: 2000128643
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CELLPHONECOUNTRY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"CELLPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000128644
+              stepCounter: "200012238"
+            dataType: VARCHAR(80)
+            defaultValue: ""
+            description: ""
+            name: OCCUPATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"OCCUPATION\""
+          - columnReference:
+              columnCounter: 2000128645
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: CELLPHONE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"CELLPHONE\""
+          - columnReference:
+              columnCounter: 2000128646
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYADDRESSID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PRIMARYADDRESSID\""
+          - columnReference:
+              columnCounter: 2000128647
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUFFIX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"SUFFIX\""
+          - columnReference:
+              columnCounter: 2000128648
+              stepCounter: "200012238"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: ADDRESSBOOKUID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"ADDRESSBOOKUID\""
+          - columnReference:
+              columnCounter: 2000128649
+              stepCounter: "200012238"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: LOADRELATEDCONTACTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LOADRELATEDCONTACTS\""
+          - columnReference:
+              columnCounter: 2000128650
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMAILADDRESS1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"EMAILADDRESS1\""
+          - columnReference:
+              columnCounter: 2000128651
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMDEPENDENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"NUMDEPENDENTS\""
+          - columnReference:
+              columnCounter: 2000128652
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYLANGUAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PRIMARYLANGUAGE\""
+          - columnReference:
+              columnCounter: 2000128653
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: EMAILADDRESS2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"EMAILADDRESS2\""
+          - columnReference:
+              columnCounter: 2000128654
+              stepCounter: "200012238"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFBIRTH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"DATEOFBIRTH\""
+          - columnReference:
+              columnCounter: 2000128655
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYLOCALE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PRIMARYLOCALE\""
+          - columnReference:
+              columnCounter: 2000128656
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TAXSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"TAXSTATUS\""
+          - columnReference:
+              columnCounter: 2000128657
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMDEPENDENTSU25
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"NUMDEPENDENTSU25\""
+          - columnReference:
+              columnCounter: 2000128658
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: WORKPHONEEXTENSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"WORKPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000128659
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: MARITALSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"MARITALSTATUS\""
+          - columnReference:
+              columnCounter: 2000128660
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: NAMEKANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"NAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000128661
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: FAXPHONEEXTENSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"FAXPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000128662
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: HOMEPHONE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HOMEPHONE\""
+          - columnReference:
+              columnCounter: 2000128663
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LICENSESTATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"LICENSESTATE\""
+          - columnReference:
+              columnCounter: 2000128664
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FAXPHONE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"FAXPHONE\""
+          - columnReference:
+              columnCounter: 2000128665
+              stepCounter: "200012238"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CELLPHONEEXTENSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"CELLPHONEEXTENSION\""
+          - columnReference:
+              columnCounter: 2000128666
+              stepCounter: "200012238"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: EMPLOYEENUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"EMPLOYEENUMBER\""
+          - columnReference:
+              columnCounter: 2000128667
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WORKPHONECOUNTRY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"WORKPHONECOUNTRY\""
+          - columnReference:
+              columnCounter: 2000128668
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000128669
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: FORMERNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"FORMERNAME\""
+          - columnReference:
+              columnCounter: 2000128670
+              stepCounter: "200012238"
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: WORKPHONE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"WORKPHONE\""
+          - columnReference:
+              columnCounter: 2000128671
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SOURCE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"SOURCE_EXT\""
+          - columnReference:
+              columnCounter: 2000128672
+              stepCounter: "200012238"
+            dataType: VARCHAR(500)
+            defaultValue: ""
+            description: ""
+            name: PRIMARYDBA_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"PRIMARYDBA_EXT\""
+          - columnReference:
+              columnCounter: 2000128673
+              stepCounter: "200012238"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OBFUSCATEDINTERNAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"OBFUSCATEDINTERNAL\""
+          - columnReference:
+              columnCounter: 2000128674
+              stepCounter: "200012238"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DONOTDESTROY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"DONOTDESTROY\""
+          - columnReference:
+              columnCounter: 2000128675
+              stepCounter: "200012238"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128676
+              stepCounter: "200012238"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128677
+              stepCounter: "200012238"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128678
+              stepCounter: "200012238"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128679
+              stepCounter: "200012238"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128680
+              stepCounter: "200012238"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128681
+              stepCounter: "200012238"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128682
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128683
+              stepCounter: "200012238"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128684
+              stepCounter: "200012238"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_CONTACT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128601
+              stepCounter: "200012238"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_CONTACT'"
+          - columnReference:
+              columnCounter: 2000128600
+              stepCounter: "200012238"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_CONTACT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_CONTACT') }} "BC_CONTACT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_CONTACT') }} "ODS_GW_BC_PROD_BC_CONTACT")
+            name: LOAD_GW_BC_PROD_BC_CONTACT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_CONTACT
+      name: LOAD_GW_BC_PROD_BC_CONTACT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200012238"

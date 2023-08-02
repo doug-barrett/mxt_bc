@@ -1,0 +1,312 @@
+steps:
+  LOAD_GW_BC_PROD_BC_POLICY-200005075:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000125973
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000125974
+              stepCounter: "200005075"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: HELDFORINVOICESENDING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HELDFORINVOICESENDING\""
+          - columnReference:
+              columnCounter: 2000125975
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125976
+              stepCounter: "200005075"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000125977
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000125978
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000125979
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000125980
+              stepCounter: "200005075"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000125981
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOBCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"LOBCODE\""
+          - columnReference:
+              columnCounter: 2000125982
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125983
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000125984
+              stepCounter: "200005075"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000125985
+              stepCounter: "200005075"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PCPUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"PCPUBLICID\""
+          - columnReference:
+              columnCounter: 2000125986
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"ID\""
+          - columnReference:
+              columnCounter: 2000125987
+              stepCounter: "200005075"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000125988
+              stepCounter: "200005075"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125989
+              stepCounter: "200005075"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000125990
+              stepCounter: "200005075"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000125991
+              stepCounter: "200005075"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000125992
+              stepCounter: "200005075"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125993
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000125994
+              stepCounter: "200005075"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000125995
+              stepCounter: "200005075"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_POLICY\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000125972
+              stepCounter: "200005075"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_POLICY'"
+          - columnReference:
+              columnCounter: 2000125971
+              stepCounter: "200005075"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_POLICY
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_POLICY') }} "BC_POLICY" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_POLICY') }} "ODS_GW_BC_PROD_BC_POLICY")
+            name: LOAD_GW_BC_PROD_BC_POLICY
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_POLICY
+      name: LOAD_GW_BC_PROD_BC_POLICY
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005075"

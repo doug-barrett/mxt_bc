@@ -1,0 +1,455 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT-200022890:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000127862
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICEITEM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"INVOICEITEM\""
+          - columnReference:
+              columnCounter: 2000127863
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000127864
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127865
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONAGENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"COLLECTIONAGENCY\""
+          - columnReference:
+              columnCounter: 2000127866
+              stepCounter: "200022890"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000127867
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTCOLLECTOR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"DIRECTCOLLECTOR\""
+          - columnReference:
+              columnCounter: 2000127868
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000127869
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000127870
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000127871
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECOLLECTED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECOLLECTED_CUR\""
+          - columnReference:
+              columnCounter: 2000127872
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000127873
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEATTEMPTED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEATTEMPTED_CUR\""
+          - columnReference:
+              columnCounter: 2000127874
+              stepCounter: "200022890"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECOLLECTED_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECOLLECTED_AMT\""
+          - columnReference:
+              columnCounter: 2000127875
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000127876
+              stepCounter: "200022890"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEATTEMPTED_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEATTEMPTED_AMT\""
+          - columnReference:
+              columnCounter: 2000127877
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000127878
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONEVENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"COLLECTIONEVENT\""
+          - columnReference:
+              columnCounter: 2000127879
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTIONSUNASSIGNMENTREASON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"COLLECTIONSUNASSIGNMENTREASON\""
+          - columnReference:
+              columnCounter: 2000127880
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: ENDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ENDDATE\""
+          - columnReference:
+              columnCounter: 2000127881
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: STARTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"STARTDATE\""
+          - columnReference:
+              columnCounter: 2000127882
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECREDITED_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECREDITED_CUR\""
+          - columnReference:
+              columnCounter: 2000127883
+              stepCounter: "200022890"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUECREDITED_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUECREDITED_AMT\""
+          - columnReference:
+              columnCounter: 2000127884
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEINITIALLYPAID_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEINITIALLYPAID_CUR\""
+          - columnReference:
+              columnCounter: 2000127885
+              stepCounter: "200022890"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ITEMVALUEINITIALLYPAID_AMT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ITEMVALUEINITIALLYPAID_AMT\""
+          - columnReference:
+              columnCounter: 2000127886
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000127887
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"POLICYPERIOD\""
+          - columnReference:
+              columnCounter: 2000127888
+              stepCounter: "200022890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000127889
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127890
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000127891
+              stepCounter: "200022890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000127892
+              stepCounter: "200022890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000127893
+              stepCounter: "200022890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000127894
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000127895
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000127896
+              stepCounter: "200022890"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000127897
+              stepCounter: "200022890"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONSEFFECTVNSS_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000127861
+              stepCounter: "200022890"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_COLLECTIONSEFFECTVNSS_EXT'"
+          - columnReference:
+              columnCounter: 2000127860
+              stepCounter: "200022890"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_COLLECTIONSEFFECTVNSS_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_COLLECTIONSEFFECTVNSS_EXT') }} "BCX_COLLECTIONSEFFECTVNSS_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT') }} "ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT")
+            name: LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT
+      name: LOAD_GW_BC_PROD_BCX_COLLECTIONSEFFECTVNSS_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022890"

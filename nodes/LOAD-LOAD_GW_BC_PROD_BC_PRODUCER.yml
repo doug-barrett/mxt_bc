@@ -1,0 +1,532 @@
+steps:
+  LOAD_GW_BC_PROD_BC_PRODUCER-200005614:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000129106
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000129107
+              stepCounter: "200005614"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000129108
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SECURITYZONEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"SECURITYZONEID\""
+          - columnReference:
+              columnCounter: 2000129109
+              stepCounter: "200005614"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAMEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"NAMEDENORM\""
+          - columnReference:
+              columnCounter: 2000129110
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000129111
+              stepCounter: "200005614"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALCOMMISSIONEXPENSE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"TOTALCOMMISSIONEXPENSE\""
+          - columnReference:
+              columnCounter: 2000129112
+              stepCounter: "200005614"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SUSPENDNEGATIVEAMOUNTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129113
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALCOMMISSIONEXPENSE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"TOTALCOMMISSIONEXPENSE_CUR\""
+          - columnReference:
+              columnCounter: 2000129114
+              stepCounter: "200005614"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000129115
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: AGENCYBILLEXPIRATIONDATE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"AGENCYBILLEXPIRATIONDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000129116
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AGENCYBILLPLANID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"AGENCYBILLPLANID\""
+          - columnReference:
+              columnCounter: 2000129117
+              stepCounter: "200005614"
+            dataType: VARCHAR(120)
+            defaultValue: ""
+            description: ""
+            name: DBANAME_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"DBANAME_EXT\""
+          - columnReference:
+              columnCounter: 2000129118
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000129119
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000129120
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HIDDENTACCOUNTCONTAINERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HIDDENTACCOUNTCONTAINERID\""
+          - columnReference:
+              columnCounter: 2000129121
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"ID\""
+          - columnReference:
+              columnCounter: 2000129122
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129123
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TIER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"TIER\""
+          - columnReference:
+              columnCounter: 2000129124
+              stepCounter: "200005614"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CONTACTLASTNAME_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"CONTACTLASTNAME_EXT\""
+          - columnReference:
+              columnCounter: 2000129125
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000129126
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000129127
+              stepCounter: "200005614"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: COMBINEDSTATEMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"COMBINEDSTATEMENTS\""
+          - columnReference:
+              columnCounter: 2000129128
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: AGENCYBILLEFFECTIVEDATE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"AGENCYBILLEFFECTIVEDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000129129
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REPORTINGGROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"REPORTINGGROUPID\""
+          - columnReference:
+              columnCounter: 2000129130
+              stepCounter: "200005614"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAMEKANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"NAMEKANJI\""
+          - columnReference:
+              columnCounter: 2000129131
+              stepCounter: "200005614"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALCOMMISSIONRESERVE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"TOTALCOMMISSIONRESERVE\""
+          - columnReference:
+              columnCounter: 2000129132
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALCOMMISSIONRESERVE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"TOTALCOMMISSIONRESERVE_CUR\""
+          - columnReference:
+              columnCounter: 2000129133
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129134
+              stepCounter: "200005614"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISAGENCYBILLELIGIBLE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"ISAGENCYBILLELIGIBLE_EXT\""
+          - columnReference:
+              columnCounter: 2000129135
+              stepCounter: "200005614"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALCOMMISSIONPAYABLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"TOTALCOMMISSIONPAYABLE\""
+          - columnReference:
+              columnCounter: 2000129136
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TOTALCOMMISSIONPAYABLE_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"TOTALCOMMISSIONPAYABLE_CUR\""
+          - columnReference:
+              columnCounter: 2000129137
+              stepCounter: "200005614"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: CONTACTFIRSTNAME_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"CONTACTFIRSTNAME_EXT\""
+          - columnReference:
+              columnCounter: 2000129138
+              stepCounter: "200005614"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISDELINQUENT_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"ISDELINQUENT_EXT\""
+          - columnReference:
+              columnCounter: 2000129139
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: WORKBYDATE_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"WORKBYDATE_EXT\""
+          - columnReference:
+              columnCounter: 2000129140
+              stepCounter: "200005614"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000129141
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129142
+              stepCounter: "200005614"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000129143
+              stepCounter: "200005614"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000129144
+              stepCounter: "200005614"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000129145
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129146
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000129147
+              stepCounter: "200005614"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000129148
+              stepCounter: "200005614"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_PRODUCER\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000129105
+              stepCounter: "200005614"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_PRODUCER'"
+          - columnReference:
+              columnCounter: 2000129104
+              stepCounter: "200005614"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_PRODUCER
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_PRODUCER') }} "BC_PRODUCER" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_PRODUCER') }} "ODS_GW_BC_PROD_BC_PRODUCER")
+            name: LOAD_GW_BC_PROD_BC_PRODUCER
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_PRODUCER
+      name: LOAD_GW_BC_PROD_BC_PRODUCER
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005614"

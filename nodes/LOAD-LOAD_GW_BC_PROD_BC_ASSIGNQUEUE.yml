@@ -1,0 +1,323 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ASSIGNQUEUE-200018566:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123301
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000123302
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123303
+              stepCounter: "200018566"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123304
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123305
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000123306
+              stepCounter: "200018566"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123307
+              stepCounter: "200018566"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000123308
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOCKINGCOLUMN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"LOCKINGCOLUMN\""
+          - columnReference:
+              columnCounter: 2000123309
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123310
+              stepCounter: "200018566"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SUBGROUPVISIBLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"SUBGROUPVISIBLE\""
+          - columnReference:
+              columnCounter: 2000123311
+              stepCounter: "200018566"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123312
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GROUPID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"GROUPID\""
+          - columnReference:
+              columnCounter: 2000123313
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123314
+              stepCounter: "200018566"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000123315
+              stepCounter: "200018566"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123316
+              stepCounter: "200018566"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123317
+              stepCounter: "200018566"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123318
+              stepCounter: "200018566"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123319
+              stepCounter: "200018566"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123320
+              stepCounter: "200018566"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123321
+              stepCounter: "200018566"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123322
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123323
+              stepCounter: "200018566"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123324
+              stepCounter: "200018566"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ASSIGNQUEUE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123300
+              stepCounter: "200018566"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ASSIGNQUEUE'"
+          - columnReference:
+              columnCounter: 2000123299
+              stepCounter: "200018566"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ASSIGNQUEUE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ASSIGNQUEUE') }} "BC_ASSIGNQUEUE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ASSIGNQUEUE') }} "ODS_GW_BC_PROD_BC_ASSIGNQUEUE")
+            name: LOAD_GW_BC_PROD_BC_ASSIGNQUEUE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ASSIGNQUEUE
+      name: LOAD_GW_BC_PROD_BC_ASSIGNQUEUE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018566"

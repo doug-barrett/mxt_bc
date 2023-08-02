@@ -1,0 +1,290 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_TRANSACTIONEXPORT_EXT-200022906:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128338
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128339
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128340
+              stepCounter: "200022906"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128341
+              stepCounter: "200022906"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128342
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128343
+              stepCounter: "200022906"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128344
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128345
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000128346
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128347
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128348
+              stepCounter: "200022906"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: RETURNCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"RETURNCODE\""
+          - columnReference:
+              columnCounter: 2000128349
+              stepCounter: "200022906"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128350
+              stepCounter: "200022906"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128351
+              stepCounter: "200022906"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128352
+              stepCounter: "200022906"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128353
+              stepCounter: "200022906"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128354
+              stepCounter: "200022906"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128355
+              stepCounter: "200022906"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128356
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128357
+              stepCounter: "200022906"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128358
+              stepCounter: "200022906"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_TRANSACTIONEXPORT_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128337
+              stepCounter: "200022906"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_TRANSACTIONEXPORT_EXT'"
+          - columnReference:
+              columnCounter: 2000128336
+              stepCounter: "200022906"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_TRANSACTIONEXPORT_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_TRANSACTIONEXPORT_EXT') }} "BCX_TRANSACTIONEXPORT_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_TRANSACTIONEXPORT_EXT') }} "ODS_GW_BC_PROD_BCX_TRANSACTIONEXPORT_EXT")
+            name: LOAD_GW_BC_PROD_BCX_TRANSACTIONEXPORT_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_TRANSACTIONEXPORT_EXT
+      name: LOAD_GW_BC_PROD_BCX_TRANSACTIONEXPORT_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022906"

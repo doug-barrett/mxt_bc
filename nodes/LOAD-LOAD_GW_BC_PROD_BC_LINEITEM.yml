@@ -1,0 +1,312 @@
+steps:
+  LOAD_GW_BC_PROD_BC_LINEITEM-200005067:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000125259
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000125260
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125261
+              stepCounter: "200005067"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000125262
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000125263
+              stepCounter: "200005067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000125264
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000125265
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000125266
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"TACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000125267
+              stepCounter: "200005067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000125268
+              stepCounter: "200005067"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000125269
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000125270
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000125271
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"TYPE\""
+          - columnReference:
+              columnCounter: 2000125272
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"ID\""
+          - columnReference:
+              columnCounter: 2000125273
+              stepCounter: "200005067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000125274
+              stepCounter: "200005067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125275
+              stepCounter: "200005067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000125276
+              stepCounter: "200005067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000125277
+              stepCounter: "200005067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000125278
+              stepCounter: "200005067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000125279
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000125280
+              stepCounter: "200005067"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000125281
+              stepCounter: "200005067"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_LINEITEM\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000125258
+              stepCounter: "200005067"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_LINEITEM'"
+          - columnReference:
+              columnCounter: 2000125257
+              stepCounter: "200005067"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_LINEITEM
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_LINEITEM') }} "BC_LINEITEM" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_LINEITEM') }} "ODS_GW_BC_PROD_BC_LINEITEM")
+            name: LOAD_GW_BC_PROD_BC_LINEITEM
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_LINEITEM
+      name: LOAD_GW_BC_PROD_BC_LINEITEM
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005067"

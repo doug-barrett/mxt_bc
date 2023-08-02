@@ -1,0 +1,499 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT-200022898:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128096
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128097
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BILLINGITEMSTARTDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"BILLINGITEMSTARTDATE\""
+          - columnReference:
+              columnCounter: 2000128098
+              stepCounter: "200022898"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128099
+              stepCounter: "200022898"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: DELIVERED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"DELIVERED\""
+          - columnReference:
+              columnCounter: 2000128100
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BUSINESSUNIT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"BUSINESSUNIT\""
+          - columnReference:
+              columnCounter: 2000128101
+              stepCounter: "200022898"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: IMAGEDDOCSERIALNUMBERS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"IMAGEDDOCSERIALNUMBERS\""
+          - columnReference:
+              columnCounter: 2000128102
+              stepCounter: "200022898"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: SENDEREMAIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"SENDEREMAIL\""
+          - columnReference:
+              columnCounter: 2000128103
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128104
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETRESPONDBYDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETRESPONDBYDATE\""
+          - columnReference:
+              columnCounter: 2000128105
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"PRODUCER\""
+          - columnReference:
+              columnCounter: 2000128106
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"DOCUMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000128107
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128108
+              stepCounter: "200022898"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETATTENTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETATTENTION\""
+          - columnReference:
+              columnCounter: 2000128109
+              stepCounter: "200022898"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETSENDERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETSENDERID\""
+          - columnReference:
+              columnCounter: 2000128110
+              stepCounter: "200022898"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: PRINTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"PRINTER\""
+          - columnReference:
+              columnCounter: 2000128111
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128112
+              stepCounter: "200022898"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: ISPREVIEW
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"ISPREVIEW\""
+          - columnReference:
+              columnCounter: 2000128113
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128114
+              stepCounter: "200022898"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DIRECTFORMS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"DIRECTFORMS\""
+          - columnReference:
+              columnCounter: 2000128115
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128116
+              stepCounter: "200022898"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: IMAGEDDOCTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"IMAGEDDOCTYPE\""
+          - columnReference:
+              columnCounter: 2000128117
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128118
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: INVOICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"INVOICE\""
+          - columnReference:
+              columnCounter: 2000128119
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000128120
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128121
+              stepCounter: "200022898"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: AGENCYCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"AGENCYCODE\""
+          - columnReference:
+              columnCounter: 2000128122
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"POLICYPERIOD\""
+          - columnReference:
+              columnCounter: 2000128123
+              stepCounter: "200022898"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: SENDTOPRINTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"SENDTOPRINTER\""
+          - columnReference:
+              columnCounter: 2000128124
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: BILLINGITEMENDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"BILLINGITEMENDDATE\""
+          - columnReference:
+              columnCounter: 2000128125
+              stepCounter: "200022898"
+            dataType: VARCHAR(1500)
+            defaultValue: ""
+            description: ""
+            name: COVERSHEETCOMMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"COVERSHEETCOMMENTS\""
+          - columnReference:
+              columnCounter: 2000128126
+              stepCounter: "200022898"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128127
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128128
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128129
+              stepCounter: "200022898"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128130
+              stepCounter: "200022898"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128131
+              stepCounter: "200022898"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128132
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128133
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128134
+              stepCounter: "200022898"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128135
+              stepCounter: "200022898"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_DOCUMENTDELIVERY_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128095
+              stepCounter: "200022898"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_DOCUMENTDELIVERY_EXT'"
+          - columnReference:
+              columnCounter: 2000128094
+              stepCounter: "200022898"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_DOCUMENTDELIVERY_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_DOCUMENTDELIVERY_EXT') }} "BCX_DOCUMENTDELIVERY_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT') }} "ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT")
+            name: LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT
+      name: LOAD_GW_BC_PROD_BCX_DOCUMENTDELIVERY_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022898"

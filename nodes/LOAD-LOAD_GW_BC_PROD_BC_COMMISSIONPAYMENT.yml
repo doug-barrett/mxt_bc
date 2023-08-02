@@ -1,0 +1,466 @@
+steps:
+  LOAD_GW_BC_PROD_BC_COMMISSIONPAYMENT-200018751:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124000
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000124001
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PAYMENTTYPE\""
+          - columnReference:
+              columnCounter: 2000124002
+              stepCounter: "200018751"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124003
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: PAYON
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PAYON\""
+          - columnReference:
+              columnCounter: 2000124004
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124005
+              stepCounter: "200018751"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: PAID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PAID\""
+          - columnReference:
+              columnCounter: 2000124006
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERPAYMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PRODUCERPAYMENTID\""
+          - columnReference:
+              columnCounter: 2000124007
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000124008
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PAYMENTTIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PAYMENTTIME\""
+          - columnReference:
+              columnCounter: 2000124009
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124010
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STANDARDPRODUCERCODEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"STANDARDPRODUCERCODEID\""
+          - columnReference:
+              columnCounter: 2000124011
+              stepCounter: "200018751"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"AMOUNT\""
+          - columnReference:
+              columnCounter: 2000124012
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: REQUESTINGUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"REQUESTINGUSERID\""
+          - columnReference:
+              columnCounter: 2000124013
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: AMOUNT_CUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"AMOUNT_CUR\""
+          - columnReference:
+              columnCounter: 2000124014
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERCODEID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PRODUCERCODEID\""
+          - columnReference:
+              columnCounter: 2000124015
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124016
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124017
+              stepCounter: "200018751"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: EXPIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"EXPIRED\""
+          - columnReference:
+              columnCounter: 2000124018
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124019
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000124020
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODUCERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"PRODUCERID\""
+          - columnReference:
+              columnCounter: 2000124021
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124022
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: APPROVALDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"APPROVALDATE\""
+          - columnReference:
+              columnCounter: 2000124023
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: MAINTAINUNTIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"MAINTAINUNTIL\""
+          - columnReference:
+              columnCounter: 2000124024
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: APPROVALSTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"APPROVALSTATUS\""
+          - columnReference:
+              columnCounter: 2000124025
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYCOMMISSIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"POLICYCOMMISSIONID\""
+          - columnReference:
+              columnCounter: 2000124026
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000124027
+              stepCounter: "200018751"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124028
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124029
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000124030
+              stepCounter: "200018751"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124031
+              stepCounter: "200018751"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124032
+              stepCounter: "200018751"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124033
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124034
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124035
+              stepCounter: "200018751"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124036
+              stepCounter: "200018751"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_COMMISSIONPAYMENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123999
+              stepCounter: "200018751"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_COMMISSIONPAYMENT'"
+          - columnReference:
+              columnCounter: 2000123998
+              stepCounter: "200018751"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_COMMISSIONPAYMENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_COMMISSIONPAYMENT') }} "BC_COMMISSIONPAYMENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_COMMISSIONPAYMENT') }} "ODS_GW_BC_PROD_BC_COMMISSIONPAYMENT")
+            name: LOAD_GW_BC_PROD_BC_COMMISSIONPAYMENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_COMMISSIONPAYMENT
+      name: LOAD_GW_BC_PROD_BC_COMMISSIONPAYMENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018751"

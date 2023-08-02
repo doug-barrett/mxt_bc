@@ -1,0 +1,303 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_15_M-200006289:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: true
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 2000082628
+              stepCounter: "200006289"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"L_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029245
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082629
+              stepCounter: "200006289"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"PRIORITY\""
+              - columnReferences:
+                  - columnCounter: 2000029246
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082630
+              stepCounter: "200006289"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"TYPECODE\""
+              - columnReferences:
+                  - columnCounter: 2000029247
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082631
+              stepCounter: "200006289"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"S_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029248
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082632
+              stepCounter: "200006289"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"RETIRED\""
+              - columnReferences:
+                  - columnCounter: 2000029249
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082633
+              stepCounter: "200006289"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"NAME\""
+              - columnReferences:
+                  - columnCounter: 2000029250
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082634
+              stepCounter: "200006289"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"ID\""
+              - columnReferences:
+                  - columnCounter: 2000029251
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082635
+              stepCounter: "200006289"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"DESCRIPTION\""
+              - columnReferences:
+                  - columnCounter: 2000029252
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082636
+              stepCounter: "200006289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"HVRCAPTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029253
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082637
+              stepCounter: "200006289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"HVRINTEGTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029254
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082638
+              stepCounter: "200006289"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"HVRCAPTUREKEY\""
+              - columnReferences:
+                  - columnCounter: 2000029255
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082639
+              stepCounter: "200006289"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"BATCH_NUMBER\""
+              - columnReferences:
+                  - columnCounter: 2000029256
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082640
+              stepCounter: "200006289"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"DELETE_FLAG\""
+              - columnReferences:
+                  - columnCounter: 2000029257
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082641
+              stepCounter: "200006289"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"DSS_RECORD_SOURCE\""
+              - columnReferences:
+                  - columnCounter: 2000029258
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082642
+              stepCounter: "200006289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"DSS_LOAD_DATE\""
+              - columnReferences:
+                  - columnCounter: 2000029259
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082644
+              stepCounter: "200006289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"DSS_CREATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029261
+                    stepCounter: "200006319"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082643
+              stepCounter: "200006289"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD\".\"DSS_UPDATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029260
+                    stepCounter: "200006319"
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD') }} "STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_05_LOAD"
+            name: STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_15_M
+            noLinkRefs: []
+          - aliases:
+              STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_10_DELETE: "200006319"
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE', 'STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_10_DELETE') }} "STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_10_DELETE"
+            name: STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_10_DELETE
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_APPROVALSTATUS_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200006289"

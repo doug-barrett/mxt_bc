@@ -1,0 +1,303 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_15_M-200006300:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: true
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 2000082749
+              stepCounter: "200006300"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"L_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029330
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082750
+              stepCounter: "200006300"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"PRIORITY\""
+              - columnReferences:
+                  - columnCounter: 2000029331
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082751
+              stepCounter: "200006300"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"TYPECODE\""
+              - columnReferences:
+                  - columnCounter: 2000029332
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082752
+              stepCounter: "200006300"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"S_EN_US\""
+              - columnReferences:
+                  - columnCounter: 2000029333
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082753
+              stepCounter: "200006300"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"RETIRED\""
+              - columnReferences:
+                  - columnCounter: 2000029334
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082754
+              stepCounter: "200006300"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"NAME\""
+              - columnReferences:
+                  - columnCounter: 2000029335
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082755
+              stepCounter: "200006300"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"ID\""
+              - columnReferences:
+                  - columnCounter: 2000029336
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082756
+              stepCounter: "200006300"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"DESCRIPTION\""
+              - columnReferences:
+                  - columnCounter: 2000029337
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082757
+              stepCounter: "200006300"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"HVRCAPTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029338
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082758
+              stepCounter: "200006300"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"HVRINTEGTSTAMP\""
+              - columnReferences:
+                  - columnCounter: 2000029339
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082759
+              stepCounter: "200006300"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"HVRCAPTUREKEY\""
+              - columnReferences:
+                  - columnCounter: 2000029340
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082760
+              stepCounter: "200006300"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"BATCH_NUMBER\""
+              - columnReferences:
+                  - columnCounter: 2000029341
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082761
+              stepCounter: "200006300"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"DELETE_FLAG\""
+              - columnReferences:
+                  - columnCounter: 2000029342
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082762
+              stepCounter: "200006300"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"DSS_RECORD_SOURCE\""
+              - columnReferences:
+                  - columnCounter: 2000029343
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082763
+              stepCounter: "200006300"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"DSS_LOAD_DATE\""
+              - columnReferences:
+                  - columnCounter: 2000029344
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082765
+              stepCounter: "200006300"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"DSS_CREATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029346
+                    stepCounter: "200006329"
+                transform: ""
+          - columnReference:
+              columnCounter: 2000082764
+              stepCounter: "200006300"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD\".\"DSS_UPDATE_TIME\""
+              - columnReferences:
+                  - columnCounter: 2000029345
+                    stepCounter: "200006329"
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD
+            join:
+              joinCondition: FROM {{ ref('STAGE','STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD') }} "STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_05_LOAD"
+            name: STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_15_M
+            noLinkRefs: []
+          - aliases:
+              STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_10_DELETE: "200006329"
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGE
+                nodeName: STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_10_DELETE
+            join:
+              joinCondition: FROM {{ ref('STAGE', 'STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_10_DELETE') }} "STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_10_DELETE"
+            name: STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_10_DEL
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_TACCOUNTCONTAINER_15_M
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200006300"

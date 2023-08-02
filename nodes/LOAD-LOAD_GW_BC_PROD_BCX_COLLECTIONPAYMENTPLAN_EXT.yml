@@ -1,0 +1,565 @@
+steps:
+  LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT-200022888:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000129278
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000129279
+              stepCounter: "200022888"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000129280
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000129281
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTPLANFREQUENCY_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTPLANFREQUENCY_EXT\""
+          - columnReference:
+              columnCounter: 2000129282
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DOCUMENTDELIVERY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129283
+              stepCounter: "200022888"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: FORMNAMEDINSURED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"FORMNAMEDINSURED\""
+          - columnReference:
+              columnCounter: 2000129284
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000129285
+              stepCounter: "200022888"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: TOTALAMOUNTDUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"TOTALAMOUNTDUE\""
+          - columnReference:
+              columnCounter: 2000129286
+              stepCounter: "200022888"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: RECIPIENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"RECIPIENT\""
+          - columnReference:
+              columnCounter: 2000129287
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000129288
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DELINQUENCYPROCESS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129289
+              stepCounter: "200022888"
+            dataType: VARCHAR(200)
+            defaultValue: ""
+            description: ""
+            name: EMAIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"EMAIL\""
+          - columnReference:
+              columnCounter: 2000129290
+              stepCounter: "200022888"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: FAX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"FAX\""
+          - columnReference:
+              columnCounter: 2000129291
+              stepCounter: "200022888"
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: CERTIFIEDMAIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CERTIFIEDMAIL\""
+          - columnReference:
+              columnCounter: 2000129292
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129293
+              stepCounter: "200022888"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: ""
+            name: OUTPUTMETHOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"OUTPUTMETHOD\""
+          - columnReference:
+              columnCounter: 2000129294
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SELECTIONFORMADDRESS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"SELECTIONFORMADDRESS\""
+          - columnReference:
+              columnCounter: 2000129295
+              stepCounter: "200022888"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: PREMIUMBALANCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"PREMIUMBALANCE\""
+          - columnReference:
+              columnCounter: 2000129296
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTAMOUNTDUEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DOWNPAYMENTAMOUNTDUEDATE\""
+          - columnReference:
+              columnCounter: 2000129297
+              stepCounter: "200022888"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: UNALLOCATEDAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"UNALLOCATEDAMOUNT\""
+          - columnReference:
+              columnCounter: 2000129298
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000129299
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTREALLOCATEFLAG_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTREALLOCATEFLAG_EXT\""
+          - columnReference:
+              columnCounter: 2000129300
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000129301
+              stepCounter: "200022888"
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: RECIPIENTDBA
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"RECIPIENTDBA\""
+          - columnReference:
+              columnCounter: 2000129302
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"ACCOUNT\""
+          - columnReference:
+              columnCounter: 2000129303
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: DATEOFPLAN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DATEOFPLAN\""
+          - columnReference:
+              columnCounter: 2000129304
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129305
+              stepCounter: "200022888"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: ORIGINALPREMIUMPAID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"ORIGINALPREMIUMPAID\""
+          - columnReference:
+              columnCounter: 2000129306
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTPLANPRINTPROD_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTPLANPRINTPROD_EXT\""
+          - columnReference:
+              columnCounter: 2000129307
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: POLICYPERIOD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "NULL"
+          - columnReference:
+              columnCounter: 2000129308
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRINTINTERESTRATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"PRINTINTERESTRATE\""
+          - columnReference:
+              columnCounter: 2000129309
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: FIRSTINSTALLMENTDUEDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"FIRSTINSTALLMENTDUEDATE\""
+          - columnReference:
+              columnCounter: 2000129310
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NUMBEROFINSTALLMENTS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"NUMBEROFINSTALLMENTS\""
+          - columnReference:
+              columnCounter: 2000129311
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COLLECTPAYPLANSTATUS_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"COLLECTPAYPLANSTATUS_EXT\""
+          - columnReference:
+              columnCounter: 2000129312
+              stepCounter: "200022888"
+            dataType: NUMBER(18,2)
+            defaultValue: ""
+            description: ""
+            name: DOWNPAYMENTAMOUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"DOWNPAYMENTAMOUNT\""
+          - columnReference:
+              columnCounter: 2000129313
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEDBY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"CREATEDBY\""
+          - columnReference:
+              columnCounter: 2000129314
+              stepCounter: "200022888"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000129315
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129316
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000129317
+              stepCounter: "200022888"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000129318
+              stepCounter: "200022888"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000129319
+              stepCounter: "200022888"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000129320
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129321
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000129322
+              stepCounter: "200022888"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000129323
+              stepCounter: "200022888"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BCX_COLLECTIONPAYMENTPLAN_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000129277
+              stepCounter: "200022888"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BCX_COLLECTIONPAYMENTPLAN_EXT'"
+          - columnReference:
+              columnCounter: 2000129276
+              stepCounter: "200022888"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BCX_COLLECTIONPAYMENTPLAN_EXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BCX_COLLECTIONPAYMENTPLAN_EXT') }} "BCX_COLLECTIONPAYMENTPLAN_EXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT') }} "ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT")
+            name: LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT
+      name: LOAD_GW_BC_PROD_BCX_COLLECTIONPAYMENTPLAN_EXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022888"

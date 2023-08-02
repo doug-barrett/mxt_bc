@@ -1,0 +1,433 @@
+steps:
+  LOAD_GW_BC_PROD_BC_AUTHORITYEVENT-200018569:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000123378
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEGATIVEWRITEOFFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"NEGATIVEWRITEOFFID\""
+          - columnReference:
+              columnCounter: 2000123379
+              stepCounter: "200018569"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000123380
+              stepCounter: "200018569"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000123381
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"WRITEOFFID\""
+          - columnReference:
+              columnCounter: 2000123382
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREDITID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"CREDITID\""
+          - columnReference:
+              columnCounter: 2000123383
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FUNDSTRANSFERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"FUNDSTRANSFERID\""
+          - columnReference:
+              columnCounter: 2000123384
+              stepCounter: "200018569"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000123385
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: WRITEOFFREVERSALID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"WRITEOFFREVERSALID\""
+          - columnReference:
+              columnCounter: 2000123386
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000123387
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CHARGEREVERSALID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"CHARGEREVERSALID\""
+          - columnReference:
+              columnCounter: 2000123388
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREDITREVERSALID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"CREDITREVERSALID\""
+          - columnReference:
+              columnCounter: 2000123389
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123390
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: USERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"USERID\""
+          - columnReference:
+              columnCounter: 2000123391
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRODPAYABLEXFERAUTHEVENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"PRODPAYABLEXFERAUTHEVENTID\""
+          - columnReference:
+              columnCounter: 2000123392
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000123393
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000123394
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000123395
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COMMISSIONWRITEOFFID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"COMMISSIONWRITEOFFID\""
+          - columnReference:
+              columnCounter: 2000123396
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: FUNDSXFERREVERSALAUTHEVENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"FUNDSXFERREVERSALAUTHEVENTID\""
+          - columnReference:
+              columnCounter: 2000123397
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: NEGATIVEWRITEOFFREVID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"NEGATIVEWRITEOFFREVID\""
+          - columnReference:
+              columnCounter: 2000123398
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000123399
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ADVANCECMSNPAYMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"ADVANCECMSNPAYMENTID\""
+          - columnReference:
+              columnCounter: 2000123400
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DISBURSEMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"DISBURSEMENTID\""
+          - columnReference:
+              columnCounter: 2000123401
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BONUSCMSNPAYMENTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"BONUSCMSNPAYMENTID\""
+          - columnReference:
+              columnCounter: 2000123402
+              stepCounter: "200018569"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000123403
+              stepCounter: "200018569"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123404
+              stepCounter: "200018569"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000123405
+              stepCounter: "200018569"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000123406
+              stepCounter: "200018569"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000123407
+              stepCounter: "200018569"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000123408
+              stepCounter: "200018569"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000123409
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000123410
+              stepCounter: "200018569"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000123411
+              stepCounter: "200018569"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_AUTHORITYEVENT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000123377
+              stepCounter: "200018569"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_AUTHORITYEVENT'"
+          - columnReference:
+              columnCounter: 2000123376
+              stepCounter: "200018569"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_AUTHORITYEVENT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_AUTHORITYEVENT') }} "BC_AUTHORITYEVENT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_AUTHORITYEVENT') }} "ODS_GW_BC_PROD_BC_AUTHORITYEVENT")
+            name: LOAD_GW_BC_PROD_BC_AUTHORITYEVENT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_AUTHORITYEVENT
+      name: LOAD_GW_BC_PROD_BC_AUTHORITYEVENT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018569"

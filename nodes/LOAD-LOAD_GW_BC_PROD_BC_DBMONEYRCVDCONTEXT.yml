@@ -1,0 +1,290 @@
+steps:
+  LOAD_GW_BC_PROD_BC_DBMONEYRCVDCONTEXT-200005197:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000124360
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000124361
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124362
+              stepCounter: "200005197"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000124363
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ACCOUNTID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"ACCOUNTID\""
+          - columnReference:
+              columnCounter: 2000124364
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000124365
+              stepCounter: "200005197"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000124366
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: DIRECTBILLMONEYRCVDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"DIRECTBILLMONEYRCVDID\""
+          - columnReference:
+              columnCounter: 2000124367
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000124368
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CURRENCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"CURRENCY\""
+          - columnReference:
+              columnCounter: 2000124369
+              stepCounter: "200005197"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000124370
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: TRANSACTIONID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"TRANSACTIONID\""
+          - columnReference:
+              columnCounter: 2000124371
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000124372
+              stepCounter: "200005197"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000124373
+              stepCounter: "200005197"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124374
+              stepCounter: "200005197"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000124375
+              stepCounter: "200005197"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000124376
+              stepCounter: "200005197"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000124377
+              stepCounter: "200005197"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000124378
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000124379
+              stepCounter: "200005197"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000124380
+              stepCounter: "200005197"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_DBMONEYRCVDCONTEXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000124359
+              stepCounter: "200005197"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_DBMONEYRCVDCONTEXT'"
+          - columnReference:
+              columnCounter: 2000124358
+              stepCounter: "200005197"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_DBMONEYRCVDCONTEXT
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_DBMONEYRCVDCONTEXT') }} "BC_DBMONEYRCVDCONTEXT" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_DBMONEYRCVDCONTEXT') }} "ODS_GW_BC_PROD_BC_DBMONEYRCVDCONTEXT")
+            name: LOAD_GW_BC_PROD_BC_DBMONEYRCVDCONTEXT
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_DBMONEYRCVDCONTEXT
+      name: LOAD_GW_BC_PROD_BC_DBMONEYRCVDCONTEXT
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200005197"

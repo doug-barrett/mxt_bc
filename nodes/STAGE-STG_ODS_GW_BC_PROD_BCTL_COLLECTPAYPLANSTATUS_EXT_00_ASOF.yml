@@ -1,0 +1,303 @@
+steps:
+  STG_ODS_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT_00_ASOF-200033729:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000002
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000301255
+              stepCounter: "200033729"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: L_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"L_EN_US\""
+          - columnReference:
+              columnCounter: 2000301256
+              stepCounter: "200033729"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: PRIORITY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"PRIORITY\""
+          - columnReference:
+              columnCounter: 2000301257
+              stepCounter: "200033729"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: TYPECODE
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"TYPECODE\""
+          - columnReference:
+              columnCounter: 2000301258
+              stepCounter: "200033729"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: S_EN_US
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"S_EN_US\""
+          - columnReference:
+              columnCounter: 2000301259
+              stepCounter: "200033729"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000301260
+              stepCounter: "200033729"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000301261
+              stepCounter: "200033729"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"ID\""
+          - columnReference:
+              columnCounter: 2000301271
+              stepCounter: "200033729"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROW_NUM
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "ROW_NUMBER() OVER(    PARTITION BY      LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.ID    ORDER BY      LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.HVRCAPTSTAMP DESC    , LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.HVRINTEGSEQ DESC  )            "
+          - columnReference:
+              columnCounter: 2000301262
+              stepCounter: "200033729"
+            dataType: VARCHAR(512)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000301263
+              stepCounter: "200033729"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000301264
+              stepCounter: "200033729"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000301265
+              stepCounter: "200033729"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000301268
+              stepCounter: "200033729"
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: Key
+            name: HVRCAPTUREKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"HVRCAPTUREKEY\""
+          - columnReference:
+              columnCounter: 2000301269
+              stepCounter: "200033729"
+            dataType: VARCHAR(15)
+            defaultValue: ""
+            description: Batch Number for the Process Cycle
+            name: BATCH_NUMBER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"ODS_CTRL_HVRCAPTSTAMP\".\"BATCH_NUMBER\""
+          - columnReference:
+              columnCounter: 2000301270
+              stepCounter: "200033729"
+            dataType: CHAR(1)
+            defaultValue: ""
+            description: ""
+            name: DELETE_FLAG
+            nullable: "false"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CASE   WHEN LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.HVROP = 0 THEN 'Y'   WHEN LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.HVRCAPTSTAMP < ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE THEN 'Y'   ELSE 'N'   END
+          - columnReference:
+              columnCounter: 2000301272
+              stepCounter: "200033729"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000301273
+              stepCounter: "200033729"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000301274
+              stepCounter: "200033729"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000301275
+              stepCounter: "200033729"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000301276
+              stepCounter: "200033729"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000301277
+              stepCounter: "200033729"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000301278
+              stepCounter: "200033729"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000301267
+              stepCounter: "200033729"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was created in the data warehouse.
+            name: DSS_CREATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - columnReference:
+              columnCounter: 2000301266
+              stepCounter: "200033729"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Date and time the row was updated in the data warehouse.
+            name: DSS_UPDATE_TIME
+            nullable: "true"
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: LOAD
+                nodeName: LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRCAPTSTAMP
+              - locationName: ODS
+                nodeName: ODS_CTRL_HVRREFRESH_HISTORY
+            join:
+              joinCondition: "FROM {{ ref('LOAD','LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT') }} \"LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT\" JOIN {{ ref('ODS','ODS_CTRL_HVRCAPTSTAMP') }} \"ODS_CTRL_HVRCAPTSTAMP\"    ON ODS_CTRL_HVRCAPTSTAMP.HVRCAPTUREKEY = 'BC_PROD'   AND LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.HVRCAPTSTAMP < ODS_CTRL_HVRCAPTSTAMP.HVRCAPTSTAMP  JOIN {{ ref('ODS','ODS_CTRL_HVRREFRESH_HISTORY') }} \"ODS_CTRL_HVRREFRESH_HISTORY\"    ON LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.DSS_RECORD_SOURCE = ODS_CTRL_HVRREFRESH_HISTORY.HVR_RECORD_SOURCE   AND LOAD_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT.HVRCAPTSTAMP BETWEEN ODS_CTRL_HVRREFRESH_HISTORY.FROM_DATE AND ODS_CTRL_HVRREFRESH_HISTORY.THRU_DATE  "
+            name: STG_ODS_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT_00_ASOF
+            noLinkRefs: []
+      name: STG_ODS_GW_BC_PROD_BCTL_COLLECTPAYPLANSTATUS_EXT_00_ASOF
+      overrideSQL: false
+      sqlType: Stage
+      type: sql
+    stepCounter: "200033729"

@@ -1,0 +1,543 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ADDRESS-200018560:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000128448
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ATTENTION_EXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ATTENTION_EXT\""
+          - columnReference:
+              columnCounter: 2000128449
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: LOADCOMMANDID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"LOADCOMMANDID\""
+          - columnReference:
+              columnCounter: 2000128450
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ATTENTIONEXT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ATTENTIONEXT\""
+          - columnReference:
+              columnCounter: 2000128451
+              stepCounter: "200018560"
+            dataType: VARCHAR(64)
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000128452
+              stepCounter: "200018560"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: BATCHGEOCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"BATCHGEOCODE\""
+          - columnReference:
+              columnCounter: 2000128453
+              stepCounter: "200018560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000128454
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ADDRESSLINE1\""
+          - columnReference:
+              columnCounter: 2000128455
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ADDRESSLINE2\""
+          - columnReference:
+              columnCounter: 2000128456
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: COUNTY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"COUNTY\""
+          - columnReference:
+              columnCounter: 2000128457
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ADDRESSLINE3\""
+          - columnReference:
+              columnCounter: 2000128458
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CITYKANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"CITYKANJI\""
+          - columnReference:
+              columnCounter: 2000128459
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE2KANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ADDRESSLINE2KANJI\""
+          - columnReference:
+              columnCounter: 2000128460
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"STATE\""
+          - columnReference:
+              columnCounter: 2000128461
+              stepCounter: "200018560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: ADDRESSBOOKUID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ADDRESSBOOKUID\""
+          - columnReference:
+              columnCounter: 2000128462
+              stepCounter: "200018560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000128463
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: COUNTRY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"COUNTRY\""
+          - columnReference:
+              columnCounter: 2000128464
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ID\""
+          - columnReference:
+              columnCounter: 2000128465
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128466
+              stepCounter: "200018560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: VALIDUNTIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"VALIDUNTIL\""
+          - columnReference:
+              columnCounter: 2000128467
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000128468
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CITYDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"CITYDENORM\""
+          - columnReference:
+              columnCounter: 2000128469
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000128470
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: CITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"CITY\""
+          - columnReference:
+              columnCounter: 2000128471
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ADDRESSTYPE\""
+          - columnReference:
+              columnCounter: 2000128472
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE1KANJI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"ADDRESSLINE1KANJI\""
+          - columnReference:
+              columnCounter: 2000128473
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000128474
+              stepCounter: "200018560"
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: ""
+            name: CEDEXBUREAU
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"CEDEXBUREAU\""
+          - columnReference:
+              columnCounter: 2000128475
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: GEOCODESTATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"GEOCODESTATUS\""
+          - columnReference:
+              columnCounter: 2000128476
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: POSTALCODEDENORM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"POSTALCODEDENORM\""
+          - columnReference:
+              columnCounter: 2000128477
+              stepCounter: "200018560"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CEDEX
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"CEDEX\""
+          - columnReference:
+              columnCounter: 2000128478
+              stepCounter: "200018560"
+            dataType: VARCHAR(60)
+            defaultValue: ""
+            description: ""
+            name: POSTALCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"POSTALCODE\""
+          - columnReference:
+              columnCounter: 2000128479
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: SUBTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"SUBTYPE\""
+          - columnReference:
+              columnCounter: 2000128480
+              stepCounter: "200018560"
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000128481
+              stepCounter: "200018560"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: OBFUSCATEDINTERNAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"OBFUSCATEDINTERNAL\""
+          - columnReference:
+              columnCounter: 2000128482
+              stepCounter: "200018560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000128483
+              stepCounter: "200018560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128484
+              stepCounter: "200018560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000128485
+              stepCounter: "200018560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000128486
+              stepCounter: "200018560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000128487
+              stepCounter: "200018560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000128488
+              stepCounter: "200018560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000128489
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000128490
+              stepCounter: "200018560"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000128491
+              stepCounter: "200018560"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ADDRESS\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000128447
+              stepCounter: "200018560"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ADDRESS'"
+          - columnReference:
+              columnCounter: 2000128446
+              stepCounter: "200018560"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ADDRESS
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ADDRESS') }} "BC_ADDRESS" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ADDRESS') }} "ODS_GW_BC_PROD_BC_ADDRESS")
+            name: LOAD_GW_BC_PROD_BC_ADDRESS
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ADDRESS
+      name: LOAD_GW_BC_PROD_BC_ADDRESS
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200018560"

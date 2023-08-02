@@ -1,0 +1,301 @@
+steps:
+  LOAD_GW_BC_PROD_BC_ROLE-200022860:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationID: 20000013
+      locationName: LOAD
+      materializationType: table
+      metadata:
+        columns:
+          - columnReference:
+              columnCounter: 2000129947
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: CREATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"CREATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129948
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: PUBLICID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"PUBLICID\""
+          - columnReference:
+              columnCounter: 2000129949
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: BEANVERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"BEANVERSION\""
+          - columnReference:
+              columnCounter: 2000129950
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: RETIRED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"RETIRED\""
+          - columnReference:
+              columnCounter: 2000129951
+              stepCounter: "200022860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: CREATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"CREATETIME\""
+          - columnReference:
+              columnCounter: 2000129952
+              stepCounter: "200022860"
+            dataType: BOOLEAN
+            defaultValue: ""
+            description: ""
+            name: CARRIERINTERNALROLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"CARRIERINTERNALROLE\""
+          - columnReference:
+              columnCounter: 2000129953
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"NAME\""
+          - columnReference:
+              columnCounter: 2000129954
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: UPDATEUSERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"UPDATEUSERID\""
+          - columnReference:
+              columnCounter: 2000129955
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ROLETYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"ROLETYPE\""
+          - columnReference:
+              columnCounter: 2000129956
+              stepCounter: "200022860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: UPDATETIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"UPDATETIME\""
+          - columnReference:
+              columnCounter: 2000129957
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"ID\""
+          - columnReference:
+              columnCounter: 2000129958
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"DESCRIPTION\""
+          - columnReference:
+              columnCounter: 2000129959
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPLOC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRCAPLOC\""
+          - columnReference:
+              columnCounter: 2000129960
+              stepCounter: "200022860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRCAPTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129961
+              stepCounter: "200022860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRCAPTSTAMPUTC
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRCAPTSTAMPUTC\""
+          - columnReference:
+              columnCounter: 2000129962
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRCAPUSER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRCAPUSER\""
+          - columnReference:
+              columnCounter: 2000129963
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGKEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRINTEGKEY\""
+          - columnReference:
+              columnCounter: 2000129964
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRINTEGSEQ\""
+          - columnReference:
+              columnCounter: 2000129965
+              stepCounter: "200022860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            name: HVRINTEGTSTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRINTEGTSTAMP\""
+          - columnReference:
+              columnCounter: 2000129966
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVROP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVROP\""
+          - columnReference:
+              columnCounter: 2000129967
+              stepCounter: "200022860"
+            dataType: NUMBER(38)
+            defaultValue: ""
+            description: ""
+            name: HVRTXCOUNTDOWN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRTXCOUNTDOWN\""
+          - columnReference:
+              columnCounter: 2000129968
+              stepCounter: "200022860"
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            name: HVRTXSEQ
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "\"BC_ROLE\".\"HVRTXSEQ\""
+          - columnReference:
+              columnCounter: 2000129946
+              stepCounter: "200022860"
+            dataType: VARCHAR(256)
+            defaultValue: ""
+            description: Record source.
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "'Snowflake_RAW_DB.RAW_GW_BC_PROD.BC_ROLE'"
+          - columnReference:
+              columnCounter: 2000129945
+              stepCounter: "200022860"
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Load date.
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: RAW_GWC_BC_PROD_VF
+                nodeName: BC_ROLE
+            join:
+              joinCondition: FROM {{ ref('RAW_GWC_BC_PROD_VF','BC_ROLE') }} "BC_ROLE" WHERE HVRCAPTSTAMP > (SELECT DATEADD(DAY, -1, NVL(MAX(HVRCAPTSTAMP), '1900-01-01')) FROM {{ ref_no_link('ODS','ODS_GW_BC_PROD_BC_ROLE') }} "ODS_GW_BC_PROD_BC_ROLE")
+            name: LOAD_GW_BC_PROD_BC_ROLE
+            noLinkRefs:
+              - locationName: ODS
+                nodeName: ODS_GW_BC_PROD_BC_ROLE
+      name: LOAD_GW_BC_PROD_BC_ROLE
+      overrideSQL: false
+      sqlType: "44"
+      type: sql
+    stepCounter: "200022860"
